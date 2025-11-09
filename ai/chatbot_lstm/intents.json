@@ -1,0 +1,1378 @@
+{
+  "intents": [
+    {
+      "tag": "loi_chao",
+      "patterns": [
+        "Xin chào",
+        "Chào bạn",
+        "Chào cửa hàng",
+        "Có ai ở đó không?",
+        "Hello",
+        "Hi",
+        "Tôi cần hỗ trợ từ nhân viên",
+        "Chào shop nhé",
+        "Tôi muốn hỏi chút thông tin",
+        "Bạn ơi có ai ở đây không?",
+        "Shop có ở đó không?",
+        "Gửi lời chào đến cửa hàng",
+        "Cho tôi hỏi chút được không?"
+      ],
+      "responses": [
+        "Xin chào! Chào mừng bạn đến với cửa hàng phân bón nông nghiệp của chúng tôi!",
+        "Chào bạn! Rất vui được phục vụ bạn",
+        "Xin chào quý khách! Chúng tôi có thể giúp gì cho bạn về phân bón nông nghiệp?"
+      ]
+    },
+    {
+      "tag": "tam_biet",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại",
+        "Bye",
+        "Goodbye",
+        "Cảm ơn, tôi đi đây",
+        "Tôi rời đi đây",
+        "Xin phép kết thúc cuộc trò chuyện",
+        "Tôi thoát ra đây",
+        "Kết thúc tư vấn nhé",
+        "Tạm biệt shop",
+        "Chào tạm biệt",
+        "Cảm ơn bạn rất nhiều"
+      ],
+      "responses": [
+        "Cảm ơn bạn đã ghé thăm! Chúc bạn một ngày tốt lành!",
+        "Hẹn gặp lại bạn!",
+        "Tạm biệt! Nếu cần tư vấn về phân bón hãy quay lại nhé!"
+      ]
+    },
+    {
+      "tag": "cam_on",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn bạn",
+        "Thanks",
+        "Thank you",
+        "Cảm ơn nhiều",
+        "Biết ơn bạn",
+        "Bạn thật tuyệt",
+        "Cảm ơn sự hỗ trợ",
+        "Cảm ơn cửa hàng đã giúp đỡ",
+        "Rất cảm kích",
+        "Cảm ơn rất nhiều vì thông tin hữu ích",
+        "Thanks shop nhiều nhé"
+      ],
+      "responses": [
+        "Không có gì! Luôn sẵn lòng phục vụ bạn",
+        "Rất hân hạnh được giúp đỡ bạn",
+        "Cảm ơn bạn đã tin tưởng chúng tôi!"
+      ]
+    },
+    {
+      "tag": "san_pham",
+       "patterns": [
+        "Bạn có những loại phân bón nào?",
+        "Cửa hàng có những sản phẩm phân bón gì?",
+        "Cho xem danh sách phân bón",
+        "Các loại phân bón hiện có",
+        "Shop có bán loại phân gì?",
+        "Tôi muốn biết danh mục phân bón",
+        "Phân bón nào đang có sẵn?",
+        "Bạn đang bán loại phân nào vậy?",
+        "Tôi cần mua phân bón, có loại gì?",
+        "Danh sách sản phẩm phân bón là gì?",
+        "Hiện tại có phân gì trong kho không?"
+      ],
+      "responses": [
+        "Chúng tôi có đầy đủ các loại phân bón: phân hữu cơ, phân vô cơ, phân NPK, phân vi sinh...",
+        "Hiện cửa hàng có các dòng phân bón chính: phân đạm, phân lân, phân kali, phân hỗn hợp NPK và phân hữu cơ vi sinh",
+        "Danh sách phân bón của chúng tôi gồm: phân bón lá, phân bón gốc, phân bón chậm tan, phân bón thủy canh..."
+      ]
+    },
+    {
+      "tag": "khong_cau_hoi",
+      "patterns": [
+        "Tôi không có câu hỏi nào khác?",
+        "Không?",
+        "Không có câu hỏi",
+        "Không có",
+        "Tôi chưa có câu hỏi",
+        "Cảm ơn",
+        "Không cần nữa",
+        "Tạm thời không có câu hỏi",
+        "Chưa nghĩ ra câu hỏi",
+        "Không cần hỗ trợ thêm",
+        "Chưa cần tư vấn",
+        "Không hỏi gì thêm đâu"
+      ],
+      "responses": [
+        "Cảm ơn quý khách. Nếu có câu hỏi tôi sẽ sẵn sàng hỗ trợ bạn",
+        "Cảm ơn quý khách sẽ sử dụng tôi. Hy vọng sẽ gặp lại bạn",
+        "Chào bạn. Chúc một ngày làm việc tốt lành",
+        "Cảm ơn bạn"
+      ]
+    },
+    {
+      "tag": "goi_y",
+      "patterns": [
+        "Phân bón nào bán chạy nhất?",
+        "Loại phân nào được ưa chuộng?",
+        "Gợi ý cho tôi phân bón tốt nhất",
+        "Nên dùng loại phân nào?",
+        "Bạn có thể gợi ý loại phân tốt không?",
+        "Loại nào dùng hiệu quả nhất?",
+        "Phân nào đang hot?",
+        "Phân nào được khách hàng đánh giá cao?",
+        "Phân bón nào phù hợp với nhiều loại cây?",
+        "Nên chọn loại phân nào để tăng năng suất?",
+        "Bạn giới thiệu giúp tôi loại phân tốt nhất nhé"
+      ],
+      "responses": [
+        "Phân NPK 20-20-15 là sản phẩm bán chạy nhất hiện nay",
+        "Phân hữu cơ vi sinh đang được nhiều khách hàng ưa chuộng vì an toàn và hiệu quả",
+        "Tùy vào loại cây trồng, chúng tôi sẽ tư vấn loại phân phù hợp. Bạn trồng loại cây gì?"
+      ]
+    },
+    {
+      "tag": "thanh_toan",
+      "patterns": [
+        "Thanh toán như thế nào?",
+        "Có thể trả bằng thẻ không?",
+        "Chấp nhận ví điện tử không?",
+        "Có ship COD không?",
+        "Tôi muốn thanh toán qua momo được không?",
+        "Hỗ trợ chuyển khoản chứ?",
+        "Có thanh toán qua ATM không?",
+        "Cho hỏi phương thức thanh toán",
+        "Hình thức thanh toán thế nào?",
+        "Shop có hỗ trợ thanh toán online không?"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận thanh toán tiền mặt, chuyển khoản và ví điện tử",
+        "Bạn có thể thanh toán qua thẻ, MoMo, ZaloPay hoặc COD",
+        "Chúng tôi hỗ trợ nhiều hình thức thanh toán linh hoạt"
+      ]
+    },
+    {
+      "tag": "giao_hang",
+      "patterns": [
+          "Giao hàng mất bao lâu?",
+          "Khi nào nhận được hàng?",
+          "Thời gian vận chuyển?",
+          "Ship nhanh không?",
+          "Bao lâu thì hàng đến nơi?",
+          "Có giao hàng trong ngày không?",
+          "Ship tỉnh mất mấy ngày?",
+          "Thời gian nhận hàng bao lâu?",
+          "Vận chuyển có nhanh không?",
+          "Giao hàng trong bao nhiêu ngày?"
+        ],
+      "responses": [
+        "Thời gian giao hàng từ 1-3 ngày tùy khu vực",
+        "Nội thành giao trong ngày, ngoại tỉnh từ 2-3 ngày",
+        "Chúng tôi cam kết giao hàng nhanh chóng trong vòng 24h với đơn nội thành"
+      ]
+    },
+    {
+      "tag": "tu_van",
+      "patterns": [
+        "Tôi cần tư vấn chọn phân bón",
+        "Giúp tôi chọn loại phân phù hợp",
+        "Không biết nên dùng phân nào",
+        "Cần tư vấn về phân bón",
+        "Tôi cần hỗ trợ chọn phân bón",
+        "Bạn tư vấn giúp loại phân nào tốt",
+        "Nên bón phân nào cho cây nhà tôi?",
+        "Tôi mới trồng cây, nên dùng phân gì?",
+        "Cho tôi lời khuyên về phân bón",
+        "Không biết chọn phân nào thì tốt"
+      ],
+      "responses": [
+        "Để tư vấn chính xác, bạn cho biết bạn trồng loại cây gì?",
+        "Chúng tôi sẽ tư vấn loại phân phù hợp nhất. Bạn đang canh tác loại cây trồng nào?",
+        "Vui lòng cho biết loại đất và cây trồng để chúng tôi tư vấn phân bón phù hợp"
+      ]
+    },
+    {
+      "tag": "loai_cay",
+      "patterns": [
+        "Tôi trồng lúa",
+        "Cho cây ăn trái",
+        "Trồng rau màu",
+        "Dành cho hoa lan",
+        "Cây công nghiệp",
+        "Cây rau sạch",
+        "Trồng cây ăn quả",
+        "Tôi trồng cây cảnh",
+        "Phân cho hồ tiêu",
+        "Tôi đang trồng cà phê",
+        "Tôi cần phân cho cây xoài"
+      ],
+      "responses": [
+        "Với lúa, nên dùng phân NPK 20-20-15 hoặc phân ure",
+        "Cây ăn trái phù hợp với phân hữu cơ vi sinh và NPK 16-16-8",
+        "Rau màu nên dùng phân hữu cơ để đảm bảo an toàn",
+        "Hoa lan cần phân tan chậm và phân bón lá chuyên dụng",
+        "Cây công nghiệp phù hợp với phân NPK và phân lân"
+      ]
+    },
+    {
+      "tag": "huong_dan",
+      "patterns": [
+        "Cách sử dụng phân bón này?",
+        "Hướng dẫn bón phân",
+        "Liều lượng như thế nào?",
+        "Dùng bao nhiêu là đủ?",
+        "Sử dụng phân như thế nào là đúng?",
+        "Bón phân lúc nào thì tốt?",
+        "Có hướng dẫn sử dụng không?",
+        "Bón vào giai đoạn nào?",
+        "Cách pha phân ra sao?",
+        "Sử dụng phân bón bao nhiêu một lần?"
+      ],
+      "responses": [
+        "Mỗi loại phân có hướng dẫn sử dụng riêng, vui lòng cho biết loại phân bạn cần hướng dẫn",
+        "Liều lượng phụ thuộc vào loại cây và giai đoạn sinh trưởng. Bạn đang dùng phân gì?",
+        "Chúng tôi sẽ cung cấp hướng dẫn chi tiết khi bạn mua sản phẩm"
+      ]
+    },
+    {
+      "tag": "khuyen_mai",
+      "patterns": [
+        "Có chương trình khuyến mãi không?",
+        "Đang có ưu đãi gì?",
+        "Có giảm giá không?",
+        "Giá tốt nhất?",
+        "Khuyến mãi hiện tại là gì?",
+        "Tôi được giảm giá không?",
+        "Shop có ưu đãi gì hôm nay?",
+        "Có mã giảm giá không?",
+        "Khuyến mãi cho khách hàng mới?",
+        "Có deal gì hấp dẫn không?"
+      ],
+      "responses": [
+        "Hiện chúng tôi đang có chương trình giảm 10% cho đơn hàng trên 1 triệu",
+        "Mua 5 bao phân NPK được tặng 1 bao phân hữu cơ",
+        "Khách hàng mới được giảm 5% cho đơn hàng đầu tiên"
+      ]
+    },
+    {
+      "tag": "bao_quan",
+      "patterns": [
+        "Cách bảo quản phân bón?",
+        "Thời hạn sử dụng?",
+        "Phân bón để được bao lâu?",
+        "Bảo quản phân thế nào cho đúng?",
+        "Nơi nào nên để phân bón?",
+        "Có cần tránh nắng không?",
+        "Bảo quản phân trong bao lâu?",
+        "Để phân trong kho được chứ?",
+        "Cách tốt nhất để bảo quản phân?"
+      ],
+      "responses": [
+        "Nên bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp",
+        "Phân hóa học để được 12-24 tháng, phân hữu cơ 6-12 tháng",
+        "Đậy kín bao bì sau khi sử dụng, tránh ẩm ướt"
+      ]
+    },
+     {
+      "tag": "truy_van_ton_kho",
+      "patterns": [
+        "Tôi muốn truy vấn tồn kho sản phẩm",
+        "số lượng trong kho của sản phẩm là bao nhiêu",
+        "tôi muốn truy vấn số lượng sản phẩm rynan trong kho",
+        "số lượng sản phẩm trong kho",
+        "số lượng sản phẩm trong kho là bao nhiêu",
+        "Cho tôi thông tin về số lượng sản phẩm trong kho",
+        "Thống kê cho tôi số lượng sản phẩm trong kho",
+        "Tôi cần số liệu cụ thể của sản phẩm trong kho",
+        "Tôi muốn biết số lượng sản phẩm trong tồn kho?",
+        "Hãy cho tôi biết số lượng sản phẩm trong tồn kho?",
+        "Sản phẩm nào trong kho có số lượng cao?",
+        "stock",
+        "còn lại",
+        "kiểm tra kho",
+        "xem kho",
+        "tình trạng kho",
+        "Kiểm tra tồn kho phân bón NPK",
+        "Số lượng RYNAN® VETAMATE còn bao nhiêu?",
+        "Tình trạng kho FLOWERMATE hiện tại",
+        "Còn lại bao nhiêu bao phân bón 200?",
+        "Kiểm tra số lượng hũ 1.25kg trong kho"
+      ],
+      "responses": [
+        "Vui lòng đợi, tôi sẽ kiểm tra tồn kho của sản phẩm cho bạn.",
+        "Đang truy vấn dữ liệu tồn kho, xin chờ một chút...",
+        "Tôi sẽ kiểm tra số lượng sản phẩm trong kho ngay bây giờ.",
+        "Đang kết nối với hệ thống quản lý kho để lấy thông tin..."
+      ]
+    },
+    {
+      "tag": "truy_van_ton_kho_tat_ca",
+      "patterns": [
+        "Tôi muốn truy vấn tồn kho của tất cả sản phẩm",
+        "Tôi muốn biết về số lượng của tất cả sản phẩm trong kho",
+        "Kiểm tra tồn kho sản phẩm",
+        "số lượng của tất cả sản phẩm trong kho là bao nhiêu",
+        "số lượng tất cả sản phẩm trong kho",
+        "Các sản phẩm trong kho hàng có số lượng là bao nhiêu",
+        "Cho tôi thông tin số lượng tất cả sản phẩm trong kho hàng",
+        "Thông tin về số lượng của tất cả sản phẩm trong kho",
+        "Tôi muốn hiển thị tồn kho tất cả sản phẩm",
+        "Hiển thị cho tôi thông tin về số lượng của tất cả sản phẩm trong kho",
+        "Số lượng của tất cả các sản phẩm trong kho là bao nhiêu",
+        "Hãy cho tôi biết tất cả số lượng của các sản phẩm trong kho",
+        "Số lượng tất cả sản phẩm trong kho",
+        "Báo cáo tồn kho toàn bộ sản phẩm",
+        "Hiển thị tất cả sản phẩm và số lượng tương ứng",
+        "Tổng hợp tồn kho của toàn bộ sản phẩm",
+        "Trong kho hiện nay còn bao nhiêu sản phẩm",
+        "Xem toàn bộ danh sách tồn kho",
+        "Thống kê về số lượng sản phẩm trong kho",
+        "Thống kê về số lượng tất cả sản phẩm trong kho",
+        "Thống kê cho tôi về số lượng của tất cả sản phẩm trong kho",
+        "Cho tôi số liệu về số lượng của tất cả sản phẩm trong kho"
+      ],
+      "responses": [
+        "Vui lòng đợi, tôi sẽ kiểm tra thông tin của tất cả các sản phẩm trong kho.",
+        "Đang tạo báo cáo tồn kho tổng hợp, xin chờ một chút...",
+        "Tôi sẽ liệt kê tất cả sản phẩm và số lượng tương ứng cho bạn."
+      ]
+    },
+    {
+      "tag": "ton_kho_thap",
+      "patterns": [
+        "Sản phẩm nào còn ít?",
+        "Sản phẩm nào có số lượng thấp trong kho",
+        "Thông tin sản phẩm gần hết hàng trong kho",
+        "Thông kê về các sản phẩm gần hết hàng trong kho",
+        "sản phẩm có số lượng thấp trong kho",
+        "thông tin của những sản phẩm có số lượng thấp trong kho",
+        "Thông kê về các sản phẩm tồn kho thấp",
+        "Cho tối biết sản phẩm nào có số lượng thấp trong kho",
+        "Cho tôi thông tin về những sản phẩm có số lượng thấp trong kho",
+        "Loại nào gần hết hàng?",
+        "mặt hàng còn thấp trong kho",
+        "mặt hàng có số lượng thấp",
+        "sản phẩm có lượng thấp",
+        "Thống kê về số lượng sản phẩm tồn kho thấp",
+        "Sản phẩm nào tồn kho thấp?",
+        "Mặt hàng nào sắp hết?",
+        "Sản phẩm nào cần được nhập kho mới",
+        "Hiển thị thông tin về các sản phẩm gần hết hàng hiện nay",
+        "Có sản phẩm nào gần hết không?",
+        "Cho tôi biết những sản phẩm tồn kho thấp nhất",
+        "Các sản phẩm nào đang thiếu hàng?",
+        "Tôi cần danh sách của các sản phẩm cần nhập hàng",
+        "danh sách của các sản phẩm cần nhập kho",
+        "TÔi cần nên nhập kho những sản phẩm nào",
+        "Cho tôi số liệu về các sản phẩm tồn kho thấp",
+        "Kho còn sản phẩm nào gần hết?",
+        "Những loại nào đang gần hết?",
+        "Hàng nào chuẩn bị hết kho?",
+        "Cảnh báo tồn kho thấp",
+        "Danh sách sản phẩm cần nhập thêm",
+        "Sản phẩm nào dưới mức tối thiểu?",
+        "danh sách của những sản phẩm cần nhập hàng trong kho",
+        "Tôi cần danh sách của những sản phẩm cần nhập hàng trong kho"
+      ],
+      "responses": [
+        "Tôi đang kiểm tra các mặt hàng gần hết trong kho...",
+        "Vui lòng đợi, tôi sẽ liệt kê các sản phẩm tồn kho thấp...",
+        "Tôi sẽ giúp bạn tìm các sản phẩm sắp hết hàng...",
+        "Đang tạo danh sách cảnh báo tồn kho thấp..."
+      ]
+    },
+    {
+      "tag": "ton_kho_cao",
+      "patterns": [
+        "số lượng sản phần tồn kho cao",
+        "Sản phẩm nào còn nhiều trong kho?",
+        "thông tin các sản phẩm tồn kho cao",
+        "sản phẩm nào còn dư thừa nhiều trong kho",
+        "thông tin các sản phẩm có số lượng nhiều trong kho",
+        "sản phẩm có số lượng nhiều trong kho",
+        "Thông kế cho tối sản phẩm nào còn nhiều trong kho",
+        "mặt hàng còn nhiều trong kho",
+        "Tìm cho tôi thông tin các sản phẩm tồn kho cao",
+        "Những sản phẩm nào tôi không cần nhập kho",
+        "sản phầm nào không cần nhập hàng mới",
+        "Các sản phẩm nào có số lượng lớn trong kho",
+        "Cho tôi thông tin về các sản phẩm có số lượng lớn trong kho",
+        "Hiển thị thông tin về các sản phẩm có số lượng lớn trong kho",
+        "Các sản phẩm nào còn nhiều hàng",
+        "Loại nào đang tồn kho nhiều?",
+        "Sản phẩm có số lượng lớn trong kho",
+        "Kho còn nhiều sản phẩm nào?",
+        "Mặt hàng nào còn dư nhiều?",
+        "Cửa hàng còn nhiều hàng gì?",
+        "Sản phẩm nào còn tồn kho cao?",
+        "Những loại nào đang dư hàng?",
+        "Có loại nào kho đang đầy không?",
+        "Cho tôi biết những sản phẩm tồn kho cao nhất",
+        "Sản phẩm nào bán chậm đang tồn kho nhiều?",
+        "Danh sách sản phẩm dư thừa",
+        "Danh sách sản phẩm không cần nhập hàng",
+        "Tôi cần danh sách sản phẩm không cần nhập hàng"
+      ],
+      "responses": [
+        "Tôi sẽ kiểm tra các mặt hàng còn nhiều trong kho...",
+        "Đợi tôi một chút, tôi sẽ liệt kê sản phẩm tồn kho cao...",
+        "Tôi đang truy vấn các sản phẩm tồn kho cao nhất...",
+        "Đang tìm kiếm các sản phẩm có tồn kho dư thừa..."
+      ]
+    },
+    {
+      "tag": "truy_van_luot_mua",
+      "patterns": [
+        "Tôi muốn truy vấn lượt mua sản phẩm",
+        "lượt mua sản phẩm",
+        "Số sản phẩm bán ra", 
+        "Sản phẩm bán ra được nhiều", 
+        "sản phẩm này lượt mua sản phẩm",
+        "Tôi cần thông tin về lượt mua sản phẩm",
+        "tôi muốn biết lượt mua của các sản phẩm",
+        "Tôi muốn biết lượt mua ở tất cả các sản phẩm",
+        "Hãy cho tôi biết lượt mua ở các sản phẩm?",
+        "Cho tôi thông tin về lượt mua các tất cả các sản phẩm?",
+        "Cho tôi số liệu lượt mua của các sản phẩm?",
+        "lượt mua", 
+        "lượt mua hàng", 
+        "mua hàng",
+        "sản phẩm có lượt mua bao nhiêu?",
+        "Thống kê mua hàng",
+        "Số lần được mua",
+        "Tần suất mua hàng",
+        "Doanh số bán hàng"
+      ],
+      "responses": [
+        "Vui lòng đợi, tôi sẽ kiểm tra lượt mua của sản phẩm cho bạn.",
+        "Đang truy vấn dữ liệu lượt mua, xin chờ một chút...",
+        "Tôi sẽ thống kê lượt mua của các sản phẩm ngay bây giờ."
+      ]
+    },
+    {
+      "tag": "truy_van_luot_mua_tat_ca",
+      "patterns": [
+        "Tôi muốn truy vấn lượt mua của tất cả sản phẩm",
+        "Số lượng lượt mua của các sản phẩm là bao nhiêu?",
+        "Hãy cho tôi biết lượt mua của tất cả các sản phẩm",
+        "Tôi muốn biết số liệu lượt mua của tất cả các sản phẩm",
+        "Số lượt mua của các sản phẩm là bao nhiêu",
+        "Cho tôi biết danh sách sản phẩm và số lượt mua tương ứng",
+        "Hiển thị tất cả sản phẩm và lượt mua của chúng",
+        "Bao nhiêu lượt mua cho mỗi sản phẩm?",
+        "Tổng lượt mua của từng sản phẩm là bao nhiêu?",
+        "Tôi cần báo cáo lượt mua toàn bộ sản phẩm",
+        "Báo cáo doanh số tất cả sản phẩm"
+      ],
+      "responses": [
+        "Vui lòng đợi, tôi sẽ kiểm tra thông tin về lượt mua của tất cả các sản phẩm.",
+        "Đang tạo báo cáo lượt mua tổng hợp...",
+        "Tôi sẽ liệt kê tất cả sản phẩm và lượt mua tương ứng."
+      ]
+    },
+    {
+      "tag": "luot_mua_thap",
+      "patterns": [
+        "Các sản phẩm nào ít được mua",
+        "Hiển thị cho tôi số liệu của các sản phẩm có doanh thu thấp",
+        "Sản phẩm nào có lượt mua thấp nhất?",
+        "Sản phẩm có doanh thu thấp",
+        "Hiển thị cho tôi danh sách các sản phẩm ít được mua hàng",
+        "Sản phẩm nào có lượt mua thấp",
+        "Sản phẩm nào bán được thấp nhất?",
+        "Tôi muốn truy vấn các sản phẩm có lượt mua thấp",
+        "Sản phẩm nào khách ít mua hàng nhất?",
+        "Các sản phẩm nào không được ưa chuộng",
+        "Sản phẩm có lượt mua ít nhất?",
+        "Khách hàng không ưa chuộng các sản phẩm nào",
+        "Thống kê các sản phẩm có lượt mua thấp",
+        "Cho tôi biết những sản phẩm nào được mua thấp nhất",
+        "Các sản phẩm nào đang có doanh số bán không cao?",
+        "Các sản phẩm nào đang có doanh số bán ra thấp?",
+        "Các sản phẩm nào đang bán chậm",
+        "Liệt kê cho tôi các sản phẩm có doanh thu thấp",
+        "Các sản phẩm nào không được khách hàng ưa chuộng?",
+        "Sản phẩm ế ẩm",
+        "Hàng bán chậm"
+      ],
+      "responses": [
+        "Tôi đang kiểm tra các sản phẩm có lượt mua thấp",
+        "Vui lòng đợi, tôi sẽ liệt kê các sản phẩm có lượt mua thấp...",
+        "Tôi sẽ giúp bạn tìm các sản phẩm có lượt mua thấp nhất...",
+        "Đang phân tích các sản phẩm bán chậm..."
+      ]
+    },
+    {
+      "tag": "luot_mua_cao",
+      "patterns": [
+        "Sản phẩm nào có lượt mua cao?",
+        "tôi cần thông tin của những sản phẩm có lượt bán cao",
+        "những sản phẩm có lượt bán cao",
+        "Tôi cần biết thông tin của các sản phẩm được bán nhiều hiện nay",
+        "Các sản phẩm được bán nhiều hiện nay",
+        "Liệt kê cho tôi các sản phẩm có doanh thu cao",
+        "Khách hàng có xu hướng mua các sản phẩm nào",
+        "Các sản phẩm nào đang được khách hàng ưa chuộng",
+        "Sản phẩm nào đang được bán nhiều nhất hiện nay",
+        "Tôi muốn truy vấn các sản phẩm có lượt mua cao",
+        "Số liệu của các sản phẩm có lượt mua cao",
+        "Loại sản phẩm nào đang bán chạy?",
+        "Sản phẩm bán nhiều nhất?",
+        "Sản phẩm có lượt mua nhiều nhất?",
+        "Tổng hợp các sản phẩm có doanh thu cao?",
+        "Những sản phẩm nào bán ra cao nhất?",
+        "Những sản phẩm nào được khách ưa chuộng mua nhiều nhất?",
+        "Các sản phẩm có doanh thu cao nhất?",
+        "Best seller",
+        "Hàng hot",
+        "Các sản phẩm hot tại cửa hàng",
+        "Sản phẩm phổ biến"
+      ],
+      "responses": [
+        "Tôi sẽ kiểm tra các sản phẩm có lượt mua cao nhất...",
+        "Đợi tôi một chút, tôi sẽ liệt kê sản phẩm bán ra nhiều nhất...",
+        "Tôi đang truy vấn các sản phẩm có doanh thu cao...",
+        "Đang phân tích các sản phẩm bán chạy nhất..."
+      ]
+    },
+    {
+      "tag": "truy_van_danh_gia",
+      "patterns": [
+        "Tôi muốn biết đánh giá của sản phẩm",
+        "tôi cần truy vấn lượt đánh giá của sản phẩm",
+        "Sản phẩm này có lượt đánh giá là bao nhiêu?",
+        "lượt đánh giá của sản phẩm là bao nhiêu",
+        "lượt đánh giá sản phẩm",
+        "Hãy cho tôi biết đánh giá sản phẩm này",
+        "Sản phẩm này được đánh giá như thế nào?",
+        "Đánh giá của người dùng về sản phẩm",
+        "Đánh giá bao nhiêu sao?",
+        "Sản phẩm này có bao nhiêu sao?",
+        "Sản phẩm này được mấy điểm?",
+        "Review sản phẩm",
+        "Rating sản phẩm",
+        "Feedback khách hàng",
+        "Nhận xét về sản phẩm"
+      ],
+      "responses": [
+        "Vui lòng đợi, tôi sẽ kiểm tra đánh giá sản phẩm cho bạn.",
+        "Đang truy vấn thông tin đánh giá từ khách hàng...",
+        "Tôi sẽ kiểm tra rating và review của sản phẩm này."
+      ]
+    },
+    {
+      "tag": "truy_van_danh_gia_tat_ca",
+      "patterns": [
+        "Tôi muốn truy vấn đánh giá của tất cả sản phẩm",
+        "Hiển thị cho tôi số liệu đánh giá của tất cả sản phẩm",
+        "Cho tôi thông tin về đánh giá của tất cả sản phẩm",
+        "Cho tôi biết đánh giá trung bình của các sản phẩm",
+        "thông tin sản phẩm được khách hàng đánh giá cao",
+        "Đánh giá chung của các sản phẩm là bao nhiêu?",
+        "Sản phẩm nào được đánh giá tốt?",
+        "Hãy liệt kê đánh giá của toàn bộ sản phẩm",
+        "Báo cáo đánh giá tổng hợp",
+        "Thống kê số liệu đánh giá của tất cả sản phẩm",
+        "Thống kê rating tất cả sản phẩm"
+      ],
+      "responses": [
+        "Tôi đang kiểm tra đánh giá của tất cả các sản phẩm. Vui lòng đợi một chút.",
+        "Đang tạo báo cáo đánh giá tổng hợp...",
+        "Tôi sẽ thống kê rating của toàn bộ sản phẩm."
+      ]
+    },
+    {
+      "tag": "danh_gia_thap",
+      "patterns": [
+        "Sản phẩm nào có đánh giá thấp nhất?",
+        "Sản phẩm có lượt đánh giá thấp",
+        "Sản phẩm được khách hàng đánh giá thấp",
+        "Những sản phẩm bị đánh giá kém?",
+        "Sản phẩm nào khách không hài lòng?",
+        "Liệt kê các sản phẩm có điểm đánh giá thấp",
+        "Những sản phẩm bị chê nhiều nhất",
+        "Các sản phẩm có số sao thấp nhất?",
+        "Sản phẩm nào bị đánh giá tệ nhất?",
+        "Review tiêu cực",
+        "Feedback xấu"
+      ],
+      "responses": [
+        "Tôi đang kiểm tra các sản phẩm có đánh giá thấp...",
+        "Vui lòng chờ, tôi sẽ liệt kê các sản phẩm được đánh giá thấp nhất...",
+        "Tôi sẽ giúp bạn tìm các sản phẩm bị người dùng chê nhiều nhất...",
+        "Đang phân tích các sản phẩm có feedback tiêu cực..."
+      ]
+    },
+    {
+      "tag": "danh_gia_cao",
+      "patterns": [
+        "Số liệu của các sản phẩm có đánh giá cao",
+        "Hiển thị cho tôi thông tin của các sản phẩm có đánh giá cao",
+        "Sản phẩm đánh giá cao",
+        "Đánh giá cao",
+        "Các sản phẩm có đánh giá cao",
+        "Sản phẩm nào được đánh giá cao?",
+        "Sản phẩm nào có nhiều sao nhất?",
+        "Sản phẩm nào được khen nhiều nhất?",
+        "Những sản phẩm được đánh giá tốt nhất?",
+        "Liệt kê các sản phẩm được người dùng hài lòng nhất",
+        "Top sản phẩm đánh giá cao?",
+        "Sản phẩm nào có đánh giá 5 sao?",
+        "Review tích cực",
+        "Feedback tốt"
+      ],
+      "responses": [
+        "Tôi sẽ kiểm tra các sản phẩm được đánh giá cao nhất...",
+        "Đợi tôi một chút, tôi sẽ liệt kê các sản phẩm được yêu thích nhất...",
+        "Tôi đang truy vấn những sản phẩm có phản hồi tốt từ người dùng...",
+        "Đang tìm kiếm các sản phẩm có rating cao..."
+      ]
+    },
+    {
+      "tag": "san_pham_dang_ban",
+      "patterns": [
+        "Sản phẩm nào đang được bán?",
+        "Các sản phẩm nào đang được bán trong cửa hàng",
+        "Cho tôi biết các sản phẩm hiện đang kinh doanh",
+        "Sản phẩm nào đang ngừng bán",
+        "Cho tôi biết các sản phẩm ngừng bán",
+        "Các sản phẩm nào đang ngưng bán hiện nay",
+        "Liệt kê các sản phẩm ngưng bán",
+        "Cho tôi thống kê về các sản phẩm ngưng bán",
+        "Những sản phẩm nào còn hoạt động?",
+        "Liệt kê các sản phẩm còn bán",
+        "Danh sách sản phẩm đang bán",
+        "Những sản phẩm hiện đang còn hàng",
+        "Tôi muốn xem các sản phẩm còn được phân phối",
+        "Sản phẩm nào vẫn còn bán?",
+        "Hàng hóa hiện có",
+        "Catalog sản phẩm"
+      ],
+      "responses": [
+        "Tôi sẽ kiểm tra và liệt kê các sản phẩm đang được bán...",
+        "Vui lòng đợi, tôi đang truy vấn danh sách sản phẩm còn hoạt động...",
+        "Đây là các sản phẩm hiện đang có sẵn trên hệ thống:",
+        "Đang tải danh mục sản phẩm hiện tại..."
+      ]
+    },
+    {
+      "tag": "san_pham_ngung_ban",
+      "patterns": [
+        "Sản phẩm nào đã ngừng bán?",
+        "Thông tin các sản phẩm đang ngưng bán",
+        "Thông tin các sản phẩm đang ngừng bán",
+        "Liệt kê các sản phẩm đã dừng kinh doanh",
+        "Những sản phẩm nào không còn bán nữa?",
+        "Tôi muốn biết các sản phẩm đã ngừng cung cấp",
+        "Danh sách sản phẩm không còn bán",
+        "Sản phẩm nào đã bị ngưng bán?",
+        "Cho tôi biết sản phẩm nào đã dừng phân phối",
+        "Hàng ngừng kinh doanh",
+        "Sản phẩm discontinued"
+      ],
+      "responses": [
+        "Tôi sẽ kiểm tra và liệt kê các sản phẩm đã ngừng bán...",
+        "Vui lòng chờ, tôi đang truy vấn danh sách sản phẩm không còn kinh doanh...",
+        "Dưới đây là các sản phẩm hiện đã ngừng bán:",
+        "Đang tìm kiếm các sản phẩm đã dừng hoạt động..."
+      ]
+    },
+    {
+      "tag": "so_luong_nguoi_dung",
+      "patterns": [
+        "Hệ thống có bao nhiêu khách hàng?",
+        "Cho tôi thông tin về sản phẩm ngừng bán",
+        "Cho tôi thông tin về sản phẩm ngưng bán",
+        "Tổng số khách hàng hiện tại là bao nhiêu?",
+        "Thống kê khách hàng đăng ký mới",
+        "Cho tôi biết có bao nhiêu người dùng?",
+        "Hiển thị về các sản phẩm đã không hoạt động",
+        "Hiển thị về các sản phẩm đã không còn hoạt động",
+        "Có bao nhiêu khách hàng trong hệ thống?",
+        "Khách hàng trong hệ thống hiện tại là bao nhiêu?",
+        "Tổng số người dùng đang sử dụng hệ thống?",
+        "Hiện tại có bao nhiêu người đã đăng ký?",
+        "Hệ thống có tất cả bao nhiêu khách?",
+        "Có bao nhiêu khách hàng đã tạo tài khoản?",
+        "Tôi muốn biết số lượng khách hàng",
+        "Cho tôi biết số người dùng đang có",
+        "Tổng người dùng của hệ thống là bao nhiêu?",
+        "Số lượng người dùng hiện tại là bao nhiêu?",
+        "Có bao nhiêu người đang sử dụng hệ thống?",
+        "Bao nhiêu người dùng đã đăng ký tài khoản?",
+        "Số lượng tài khoản người dùng hiện tại là bao nhiêu?",
+        "Thống kê user",
+        "Customer count"
+      ],
+      "responses": [
+        "Vui lòng chờ, tôi sẽ kiểm tra số lượng khách hàng/người dùng trong hệ thống...",
+        "Tôi đang truy vấn số lượng người dùng hiện có...",
+        "Đây là tổng số khách hàng/người dùng hiện tại trong hệ thống:",
+        "Đang thống kê số lượng tài khoản đã đăng ký..."
+      ]
+    },
+    {
+      "tag": "so_luong_nhan_vien_quan_ly",
+      "patterns": [
+        "Số lượng nhân viên quản lý trong hệ thống là bao nhiêu",
+        "Có bao nhiêu nhân viên trong hệ thống?",
+        "Tổng số nhân viên hiện tại là bao nhiêu?",
+        "Bao nhiêu người có vai trò nhân viên?",
+        "Cho tôi biết có bao nhiêu quản lý?",
+        "Hệ thống có mấy người làm quản lý?",
+        "Thống kê số lượng nhân viên và quản lý",
+        "Số lượng người dùng theo vai trò là bao nhiêu?",
+        "Hệ thống hiện có bao nhiêu quản trị viên?",
+        "Tôi muốn biết có bao nhiêu người đang làm nhân viên và quản lý?",
+        "Tổng số nhân viên và quản lý trong hệ thống là bao nhiêu?"
+      ],
+      "responses": [
+        "Vui lòng đợi, tôi đang thống kê số lượng nhân viên và quản lý...",
+        "Tôi sẽ kiểm tra số lượng người theo vai trò...",
+        "Đây là thống kê số lượng nhân viên và quản lý hiện tại:"
+      ]
+    },
+    {
+      "tag": "khach_hang_tiem_nang",
+      "patterns": [
+        "Có bao nhiêu khách hàng tiềm năng?",
+        "Cho tôi số liệu cụ thể về khách hàng tiềm năng trong hệ thống",
+        "Hiển thị cho tôi về thông tin khách hàng tiềm năng",
+        "Thông tin khách hàng tiềm năng",
+        "Danh sách các người dùng tiềm năng",
+        "người dùng tiềm năng",
+        "Lọc ra những người dùng tiềm năng",
+        "Đánh giá các tài khoản tiềm năng",
+        "Danh sách khách hàng tiềm năng trong hệ thống?",
+        "Ai là khách hàng tiềm năng?",
+        "Có bao nhiều tài khoản mà hệ thống đánh giá là tiềm năng",
+        "Thống kê số lượng khách hàng đã đặt hàng",
+        "Tôi muốn biết những khách đã từng đặt hàng",
+        "Lọc ra những người dùng đã từng mua hàng",
+        "Hệ thống có bao nhiêu tài khoản đã từng đặt hàng?"
+      ],
+      "responses": [
+        "Tôi đang kiểm tra danh sách khách hàng tiềm năng...",
+        "Đây là số lượng và danh sách khách hàng tiềm năng hiện tại:",
+        "Vui lòng đợi trong giây lát, tôi đang truy vấn dữ liệu khách hàng tiềm năng..."
+      ]
+    },
+    {
+  "tag": "khach_chua_mua_hang",
+  "patterns": [
+    "Cho tôi danh sách những tài khoản chưa mua hàng",
+    "Khách hàng nào chưa từng mua hàng?",
+    "tài khoản chưa mua hàng",
+    "Người dùng nào chưa có đơn hàng nào?",
+    "Ai chưa từng đặt hàng trong hệ thống?",
+    "Hiển thị thông tin về danh sách khách chưa mua hàng",
+    "Danh sách khách hàng chưa phát sinh mua hàng",
+    "Tìm người dùng chưa mua sản phẩm nào",
+    "Cho tôi biết ai chưa bao giờ mua hàng",
+    "Có bao nhiêu khách hàng chưa từng mua gì?",
+    "Tôi muốn biết người dùng chưa mua lần nào",
+    "Những khách hàng tiềm năng là ai?",
+    "Lọc ra người chưa từng mua hàng"
+  ],
+  "responses": [
+    "Tôi đang tìm kiếm các khách hàng chưa từng mua hàng...",
+    "Đây là danh sách khách hàng chưa có đơn hàng nào:",
+    "Vui lòng đợi, tôi đang lọc danh sách người dùng chưa từng mua hàng..."
+  ]
+},
+    {
+    "tag": "khach_hang_mua_nhieu",
+    "patterns": [
+      "Ai là khách hàng mua nhiều sản phẩm nhất?",
+      "Người dùng nào mua hàng nhiều nhất",
+      "Khách nào mua hàng nhiều nhất",
+      "Khách hàng nào đặt nhiều đơn hàng nhất?",
+      "Danh sách khách hàng thân thiết",
+      "Những khách hàng trung thành nhất là ai?",
+      "Khách nào mua hàng nhiều lần?",
+      "Tìm ra những khách có số lượng đơn hàng lớn",
+      "Những tài khoản nào có số lượng đơn hàng lớn",
+      "Ai là người tiêu dùng lớn nhất trong hệ thống?",
+      "Tôi muốn biết khách hàng có giá trị mua sắm cao",
+      "Khách hàng nào có tổng tiền mua hàng cao nhất?",
+      "Cho tôi danh sách khách hàng VIP",
+      "Tài khoản mua hàng nhiều nhất",
+      "người dùng mua hàng nhiều nhất",
+      "Lọc ra những khách hàng vip trong hệ thống",
+      "Khách hàng nào quay lại mua nhiều lần nhất?"
+    ],
+    "responses": [
+      "Tôi đang kiểm tra thống kê khách hàng mua nhiều sản phẩm...",
+      "Dưới đây là danh sách khách hàng có số lượng đơn hàng cao nhất:",
+      "Tôi đã lọc được một số khách hàng thân thiết, bạn xem nhé:"
+    ]
+  },
+   {
+  "tag": "tim_kiem_khach_theo_ten",
+  "patterns": [
+    "Thông tin người dùng tên là Nguyễn Văn A",
+    "thông tin của khách hàng tên",
+    "thông tin khách hàng tên",
+    "thông tin khách hàng tên Kien Huynh",
+    "thông tin tài khoản tên",
+    "thôn tin khách hàng",
+    "thôn tin tài khoản",
+    "thôn tin người dùng",
+    "Tôi cần thông tin của khách hàng tên nguyễn văn c",
+    "thông tin của khách hàng tên nguyễn văn c",
+    "Hiển thị cho tôi thông tin của khách hàng tên nguyễn văn c",
+    "Tìm khách hàng có tên Trần Thị B",
+    "Với tên là, hãy tìm thông tin người dùng",
+    "thông tin người dùng tên là",
+    "Tôi cần tìm thông tin khách hàng tên",
+    "Hiển thị thông tin khách hàng tên",
+    "Người dùng tên Lê Văn C là ai?",
+    "Ai là người tên Nguyễn Thị D?",
+    "Hãy hiển thị thông tin khách hàng tên Trần Văn Bình",
+    "Tôi muốn xem thông tin của người dùng tên Nguyễn Minh Tuấn",
+    "Khách hàng tên là gì nếu tên là Trần Văn Hoàng?",
+    "Cho tôi biết người dùng có tên là Bùi Thị Hằng"
+  ],
+  "responses": [
+    "Tôi đang tìm thông tin theo tên...",
+    "Đây là thông tin người dùng theo tên bạn cung cấp:",
+    "Vui lòng chờ một chút, tôi đang tìm khách hàng theo tên..."
+  ]
+},
+  {
+  "tag": "tim_kiem_khach_theo_sdt",
+  "patterns": [
+    "tìm cho tôi thông tin của khách hàng với số điện thoại là 0911636441",
+    "tìm cho tôi thông tin người dùng với số điện thoại là 0911636441",
+    "Thông tin người dùng với số điện thoại là 0911636441",
+    "thôn tin khách hàng",
+    "thôn tin tài khoản",
+    "thôn tin người dùng",
+    "thông tin của khách hàng theo số điện thoại là 0911636441",
+    "thông tin của khách hàng có số đt là 0911636441",
+    "Tôi cần thông tin của khách hàng theo số 0911636441",
+    "thông tin của khách hàng với số điện thoại là 0911636441",
+    "Hiển thị cho tôi thông tin của khách hàng với số điện thoại là 0911636441",
+    "Tìm khách hàng có số điện thoại 0911636441",
+    "Với số điện thoại là 0911636441, hãy tìm thông tin người dùng",
+    "thông tin người dùng với số điện thoại là 0911636441",
+    "Tôi cần tìm thông tin khách hàng với số điện thoại 0911636441",
+    "Hiển thị thông tin khách hàng với số điện thoại 0911636441",
+    "Người dùng với số điện thoại là 0911636441?",
+    "Ai là người có số điện thoại 0911636441",
+    "Hãy hiển thị thông tin khách hàng với số điện thoại 0911636441",
+    "Tôi muốn xem thông tin của người dùng với số điện thoại 0911636441",
+    "Khách hàng có số điện thoại là 0911636441?",
+    "Cho tôi biết người dùng có với số điện thoại là 0911636441"
+  ],
+  "responses": [
+    "Tôi đang tìm kiếm người dùng theo số điện thoại...",
+    "Đây là thông tin theo số điện thoại bạn cung cấp:",
+    "Vui lòng đợi, tôi đang truy vấn theo số điện thoại..."
+  ]
+},
+  {
+  "tag": "tim_kiem_khach_theo_email",
+  "patterns": [
+    "Khách hàng có email abc@example.com là ai?",
+    "Hiển thị cho tôi thông tin người dùng với email là",
+    "Tìm kiếm cho tôi thông tin khách hàng với email là",
+    "Hiển thị cho tôi thông tin khách hàng với email là",
+    "Hiển thị cho tôi thông tin người dùng với email là",
+    "Hiển thị cho tôi thông tin tài khoản với email là",
+    "với email là, hãy hiển thị thông tin người dùng",
+    "với email là, hãy hiển thị thông tin khách hàng",
+    "với email là, hãy hiển thị thông tin tài khoản",
+    "Tìm người dùng có email test@gmail.com",
+    "Tìm tài khoản với email là",
+    "thôn tin khách hàng",
+    "thôn tin tài khoản",
+    "thôn tin người dùng",
+    "Ai đang sử dụng email nguyen.a@gmail.com?",
+    "Với email này, hãy tìm thông tin khách hàng giúp tôi",
+    "Tôi cần thông tin khách với email là",
+    "Tìm thông tin người dùng theo email",
+    "Hiển thị cho tôi thông tin khách hàng với email",
+    "Thông tin người dùng với email le.van.b@example.com",
+    "Tôi muốn biết khách hàng có email doanthi@gmail.com"
+  ],
+  "responses": [
+    "Tôi đang tìm kiếm người dùng theo địa chỉ email...",
+    "Đây là thông tin khách hàng theo email bạn cung cấp:",
+    "Vui lòng đợi, tôi đang truy vấn theo email..."
+  ]
+},
+  {
+    "tag": "tim_kiem_khach_theo_dia_chi",
+    "patterns": [
+      "Thông tin người dùng ở địa chỉ là Trà Vinh",
+      "thông tin của khách hàng ở địa chỉ",
+      "thông tin khách hàng ở",
+      "Tôi cần thông tin của khách hàng ở địa chỉ Cần Thơ",
+      "thông tin của người dùng ở địa chỉ Cần Thơ",
+      "Hiển thị cho tôi thông tin của khách hàng ở địa chỉ Cần Thơ",
+      "Tìm khách hàng ở Trà Vinh",
+      "Với ở địa chỉ là, hãy tìm thông tin người dùng",
+      "thông tin người dùng ở địa chỉ là",
+      "Tôi cần tìm thông tin khách hàng ở địa chỉ",
+      "Hiển thị thông tin khách hàng ở địa chỉ",
+      "Người dùng ở địa chỉ Cần Thơ là ai?",
+      "Ai là người ở địa chỉ Trà Vinh?",
+      "Hãy hiển thị thông tin khách hàng ở địa chỉ Trà Vinh",
+      "Tôi muốn xem thông tin của người dùng ở địa chỉ Cần Thơ",
+      "Tìm cho tôi thông tin những khách có địa chỉ ở Cần Thơ?",
+      "Cho tôi biết người dùng ở địa chỉ Cần Thơ"
+    ],
+    "responses": [
+      "Tôi đang tìm kiếm theo địa chỉ...",
+      "Dưới đây là thông tin người dùng theo địa chỉ bạn yêu cầu:",
+      "Vui lòng đợi, tôi đang lọc danh sách người dùng theo địa chỉ..."
+    ]
+  },
+  {
+  "tag": "tim_kiem_nhan_vien_theo_ten",
+  "patterns": [
+    "Tìm thông tin nhân viên tên Nguyễn Văn A",
+    "Thông tin nhân viên theo tên",
+    "Thông tin nhân viên",
+    "Hiển thị thông tin nhân viên theo tên",
+    "Tìm cho tôi nhân viên có tên là ",
+    "Hiển thị cho tôi thông tin nhân viên tên",
+    "Với tên là, hãy tìm cho tôi thông tin nhân viên",
+    "Tôi muốn tìm thông tin nhân viên tên Nguyễn Văn A",
+    "Ai là nhân viên tên Trần Thị B?",
+    "Tôi muốn biết nhân viên có tên Lê Văn C",
+    "Nhân viên tên là gì nếu là Nguyễn Thị Dung?",
+    "Cho tôi xem hồ sơ của nhân viên tên Trần Văn Bình",
+    "Thông tin người quản lý tên Nguyễn Minh Tuấn"
+  ],
+  "responses": [
+    "Tôi đang tìm nhân viên theo tên...",
+    "Đây là thông tin nhân viên bạn yêu cầu:",
+    "Vui lòng đợi, tôi đang truy vấn thông tin nhân viên theo tên..."
+  ]
+},
+{
+  "tag": "tim_kiem_nhan_vien_theo_sdt",
+  "patterns": [
+    "với số điện thoại là, hãy tìm thông tin nhân viên",
+    "thông tin nhân viên theo số điện thoại",
+    "thông tin nhân viên",
+    "Hiển thị thông tin nhân viên theo số điện thoại",
+    "Nhân viên có số điện thoại 0909090909 là ai?",
+    "Tìm người quản lý có số điện thoại 0912345678",
+    "Cho tôi biết nhân viên dùng số 0333333333",
+    "Ai là nhân viên có sđt 0376543210?",
+    "Thông tin nhân viên với số điện thoại 0969696969"
+  ],
+  "responses": [
+    "Tôi đang tìm thông tin nhân viên theo số điện thoại...",
+    "Dưới đây là hồ sơ nhân viên có số điện thoại tương ứng:",
+    "Vui lòng đợi, tôi đang truy vấn theo số điện thoại nhân viên..."
+  ]
+},
+{
+  "tag": "tim_kiem_nhan_vien_theo_email",
+  "patterns": [
+    "tìm cho tôi thông tin nhân viên với email là ",
+    "thông tin nhân viên theo email",
+    "thông tin nhân viên với email",
+    "với email là, hãy tìm thông tin nhân viên",
+    "thông tin nhân viên",
+    "Ai là nhân viên có email staff@example.com?",
+    "Tìm người quản lý có email abc@company.com",
+    "Thông tin nhân viên với email nguyen.a@company.vn",
+    "Nhân viên có email le.b@example.com là ai?",
+    "Tôi muốn biết nhân viên nào dùng email doanthi@company.com"
+  ],
+  "responses": [
+    "Tôi đang tìm kiếm nhân viên theo email...",
+    "Đây là thông tin nhân viên có email bạn cung cấp:",
+    "Vui lòng đợi, tôi đang tra cứu theo địa chỉ email..."
+  ]
+},
+{
+  "tag": "tim_kiem_nhan_vien_theo_dia_chi",
+  "patterns": [
+    "thông tin nhân viên ở địa chỉ",
+    "Tìm thông tin nhân viên ở",
+    "thông tin nhân viên",
+    "với địa chỉ ở, hãy tìm thông tin nhân viên",
+    "Ai là nhân viên ở Hà Nội?",
+    "Tìm nhân viên làm việc tại TP.HCM",
+    "Người quản lý ở Quận 1 là ai?",
+    "Tôi muốn biết nhân viên ở tỉnh Đồng Nai",
+    "Cho tôi thông tin nhân viên ở Đà Nẵng",
+    "Nhân viên nào sống ở Cần Thơ?"
+  ],
+  "responses": [
+    "Tôi đang tìm nhân viên theo địa chỉ...",
+    "Dưới đây là thông tin nhân viên theo khu vực bạn yêu cầu:",
+    "Vui lòng chờ trong giây lát, tôi đang lọc nhân viên theo địa chỉ..."
+  ]
+  },
+  {
+  "tag": "don_hang_dang_xu_ly",
+  "patterns": [
+    "Đơn hàng nào đang xử lý?",
+    "Thông tin đơn hàng đang xử lý",
+    "thông tin đơn hàng đang được xử lý",
+    "đơn hàng đang được xử lý",
+    "Đơn hàng trạng thái đang xử lý",
+    "Tôi có đơn hàng nào chưa duyệt không?",
+    "Hãy cho tôi biết đơn đang trong quá trình xử lý",
+    "Danh sách đơn hàng chưa giao",
+    "Các đơn đang chờ xử lý",
+    "Có đơn hàng nào đang xử lý không?",
+    "Đơn hàng đang chờ xác nhận là đơn nào?"
+  ],
+  "responses": [
+    "Tôi đang kiểm tra các đơn hàng đang trong trạng thái xử lý...",
+    "Dưới đây là danh sách đơn hàng đang được xử lý:",
+    "Bạn có những đơn hàng đang chờ xử lý như sau:"
+  ]
+  },
+  {
+  "tag": "chi_tiet_don_hang_dang_xu_ly",
+  "patterns": [
+    "Chi tiết đơn hàng đang xử lý",
+    "thông tin chi tiết đơn hàng đang xử lý",
+    "chi tiết đơn hàng đang xử lý",
+    "Tôi cần thông tin chi tiết đơn hàng đang xử lý",
+    "thông tin chi tiết đơn hàng với trạng thái đang xử lý",
+    "Cho tôi xem chi tiết đơn đang xử lý",
+    "Đơn hàng đang xử lý có gì?",
+    "Thông tin đơn hàng đang chờ xử lý",
+    "Xem nội dung đơn đang xử lý"
+  ],
+  "responses": [
+    "Đây là chi tiết các đơn hàng đang được xử lý:",
+    "Thông tin chi tiết đơn hàng trong trạng thái xử lý như sau:"
+  ]
+  },
+  {
+  "tag": "don_hang_dang_giao",
+  "patterns": [
+    "Đơn hàng nào đang được giao",
+    "thông tin đơn hàng đang được vận chuyển",
+    "đơn hàng đang vận chuyển",
+    "đơn hàng đang giao",
+    "Thông tin đơn hàng được được giao",
+    "Đơn hàng nào đang được vận chuyển?",
+    "Liệt kê đơn đang giao",
+    "Có đơn nào đang trên đường giao không?",
+    "Danh sách đơn hàng đang vận chuyển",
+    "Đơn nào đang giao cho khách?"
+  ],
+  "responses": [
+    "Đây là danh sách các đơn hàng đang trong quá trình vận chuyển:",
+    "Tôi đang truy vấn các đơn hàng đang giao..."
+  ]
+},
+{
+  "tag": "chi_tiet_don_hang_dang_giao",
+  "patterns": [
+    "Chi tiết đơn hàng đang giao",
+    "thông tin chi tiết đơn hàng đang giao",
+    "Tôi cần thông tin chi tiết đơn hàng đang giao",
+    "thông tin chi tiết đơn hàng đang vận chuyển",
+    "thông tin chi tiết đơn hàng với trạng thái đang giao", 
+    "thông tin chi tiết đơn hàng với trạng thái vận chuyển", 
+    "Thông tin đơn hàng đang vận chuyển",
+    "Đơn hàng đang giao gồm những gì?",
+    "Tôi muốn xem chi tiết đơn đang được giao",
+    "Hiển thị chi tiết đơn đang vận chuyển"
+  ],
+  "responses": [
+    "Thông tin chi tiết đơn hàng đang giao như sau:",
+    "Dưới đây là các sản phẩm trong đơn hàng đang vận chuyển:"
+  ]
+},
+{
+  "tag": "don_hang_da_nhan",
+  "patterns": [
+    "Đơn hàng nào đã được khách xác nhận nhận hàng?",
+    "thông tin chi tiết đơn hàng đã nhận",
+    "Thông tin đơn hàng mà khách đã nhận",
+    "đơn hàng đã nhận",
+    "Thông tin về đơn hàng đã nhận",
+    "Thông tin về đơn hàng đã giao thành công",
+    "Danh sách đơn đã nhận",
+    "Danh sách đơn đã giao thành công",
+    "Đơn hàng nào đã được khách hoàn tất?",
+    "Các đơn đã xác nhận giao thành công?"
+  ],
+  "responses": [
+    "Dưới đây là các đơn hàng đã được khách xác nhận nhận:",
+    "Tôi đang kiểm tra các đơn đã hoàn tất và xác nhận nhận hàng."
+  ]
+},
+{
+  "tag": "chi_tiet_don_hang_da_nhan",
+  "patterns": [
+    "Chi tiết đơn hàng đã nhận",
+    "thông tin chi tiết đơn hàng đã nhận",
+    "chi tiết đơn hàng đã nhận",
+    "thông tin chi tiết đơn hàng đã giao thành công",
+    "tôi cần thông tin chi tiết đơn hàng đã giao thành công",
+    "thông tin chi tiết đơn hàng trong trạng thái đã nhận",
+    "thông tin chi tiết đơn hàng trong trạng thái đã giao thành công",
+    "Xem nội dung đơn hàng đã nhận",
+    "Đơn hàng đã nhận gồm những gì?",
+    "Thông tin chi tiết đơn hàng đã giao thành công",
+    "Tôi muốn xem đơn hàng khách đã nhận"
+  ],
+  "responses": [
+    "Dưới đây là thông tin chi tiết đơn hàng đã được nhận:",
+    "Tôi đã tìm thấy các sản phẩm trong đơn hàng đã giao thành công:"
+  ]
+},
+ {
+  "tag": "don_hang_da_huy",
+  "patterns": [
+    "Đơn hàng nào đã bị huỷ?",
+    "thông tin đơn hàng đã hủy",
+    "đơn hàng đã hủy",
+    "thông tin đơn hàng với trạng thái đã hủy",
+    "Thông tin về các đơn hàng đã hủy",
+    "Các đơn hàng đã hủy trong hệ thống",
+    "Danh sách các đơn đã bị huỷ",
+    "Đơn hàng nào khách đã huỷ?",
+    "Liệt kê các đơn bị hủy trong hệ thống"
+  ],
+  "responses": [
+    "Dưới đây là danh sách đơn hàng đã bị huỷ:",
+    "Tôi đang truy xuất các đơn hàng đã huỷ..."
+  ]
+},
+{
+  "tag": "chi_tiet_don_hang_da_huy",
+  "patterns": [
+    "Chi tiết đơn hàng đã hủy",
+    "thông tin chi tiết đơn hàng đã hủy",
+    "thông tin chi tiết đơn hàng với trạng thái đã hủy",
+    "thông tin chi tiết đơn hàng trong trạng thái đã hủy",
+    "tôi cần thông tin chi tiết đơn hàng đã hủy",
+    "Đơn hàng đã hủy gồm những gì?",
+    "Xem nội dung đơn hàng đã bị hủy",
+    "Thông tin đơn hàng đã bị hủy",
+    "Tôi muốn xem chi tiết đơn hàng đã bị huỷ"
+  ],
+  "responses": [
+    "Dưới đây là thông tin chi tiết của đơn hàng đã bị huỷ:",
+    "Tôi đã tìm thấy chi tiết đơn hàng đã hủy như sau:"
+  ]
+},
+{
+  "tag": "nhan_vien_doanh_thu_cao",
+  "patterns": [
+    "Nhân viên có doanh thu cao",
+    "Nhân viên nào có doanh thu cao nhất?",
+    "thông tin nhân viên có doanh thu cao",
+    "lọc ra những nhân viên có doanh thu cao",
+    "nhân viên nào có doanh số cao",
+    "Nhân viên bán được nhiều hàng",
+    "Ai là nhân viên bán hàng giỏi nhất?",
+    "Danh sách nhân viên có doanh số tốt nhất",
+    "Tôi muốn biết nhân viên bán được nhiều hàng nhất",
+    "Nhân viên nào có hiệu suất bán hàng cao?",
+    "Người bán hàng xuất sắc nhất là ai?",
+    "Top nhân viên doanh thu cao",
+    "Nhân viên nào tạo ra doanh thu lớn nhất?",
+    "Ai có doanh thu cao trong tháng?"
+  ],
+  "responses": [
+    "Tôi đang kiểm tra danh sách nhân viên có doanh thu cao nhất...",
+    "Dưới đây là các nhân viên có doanh số cao nhất trong hệ thống:",
+    "Đây là những nhân viên đang đạt thành tích doanh thu xuất sắc:"
+  ]
+},
+{
+  "tag": "nhan_vien_doanh_thu_thap",
+  "patterns": [
+    "Nhân viên có doanh thu thấp",
+    "Nhân viên nào có doanh thu thấp nhất?",
+    "Thông tin nhân viên có doanh thu thấp",
+    "Nhân viên có hiệu xuất bản hàng kém",
+    "Nhân viên có doanh số thấp",
+    "Ai là người bán hàng kém nhất?",
+    "Danh sách nhân viên có doanh số kém",
+    "Tôi muốn biết nhân viên bán được ít hàng nhất",
+    "Nhân viên nào có hiệu suất bán hàng thấp?",
+    "Người bán hàng kém hiệu quả là ai?",
+    "Top nhân viên doanh thu thấp",
+    "Ai có doanh thu thấp trong tháng?",
+    "Những nhân viên chưa đạt chỉ tiêu doanh thu"
+  ],
+  "responses": [
+    "Tôi đang kiểm tra danh sách nhân viên có doanh thu thấp...",
+    "Dưới đây là các nhân viên có doanh số thấp nhất trong hệ thống:",
+    "Đây là những nhân viên đang có doanh thu chưa đạt chỉ tiêu:"
+  ]
+},
+{
+  "tag": "chi_tiet_doanh_thu_nhan_vien",
+  "patterns": [
+    "Chi tiết doanh thu của nhân viên tên là",
+    "thống kê chi tiết doanh thu của Kien Huynh",
+    "tôi cần truy xuất doanh thu của nhân viên",
+    "thống kê doanh thu của admin",
+    "chi tiết doanh thu nhân viên",
+    "thống kế doanh thu nhân viên",
+    "thông tin chi tiết doanh thu của nhân viên tên",
+    "Thông tin doanh thu của nhân viên",
+    "Xem doanh thu của nhân viên",
+    "Nhân viên này bán được bao nhiêu?",
+    "Hiệu suất bán hàng của nhân viên",
+    "Doanh thu cụ thể của nhân viên",
+    "Tôi muốn biết chi tiết doanh thu của nhân viên",
+    "Nhân viên có doanh số như thế nào?",
+    "Danh sách doanh thu của nhân viên",
+    "Doanh thu nhân viên này là bao nhiêu?",
+    "Xem bảng thống kê doanh thu nhân viên"
+  ],
+  "responses": [
+    "Dưới đây là chi tiết doanh thu của từng nhân viên:",
+    "Tôi đã truy xuất thông tin doanh thu cho từng nhân viên:",
+    "Đây là danh sách doanh số bán hàng của các nhân viên:"
+  ]
+},
+  {
+  "tag": "doanh_thu_theo_ngay",
+  "patterns": [
+    "Doanh thu theo ngày 15/7/2024",
+    "Doanh thu theo ngày",
+    "Doanh thu theo ngày hôm nay",
+    "thống kê cho tôi doanh thu của ngày hôm nay",
+    "thống kê cho tôi doanh thu ngày 15/7/2024",
+    "Doanh thu của ngày",
+    "Doanh thu theo ngày",
+    "Doanh thu ngày",
+    "thống kê cho tôi doanh thu ngày",
+    "thống kê cho tôi doanh thu của ngày",
+    "thống kê cho tôi doanh thu theo ngày",
+    "Doanh thu của ngày 15/7/2024",
+    "Tôi cần thông tin chi tiết doanh thu của ngày 15/7/2024",
+    "Tôi muốn biết doanh thu vào ngày 15/7/2024",
+    "Cho tôi doanh thu vào ngày 15/7/2024",
+    "Doanh số bán hàng ngày 15/7/2024",
+    "Xem doanh thu theo ngày"
+  ],
+  "responses": [
+    "Tổng doanh thu vào ngày được yêu cầu là:",
+    "Dưới đây là báo cáo doanh thu theo ngày:",
+    "Đây là thống kê doanh thu của ngày đó:"
+  ]
+},
+{
+  "tag": "doanh_thu_theo_thang",
+  "patterns": [
+    "Doanh thu tháng 7/2025",
+    "Doanh thu tháng bảy",
+    "Doanh thu của tháng",
+    "thống kê chi tiết doanh thu tháng ",
+    "Doanh thu tháng",
+    "Doanh thu theo tháng",
+    "thống kê cho tôi doanh thu tháng",
+    "thống kê cho tôi doanh thu của tháng",
+    "thống kê cho tôi doanh thu theo tháng",
+    "Tôi muốn xem doanh thu tháng 7",
+    "Tháng 7 doanh thu như thế nào?",
+    "Doanh thu tháng 7 năm 2025",
+    "Thống kê doanh thu theo tháng 7",
+    "Cho tôi biết doanh thu trong tháng 7"
+  ],
+  "responses": [
+    "Tổng doanh thu trong tháng này là:",
+    "Dưới đây là doanh thu của tháng:",
+    "Đây là kết quả doanh thu tháng bạn yêu cầu:"
+  ]
+},
+{
+  "tag": "doanh_thu_theo_nam",
+  "patterns": [
+    "Doanh thu năm 2025",
+    "Doanh thu năm hai không hai lăm",
+    "Tổng doanh thu năm 2025",
+    "Doanh thu năm 2025",
+    "Doanh thu năm",
+    "Doanh thu của năm", 
+    "thống kê chi tiết doanh thu nam", 
+    "Doanh thu theo năm", 
+    "thống kê cho tôi doanh thu năm",
+    "thống kê cho tôi doanh thu theo năm",
+    "thống kê cho tôi doanh thu của năm",
+    "Báo cáo doanh thu năm 2025",
+    "Thống kê doanh thu cả năm 2025",
+    "Thống kê cho tôi doanh thu của năm 2025",
+    "Thống kê cho tôi doanh thu theo năm 2025",
+    "Doanh số năm 2025 thế nào?"
+  ],
+  "responses": [
+    "Tổng doanh thu năm nay là:",
+    "Đây là báo cáo doanh thu trong năm:",
+    "Dưới đây là kết quả doanh thu cả năm:"
+  ]
+},
+{
+  "tag": "doanh_thu_khoang_thoi_gian_theo_ngay",
+  "patterns": [
+    "Tôi muốn xem doanh thu từ ngày 14/7/2025 đến ngày 28//7/2025",
+    "thống kê cho tôi doanh thu từ ngày 14/7/2025 đến ngày 28//7/2025",
+    "doanh thu từ ngày 14/7/2025 đến ngày 28//7/2025",
+    "thống kê chi tiết doanh thu từ ngày đến ngày",
+    "Cho tôi biết doanh thu từ ngày 15/7/2024 đến 16/7/2024",
+    "Báo cáo doanh thu từ ngày 15/7/2024 đến 25/7/2024",
+    "Doanh thu từ ngày ... đến ngày ...",
+    "Thống kê doanh thu trong khoảng thời gian từ ngày đến ngày",
+    "Tôi cần xem doanh thu theo khoảng thời gian từ ngày đến ngày"
+  ],
+  "responses": [
+    "Dưới đây là doanh thu trong khoảng thời gian yêu cầu:",
+    "Đây là thống kê doanh thu từ ngày đến ngày:",
+    "Tổng doanh thu trong khoảng thời gian này là:"
+  ]
+},
+{
+  "tag": "doanh_thu_khoang_thoi_gian_theo_thang",
+  "patterns": [
+    "Tôi muốn xem doanh thu từ tháng bảy đến tháng tám",
+    "Tôi muốn xem doanh thu từ tháng 7 đến tháng 8",
+    "Cho tôi biết doanh thu từ tháng 7 đến 8",
+    "doanh thu từ tháng 7 đến 8",
+    "thống kê chi tiết doanh thu từ tháng đến tháng",
+    "Báo cáo doanh thu từ tháng 7 đến 8",
+    "Doanh thu từ tháng 6/2025 đến tháng 7/2025",
+    "Doanh thu từ tháng ... đến tháng ...",
+    "Thống kê doanh thu trong khoảng thời gian từ tháng đến tháng",
+    "Tôi cần xem doanh thu theo khoảng thời gian từ tháng đến tháng"
+  ],
+  "responses": [
+    "Dưới đây là doanh thu trong khoảng thời gian yêu cầu:",
+    "Đây là thống kê doanh thu từ tháng đến tháng:",
+    "Tổng doanh thu trong khoảng thời gian này là:"
+  ]
+},
+{
+  "tag": "doanh_thu_khoang_thoi_gian_theo_nam",
+  "patterns": [
+    "Tôi muốn xem doanh thu từ năm 2025 đến 2025",
+    "Cho tôi biết doanh thu từ năm 2025 đến 2025",
+    "thống kê chi tiết doanh thu từ năm 2024 đến năm 2026",
+    "chi tiết doanh thu từ năm đến năm",
+    "Doanh thu từ năm đến năm",
+    "Doanh thu từ năm 2024 đến năm 2025",
+    "Báo cáo doanh thu từ năm 2025 đến 2026",
+    "Doanh thu từ năm ... đến năm ...",
+    "Thống kê doanh thu trong khoảng thời gian từ năm đến năm",
+    "Tôi cần xem doanh thu theo khoảng thời gian từ năm đến năm"
+  ],
+  "responses": [
+    "Dưới đây là doanh thu trong khoảng thời gian yêu cầu:",
+    "Đây là thống kê doanh thu từ năm đến năm:",
+    "Tổng doanh thu trong khoảng thời gian này là:"
+  ]
+}
+  ]
+}
