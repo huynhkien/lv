@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
-from utils import TextPreprocessor, IntentDataset, DataAugmentation
-from model import ChatbotLSTM  
+from chatbot_lstm.utils import TextPreprocessor, IntentDataset, DataAugmentation
+from chatbot_lstm.model import ChatbotLSTM  
 import json
 
 class ChatbotTrainer:
