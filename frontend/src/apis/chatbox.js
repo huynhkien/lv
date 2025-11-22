@@ -14,6 +14,15 @@ export const sendMessage = async (message) => {
     throw error; 
   }
 };
+export const sendMessageAdmin = async (message) => {
+  try {
+    const response = await instance.post('chat-lstm', { message: message });
+    return response.data; 
+  } catch (error) {
+    console.error('Error sending message:', error.response?.data || error.message);
+    throw error; 
+  }
+};
 export const identify = async (image) => {
   try {
     const formData = new FormData();
