@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProductPage, Slider, ProductDeal, ProductPageOne, ProductSale, Featured} from '../Index';
+import {ProductPage, Slider, ProductDeal, ProductPageOne,Featured} from '../Index';
 
 const Home = () => {
   return (
@@ -9,7 +9,6 @@ const Home = () => {
       <ProductPage/>
       <ProductDeal/>
       <ProductPageOne/>
-      <ProductSale/>
     </div>
   )
 }

@@ -14,7 +14,6 @@ export {default as Product} from './public/product/Product';
 export {default as ProductPage} from './public/product/ProductPage';
 export {default as ProductDeal} from './public/product/ProductDeal';
 export {default as ProductPageOne} from './public/product/ProductPageOne';
-export {default as ProductSale} from './public/product/ProductSale';
 export {default as AboutTemplate} from './public/about/AboutTemplate';
 export {default as ContactTemplate} from './public/contact/ContactTemplate';
 export {default as Category} from './public/category/Category';
