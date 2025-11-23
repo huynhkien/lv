@@ -13,6 +13,7 @@ const receiptRouter = require('./app/routes/wavehouse.route');
 const voucherRouter = require('./app/routes/voucher.route');
 const notificationRouter = require('./app/routes/notification.route');
 const {notFound, errorHandler} = require('./app/middlewares/errHandle');
+const { scheduleVoucherCheck } = require('./app/controllers/voucher.controller');
 
 
 const app =express();
@@ -53,7 +54,8 @@ app.use('/api/supplier', supplierRouter);
 app.use('/api/receipt', receiptRouter);
 app.use('/api/voucher', voucherRouter);
 app.use('/api/notification', notificationRouter);
-
+// Khởi động scheduler
+scheduleVoucherCheck();
 
 app.use(notFound);
 app.use(errorHandler);

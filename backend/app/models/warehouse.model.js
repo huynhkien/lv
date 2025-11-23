@@ -18,7 +18,7 @@ const WarehouseSchema = new mongoose.Schema({
       
   }],
   supplier: { type: String},
-  type: { type: String },
+  type: { type: String, enum: ['import', 'export'] },
   total: {type: Number},
   exportedTo: {
     name: { type: String }, 

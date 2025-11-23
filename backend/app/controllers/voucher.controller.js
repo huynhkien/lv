@@ -1,7 +1,7 @@
-const { query } = require('express');
 const Voucher = require('../models/voucher.model');
 const Product = require('../models/product.model');
 const asyncHandler = require('express-async-handler');
+const cron = require('node-cron');
 
 const createVoucher = asyncHandler(async (req, res) => {
     const response = await Voucher.create(req.body);
@@ -30,41 +30,42 @@ const getVoucher = asyncHandler(async(req, res) => {
 });
 const getVouchers = asyncHandler(async(req, res) => {
     const queries = {...req.query};
-  // Tách các trường đặc biệt ra khỏi query
     const excludeFields = ['limit', 'sort', 'page', 'fields'];
     excludeFields.forEach(el => delete queries[el])
 
-    // Định dạng lại các operatirs cho đúng cú pháp của moogose
     let queryString = JSON.stringify(queries);
     queryString = queryString.replace(/\b(gte|gt|lt|lte)\b/g, matchedEl => `$${matchedEl}`);
-    const  formatQueries = JSON.parse(queryString);
+    const formatQueries = JSON.parse(queryString);
 
-    // Filtering 
     if(queries?.q) {
         delete formatQueries.q;
         formatQueries.applyType = {$regex: queries.q, $options: 'i'}
     }
+    
+    // Thêm điều kiện lọc voucher còn hạn
+    formatQueries.endDate = { $gte: new Date() };
+    formatQueries.isShow = true;
+
     let queryCommand = Voucher.find(formatQueries);
 
-    //sorting
     if(req.query.sort) {
         const sortBy = req.query.sort.split(',').join(' ');
         queryCommand = queryCommand.sort(sortBy);
     }
-    // Field Limiting
+    
     if(req.query.fields){
         const fields = req.query.fields.split(',').join(' ');
         queryCommand = queryCommand.select(fields);
     }
-    //
+    
     const page = req.query.page * 1 || 1;
     const limit = req.query.limit * 1 || 100;
     const skip = (page - 1) * limit;
     queryCommand = queryCommand.skip(skip).limit(limit);
  
-    // Execute  \query
     const queryExecute = await queryCommand.exec();
     const counts = await Voucher.countDocuments(formatQueries);
+    
     return res.status(200).json({
         success: queryExecute.length > 0,
         data: queryExecute,
@@ -305,7 +306,25 @@ const deleteVoucher = asyncHandler(async(req, res) => {
         message: response ? 'Xóa thành công' : 'Xóa thất bại'
     });
 });
-
+const scheduleVoucherCheck = () => {
+  cron.schedule('0 0 * * *', async () => {
+    try {
+      const now = new Date();
+      const result = await Voucher.updateMany(
+        { 
+          endDate: { $lt: now },
+          isShow: true 
+        },
+        { 
+          $set: { isShow: false } 
+        }
+      );
+      console.log(`Đã ẩn ${result.modifiedCount} voucher hết hạn`);
+    } catch (error) {
+      console.error('Lỗi khi cập nhật voucher:', error);
+    }
+  });
+};
 module.exports = {
     createVoucher,
     getVoucher,
@@ -315,6 +334,7 @@ module.exports = {
     deleteVoucherProduct,
     deleteVoucherCategories,
     deleteVoucherUsers,
-    deleteVoucher
+    deleteVoucher,
+    scheduleVoucherCheck
    
 }
