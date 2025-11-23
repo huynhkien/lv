@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
-from chatbot_lstm.utils import TextPreprocessor, IntentDataset, DataAugmentation
-from chatbot_lstm.model import ChatbotLSTM  
+from utils import TextPreprocessor, IntentDataset, DataAugmentation
+from model import ChatbotLSTM  
 import json
 
 class ChatbotTrainer:
@@ -174,16 +174,24 @@ def main():
     train_dataset = IntentDataset(X_train, y_train)
     val_dataset = IntentDataset(X_val, y_val)
     
-    train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-    val_dataloader = DataLoader(val_dataset, batch_size=32, shuffle=False)   
+    train_dataloader = DataLoader(train_dataset, batch_size=16, shuffle=True)
+    val_dataloader = DataLoader(val_dataset, batch_size=16, shuffle=False)   
     # 7. Huấn luyện mô hình
+    # model = ChatbotLSTM(  
+    #     vocab_size=len(preprocessor.word2idx),
+    #     embedding_dim=300,        
+    #     hidden_size=256,          
+    #     num_layers=3,             
+    #     num_classes=len(preprocessor.tag2idx),
+    #     dropout=0.5               
+    # )
     model = ChatbotLSTM(  
         vocab_size=len(preprocessor.word2idx),
-        embedding_dim=300,        
-        hidden_size=256,          
-        num_layers=3,             
+        embedding_dim=128,  # Tăng lên nhưng không quá lớn
+        hidden_size=128,     # Tăng capacity
+        num_layers=2,        # Giữ 2 layers
         num_classes=len(preprocessor.tag2idx),
-        dropout=0.5               
+        dropout=0.3          # Giảm dropout
     )
     
     print(f"Vocab size: {len(preprocessor.word2idx)}")
@@ -195,16 +203,16 @@ def main():
     trainer.train(
         train_dataloader, 
         val_dataloader, 
-        epochs=150,   
-        patience=25   
+        epochs=100,   
+        patience=15   
     )
     # Lưu model
     data = {
     "model_state": model.state_dict(),
     "vocab_size": len(preprocessor.word2idx),
-    "embedding_dim": 300,
-    "hidden_size": 256,
-    "num_layers": 3,
+    "embedding_dim": 128,  # Khớp với config
+    "hidden_size": 128,
+    "num_layers": 2,
     "num_classes": len(preprocessor.tag2idx),
     "word2idx": preprocessor.word2idx,
     "tag2idx": preprocessor.tag2idx,
@@ -219,10 +227,7 @@ def main():
     
     # Test
     test_texts = [
-        "sản phẩm nào còn dư thừa trong kho",
         "xin chào, tôi cần hỗ trợ",
-        "kho hàng nào đang nhiều nhất",
-        "tôi cần tìm thông tin nhân viên"
     ]
     
     print("\n=== Test Predictions ===")

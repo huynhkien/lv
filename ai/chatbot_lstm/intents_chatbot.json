@@ -1,184 +1,367 @@
 {
   "intents": [
-      {
-          "tag": "lời chào",
-          "patterns": [
-              "Chào",
-              "Xin chào",
-              "Bạn khỏe không?",
-              "Có ai ở đây không?",
-              "Xin chào",
-              "Chúc bạn một ngày tốt lành"
-          ],
-          "responses": [
-              "Chào bạn :-)",
-              "Xin chào, cảm ơn bạn đã ghé thăm",
-              "Chào bạn, tôi có thể giúp gì cho bạn?",
-              "Chào bạn, tôi có thể giúp gì cho bạn?"
-          ]
-      },
-      {
-          "tag": "tạm biệt",
-          "patterns": [
-              "Tạm biệt",
-              "Hẹn gặp lại",
-              "Chào tạm biệt"
-          ],
-          "responses": [
-              "Hẹn gặp lại, cảm ơn bạn đã ghé thăm",
-              "Chúc bạn một ngày tốt lành",
-              "Tạm biệt! Hãy quay lại sớm nhé."
-          ]
-      },
-      {
-          "tag": "cảm ơn",
-          "patterns": [
-              "Cảm ơn",
-              "Cảm ơn bạn",
-              "Thật hữu ích",
-              "Cảm ơn rất nhiều!"
-          ],
-          "responses": [
-              "Rất vui được giúp đỡ!",
-              "Bất cứ lúc nào!",
-              "Rất hân hạnh"
-          ]
-      },
-      {
-          "tag": "sản phẩm",
-          "patterns": [
-              "Bạn có những mặt hàng nào?",
-              "Có những loại mặt hàng nào?",
-              "Bạn bán gì?"
-          ],
-          "responses": [
-              "Chúng tôi hiện đang bán tất cả các loại hải sản",
-              "Chúng tôi có tất cả các lại hải sản từ hải sản tơi sống, đồ khô, đồ đông lạnh"
-          ]
-      },
-      {
-          "tag": "gợi ý",
-          "patterns": [
-            "Bạn có thể gợi ý cho tôi một số sản phẩm nhiều lượt mua nhất?",
-            "Tôi muốn mua sản tôi có nhiều lượt mua nhất",
-            "Sản phẩm nào được bán nhiều nhất tại cửa hàng",
-            "Hãy gợi ý cho tôi một sản phẩm nhiều lượt mua nhất"
-          ],
-          "responses": [
-            "Sản phẩm được bán nhiều nhất tại cửa hàng chúng tôi hiện tại là tôm",
-            "Chắc chắn rồi, tôm hùm là loại sản phẩm bán chạy nhất tại cửa hàng chúng tôi",
-            "Bạn có thể thử tham khảo các sản phẩm tôm, cua tại cửa hàng chúng tôi",
-            "Tôm hùm là sản phẩm được bán nhiều nhất tại cửa hàng chúng tôi"
-          ]
-      },
+    {
+      "tag": "lời chào",
+      "patterns": [
+        "Chào",
+        "Xin chào",
+        "Hello",
+        "Có ai ở đây không?",
+        "Bạn khỏe không?",
+        "Hi",
+        "Chào bạn nhé",
+        "Xin chào bạn",
+        "Chúc bạn một ngày tốt lành",
+        "Ê bot ơi"
+      ],
+      "responses": [
+        "Xin chào bạn, tôi có thể giúp gì cho bạn?",
+        "Chào bạn, chúc bạn một ngày tuyệt vời!",
+        "Rất vui được gặp bạn!",
+        "Xin chào, bạn đang cần hỗ trợ gì không?",
+        "Chào bạn, tôi sẵn sàng trợ giúp.",
+        "Chúc bạn luôn vui vẻ!",
+        "Hello! Tôi có thể giúp gì cho bạn?",
+        "Tôi đây! Bạn cần gì cứ nói nhé.",
+        "Chào bạn, rất vui vì bạn đã ghé thăm.",
+        "Xin chào! Tôi luôn sẵn sàng hỗ trợ."
+      ]
+    },
 
-      {
-          "tag": "thanh toán",
-          "patterns": [
-              "Bạn có chấp nhận thẻ tín dụng không?",
-              "Bạn có chấp nhận Mastercard không?",
-              "Tôi có thể thanh toán bằng Paypal không?",
-              "Bạn chỉ chấp nhận tiền mặt sao?"
-          ],
-          "responses": [
-              "Chúng tôi chấp nhận thanh toán bằng Paypal"
-          ]
-      },
-      {
-          "tag": "giao hàng",
-          "patterns": [
-              "Mất bao lâu để giao hàng?",
-              "Giao hàng mất bao lâu?",
-              "Khi nào tôi nhận được hàng?"
-          ],
-          "responses": [
-              "Giao hàng mất từ 2-4 ngày",
-              "Vận chuyển mất từ 2-4 ngày"
-          ]
-      },
-      {
-        "tag": "vui",
-        "patterns": [
-            "Kể cho tôi một câu đùa!",
-            "Kể cho tôi điều gì đó vui vẻ!",
-            "Bạn có biết một câu đùa nào không?"
-        ],
-        "responses": [
-            "Trứng gà có trước hay con gà có trước.", 
-            "Tôi nói con vịt có 4 cái chận bạn có tin không?", 
-            "Có 1 ông đó, ổng ổng đi rồi ổng té",
-            "Con chim có lông hay không có lông?"
-        ]
-    },
     {
-        "tag": "tư vấn", 
-        "patterns": [
-          
-            "Tôi muốn cần sự tự vấn từ phía nhân viên?", 
-            "Nhân viên cửa hàng có đang trực không ạ, tôi muốn mua hải sản",
-            "Tôi muốn mua hải sản, ai có thể tư vấn giúp tôi",
-            "Tư vấn giúp tôi về việc mua hải sản" 
-        ],
-        "responses": [
-            "Tôi đây sẵn sàng giúp đỡ, không biết nhu cầu hôm nay bạn muốn ăn loại hải sản như nào?", 
-            "Tôi sẽ tư vấn cho bạn, bạn có thể gợi ý về sở thích của bạn để tôi có thể đưa ra tư vấn hợp lý", 
-            "Hãy nói nói sở thích ăn uống để tôi có thể giúp bạn, tôi có thể đưa ra được tư vấn cụ thể"
-       
-        ]
+      "tag": "tạm biệt",
+      "patterns": [
+        "Tạm biệt",
+        "Chào tạm biệt",
+        "Hẹn gặp lại",
+        "Tôi đi đây",
+        "Bye",
+        "Tối gặp lại",
+        "Tạm biệt nhé",
+        "Gặp lại sau",
+        "Cảm ơn, tôi đi đây",
+        "Tôi sẽ quay lại sau"
+      ],
+      "responses": [
+        "Hẹn gặp lại bạn!",
+        "Cảm ơn bạn đã ghé thăm, chúc bạn một ngày tốt lành!",
+        "Tạm biệt và mong sớm gặp lại.",
+        "Bye bye, giữ sức khỏe nhé!",
+        "Tạm biệt! Chúc bạn luôn vui vẻ.",
+        "Rất vui được hỗ trợ bạn hôm nay!",
+        "Chúc bạn một ngày tuyệt vời!",
+        "Hẹn gặp bạn lần sau!",
+        "Cảm ơn và hẹn gặp lại.",
+        "Chào tạm biệt!"
+      ]
     },
+
     {
-        "tag": "sở thích", 
-        "patterns": [
-            "Tôi thích ăn các loại thức ăn mềm và dễ tiêu hóa.",
-            "Tôi muốn ăn các loại hải sản giàu đạm?",
-            "Tôi muốn sử dụng các loại sản giàu chất dinh dưỡng?"
-        ],
-        "responses": [
-            "Bạn có thể lựa chọn các tôm, cua, cá. Đăc biệt, chúng tôi đang có mật hàng cá mú rất giàu dinh dưỡng!",
-            "Chắc chắn rồi, bạn có thể lựa chọn các tôm, cua, cá tại cửa hàng chúng tôi",
-            "Tôi đề xuất bạn nên lựa chọn các sản phẩm tôm, cua, cá. Đây là các mặt hàng bán chạy tại cửa hàng chúng tôi"
-        ]
+      "tag": "cảm ơn",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn bạn",
+        "Cảm ơn nhiều",
+        "Thật hữu ích",
+        "Tuyệt vời quá",
+        "Cảm ơn rất nhiều!",
+        "Cảm ơn bạn nhé",
+        "Bạn giúp tôi nhiều lắm",
+        "Great!",
+        "Cảm ơn bot"
+      ],
+      "responses": [
+        "Rất vui vì tôi có thể giúp bạn!",
+        "Không có gì, luôn sẵn sàng hỗ trợ.",
+        "Bạn cần gì thêm cứ hỏi nhé!",
+        "Rất hân hạnh được trợ giúp.",
+        "Cảm ơn bạn đã tin tưởng.",
+        "Bất cứ lúc nào bạn cần!",
+        "Tôi rất vui khi giúp được bạn.",
+        "Nếu cần thêm gì cứ nói nhé.",
+        "Bạn nói vậy làm tôi vui đó!",
+        "Rất sẵn lòng hỗ trợ bạn lần nữa."
+      ]
     },
+
     {
-        "tag": "nhu cầu",  
-        "patterns": [
-            "Hôm nay tôi muốn nấu các món canh thanh đạm, hãy gợi ý giúp tôi.", 
-            "Tôi muốn nấu các món canh, bạn có gợi ý nào cho tôi không?", 
-            "Cho tôi danh sách các loại hải sản nấu canh ngon" 
-        ],
-        "responses": [
-            "Bạn có thể chọn cá phi hoặc cá mú để nấu canh chua", 
-            "Nếu bạn muốn nấu canh, tôi chắc bạn sẽ nên lựa chọn các cá phi, cá đối hoặc cá mú tại cửa hàng chúng tôi", 
-            "Cá phi, cá đối, cá mú nấu canh rất ngon, bạn có thể mua về và thưởng thức" 
-        ]
+      "tag": "sản phẩm",
+      "patterns": [
+        "Bạn bán gì?",
+        "Cửa hàng có những mặt hàng nào?",
+        "Có những loại hải sản nào?",
+        "Cho tôi xem sản phẩm",
+        "Danh sách sản phẩm?",
+        "Bạn có loại hải sản gì vậy?",
+        "Có bán đồ tươi sống không?",
+        "Có bán đồ đông lạnh không?",
+        "Cửa hàng có những mặt hàng nổi bật nào?",
+        "Tôi muốn xem hải sản đang bán"
+      ],
+      "responses": [
+        "Chúng tôi bán đầy đủ các loại hải sản tươi sống, đông lạnh và đồ khô.",
+        "Cửa hàng có tôm, cua, cá, mực, sò và nhiều loại hải sản khác.",
+        "Bạn muốn tìm loại hải sản nào? Tôi có thể gợi ý.",
+        "Chúng tôi có rất nhiều loại hải sản chất lượng cao.",
+        "Bạn có thể chọn tôm, cua, cá, mực... tùy theo nhu cầu.",
+        "Chúng tôi có cả hải sản tươi, khô và đông lạnh.",
+        "Cửa hàng luôn có hàng mới mỗi ngày.",
+        "Nếu bạn muốn, tôi có thể gợi ý một vài loại bán chạy.",
+        "Chúng tôi có nhiều sản phẩm đa dạng phù hợp mọi nhu cầu.",
+        "Hải sản của chúng tôi luôn tươi ngon và chất lượng."
+      ]
     },
+
     {
-        "tag": "nhu cầu 1",  
-        "patterns": [
-            "Hôm nay tôi muốn nấu các món kho.", 
-            "Tôi muốn nấu các món kho, bạn có gợi ý nào cho tôi không?", 
-            "Cho tôi danh sách các loại hải sản kho ngon" 
-        ],
-        "responses": [
-            "Bạn có thể chọn cá phi hoặc cá mú để nấu các món kho", 
-            "Nếu bạn muốn nấu các món kho, tôi chắc bạn sẽ nên lựa chọn các cá phi, cá đối hoặc cá mú tại cửa hàng chúng tôi", 
-            "Cá phi, cá đối, cá mú kho rất ngon, bạn có thể mua về và thưởng thức" 
-        ]
+      "tag": "gợi ý",
+      "patterns": [
+        "Sản phẩm nào bán chạy nhất?",
+        "Bạn có thể gợi ý sản phẩm nhiều lượt mua nhất?",
+        "Tôi muốn mua sản phẩm bán nhiều nhất",
+        "Gợi ý giúp tôi một sản phẩm hot",
+        "Sản phẩm nào được yêu thích nhất?",
+        "Có sản phẩm nào nổi bật không?",
+        "Sản phẩm top 1 là gì?",
+        "Hải sản nào khách mua nhiều nhất?",
+        "Gợi ý sản phẩm giúp tôi",
+        "Bạn có đề xuất gì không?"
+      ],
+      "responses": [
+        "Tôm hùm hiện đang là sản phẩm bán chạy nhất tại cửa hàng!",
+        "Tôm sú và cua biển là hai mặt hàng rất được ưa chuộng.",
+        "Bạn có thể thử tôm, cua, đây là hai loại bán chạy nhất.",
+        "Tôm hùm luôn là lựa chọn hàng đầu của khách hàng.",
+        "Tôi đề xuất tôm sú, rất được nhiều người yêu thích.",
+        "Cua biển là một trong những mặt hàng bán rất chạy.",
+        "Tôm biển loại lớn đang có nhiều người đặt mua.",
+        "Nếu bạn muốn sản phẩm hot, hãy chọn tôm hùm.",
+        "Khách hàng thường thích tôm, cua và cá mú.",
+        "Sản phẩm nổi bật tuần này là tôm hùm và cá mú."
+      ]
     },
+
     {
-        "tag": "nhận diện",   
-        "patterns": [
-            "Bạn có thể nhận diện hải sản trong ảnh được không.",  
-            "Tôi có một hình ảnh chứa hải sản, bạn có thể cho tôi biết tên của hải sản này không?",  
-            "Bạn có thể nhận diện của tên của hải qua ảnh không",  
-            "Tôi có một hình ảnh, bạn có thể nhận được được tên của hình ảnh không"
-        ],
-        "responses": [
-            "Có tôi có thể nhận diện được một số ảnh, bạn có thể quảng ảnh vào đây",  
-            "Hãy quăng ảnh vào đây, tôi có thể nhận diện ảnh giúp bạn",  
-            "Tôi có thể nhận được nhưng không nhiều, hãy quảng ảnh chứa hải sản vào đây"  
-        ]
+      "tag": "thanh toán",
+      "patterns": [
+        "Cửa hàng chấp nhận thanh toán bằng gì?",
+        "Tôi có thể thanh toán bằng thẻ không?",
+        "Có nhận Mastercard không?",
+        "Có thanh toán online không?",
+        "Thanh toán qua ví điện tử được không?",
+        "Có hỗ trợ Paypal không?",
+        "Có nhận thanh toán QR không?",
+        "Chỉ nhận tiền mặt thôi hả?",
+        "Có hóa đơn không?",
+        "Hỗ trợ chuyển khoản không?"
+      ],
+      "responses": [
+        "Chúng tôi hỗ trợ thanh toán qua Paypal.",
+        "Bạn có thể thanh toán bằng thẻ tín dụng.",
+        "Cửa hàng hỗ trợ thanh toán bằng Mastercard.",
+        "Có thể thanh toán online qua nhiều phương thức.",
+        "Chúng tôi có hỗ trợ thanh toán qua QR.",
+        "Tiền mặt, thẻ và ví điện tử đều được chấp nhận.",
+        "Bạn có thể thanh toán bằng Paypal rất tiện lợi.",
+        "Hỗ trợ thanh toán qua nhiều loại thẻ quốc tế.",
+        "Cửa hàng có xuất hóa đơn đầy đủ.",
+        "Chúng tôi chấp nhận chuyển khoản ngân hàng."
+      ]
+    },
+
+    {
+      "tag": "giao hàng",
+      "patterns": [
+        "Giao hàng mất bao lâu?",
+        "Bao nhiêu ngày thì nhận được hàng?",
+        "Khi nào hàng giao tới?",
+        "Vận chuyển mất bao lâu?",
+        "Giao nhanh không?",
+        "Hàng có Ship không?",
+        "Có giao trong ngày không?",
+        "Giao hàng tốc độ sao?",
+        "Có giao hỏa tốc không?",
+        "Khoảng thời gian giao hàng là bao lâu?"
+      ],
+      "responses": [
+        "Thời gian giao hàng từ 2–4 ngày tùy khu vực.",
+        "Chúng tôi giao hàng từ 2–4 ngày.",
+        "Hàng sẽ được giao nhanh chóng trong 2–4 ngày.",
+        "Nếu bạn ở gần, có thể nhận sớm hơn.",
+        "Chúng tôi hỗ trợ giao hàng toàn quốc.",
+        "Có dịch vụ giao nhanh tùy khu vực.",
+        "Bạn chỉ cần đặt hàng, chúng tôi sẽ vận chuyển ngay.",
+        "Giao hỏa tốc có thể áp dụng cho một số mặt hàng.",
+        "Thời gian giao hàng linh hoạt và nhanh chóng.",
+        "Tôi có thể kiểm tra thời gian giao hàng nếu bạn cho địa chỉ."
+      ]
+    },
+
+    {
+      "tag": "vui",
+      "patterns": [
+        "Kể tôi nghe một câu đùa",
+        "Kể chuyện vui đi",
+        "Cho tôi một câu chuyện hài",
+        "Bạn có biết câu đùa nào không?",
+        "Làm tôi cười chút đi",
+        "Kể chuyện hài đi",
+        "Nói gì vui vui đi",
+        "Cho tôi nghe chuyện vui",
+        "Có câu đùa nào không?",
+        "Giải trí chút đi nào"
+      ],
+      "responses": [
+        "Trứng có trước hay con gà có trước? — Tôi thì có sau! 😆",
+        "Tôi nói con vịt có 4 cái chân bạn có tin không? — Không tin thì đúng rồi 😂",
+        "Có một ông đi... rồi ông té! Hết phim 😄",
+        "Con cá hỏi: 'Sao hôm nay nước mặn thế?' — Tại hôm qua biển khóc đó 🤣",
+        "Một con mèo ngồi máy tính vì nó đang... CÀO phím! 😹",
+        "Tại sao tôm không nói chuyện? Vì nó bị 'rim' 😅",
+        "Bạn biết vì sao cua không đi thẳng không? — Vì nó sợ ‘bị chém’ 🤭",
+        "Một con vịt đi siêu thị, nhân viên hỏi: 'Anh cần gì?' — Vịt đáp: 'Tôi đi ngang thôi' 😂",
+        "Bạn muốn nghe chuyện cười không? — Thôi khỏi, tôi kể rồi bạn lại cười quá 😆",
+        "Hài hước quá nên tôi không kể nữa… chứ tôi kể là bạn cười bể bụng luôn 😄"
+      ]
+    },
+
+    {
+      "tag": "tư vấn",
+      "patterns": [
+        "Tôi muốn được tư vấn hải sản",
+        "Có nhân viên tư vấn không?",
+        "Tôi muốn mua hải sản, ai hỗ trợ được?",
+        "Tư vấn giúp tôi với",
+        "Cho tôi xin lời khuyên khi chọn hải sản",
+        "Bạn có thể tư vấn không?",
+        "Hỗ trợ tôi chọn sản phẩm",
+        "Ai có thể tư vấn mua hàng?",
+        "Tôi cần tư vấn trực tiếp",
+        "Tôi nên mua loại nào?"
+      ],
+      "responses": [
+        "Tôi đây, tôi có thể tư vấn cho bạn ngay!",
+        "Bạn đang muốn mua loại hải sản nào?",
+        "Hãy nói sở thích của bạn để tôi gợi ý phù hợp.",
+        "Tôi sẵn sàng hỗ trợ bạn chọn hải sản.",
+        "Bạn thích món hấp, chiên hay nấu canh?",
+        "Tôi sẽ tư vấn theo nhu cầu ăn uống của bạn.",
+        "Cho tôi biết ngân sách của bạn nhé.",
+        "Bạn dùng cho gia đình hay tiệc?",
+        "Bạn có muốn tôi gợi ý sản phẩm đang khuyến mãi không?",
+        "Tôi có thể tư vấn chi tiết, bạn cần gì cứ hỏi."
+      ]
+    },
+
+    {
+      "tag": "sở thích",
+      "patterns": [
+        "Tôi thích ăn đồ mềm",
+        "Tôi muốn ăn đồ dễ tiêu",
+        "Tôi muốn ăn hải sản giàu đạm",
+        "Tôi thích ăn nhiều dinh dưỡng",
+        "Tôi muốn món ăn nhẹ nhàng",
+        "Loại nào bổ dưỡng vậy?",
+        "Tôi cần hải sản tốt cho sức khỏe",
+        "Tôi thích ăn món nấu nhanh",
+        "Loại nào tốt cho người lớn tuổi?",
+        "Món nào nhiều chất đạm?"
+      ],
+      "responses": [
+        "Bạn có thể chọn tôm, cua hoặc cá mú — rất dinh dưỡng.",
+        "Tôm và cá là hai loại dễ tiêu hóa và giàu chất.",
+        "Tôi đề xuất cá mú — giàu dinh dưỡng và dễ ăn.",
+        "Cá phi và tôm sú là lựa chọn rất tốt.",
+        "Bạn thích đồ mềm thì cá là lựa chọn phù hợp.",
+        "Bạn muốn bổ dưỡng thì nên chọn cua hoặc cá mú.",
+        "Hải sản giàu đạm gồm tôm, cua và mực.",
+        "Nếu muốn dễ tiêu, cá là lựa chọn tuyệt vời.",
+        "Bạn có thể ăn tôm hấp — vừa bổ vừa nhẹ.",
+        "Cá mú được nhiều người đánh giá rất giàu dinh dưỡng."
+      ]
+    },
+
+    {
+      "tag": "nhu cầu",
+      "patterns": [
+        "Tôi muốn nấu canh",
+        "Hôm nay tôi muốn nấu món canh",
+        "Gợi ý món canh giúp tôi",
+        "Hải sản nấu canh ngon là gì?",
+        "Có loại nào nấu canh ngon không?",
+        "Tôi muốn nấu canh thanh đạm",
+        "Nấu canh nên dùng loại nào?",
+        "Canh chua dùng cá gì?",
+        "Bạn đề xuất loại cá nấu canh không?",
+        "Gợi ý hải sản nấu canh"
+      ],
+      "responses": [
+        "Bạn có thể dùng cá phi hoặc cá mú để nấu canh.",
+        "Cá đối, cá phi và cá mú đều rất hợp để nấu canh.",
+        "Tôi đề xuất cá phi — nấu canh rất ngon.",
+        "Canh chua thì dùng cá mú hoặc cá bớp.",
+        "Bạn có thể thử cá đối, rất hợp món canh.",
+        "Nấu canh thanh đạm thì chọn cá phi nhé.",
+        "Cá mú là lựa chọn tuyệt vời cho món canh.",
+        "Nếu bạn thích vị chua thì nên dùng cá biển.",
+        "Tôi gợi ý cá đối — giá tốt và ngon.",
+        "Cá bớp cũng rất hợp để nấu canh."
+      ]
+    },
+
+    {
+      "tag": "nhu cầu 1",
+      "patterns": [
+        "Tôi muốn nấu món kho",
+        "Hôm nay tôi muốn làm món kho",
+        "Gợi ý hải sản kho",
+        "Món kho thì dùng cá gì?",
+        "Có loại nào kho ngon không?",
+        "Tôi muốn kho cá",
+        "Cá kho ngon nhất là loại nào?",
+        "Kho nên dùng cá gì?",
+        "Gợi ý cho tôi hải sản kho",
+        "Món kho nên mua gì?"
+      ],
+      "responses": [
+        "Cá phi và cá mú rất thích hợp để nấu món kho.",
+        "Bạn có thể dùng cá đối để kho, rất ngon.",
+        "Cá phi kho rất bắt cơm và dễ làm.",
+        "Cá đối kho tiêu là món rất được yêu thích.",
+        "Cá mú kho rất thơm và chắc thịt.",
+        "Tôi đề xuất bạn kho cá phi — giá rẻ và ngon.",
+        "Cá biển kho sẽ có vị đậm đà hơn.",
+        "Bạn có thể thử kho cá mú, rất tuyệt.",
+        "Cá đối kho nghệ cũng rất ngon.",
+        "Tôm kho cũng là một lựa chọn rất hợp."
+      ]
+    },
+
+    {
+      "tag": "nhận diện",
+      "patterns": [
+        "Bạn có thể nhận diện hải sản trong ảnh không?",
+        "Tôi có hình, bạn cho tôi biết đó là gì?",
+        "Bạn nhận diện hải sản qua ảnh được chứ?",
+        "Tôi muốn biết hải sản trong ảnh tên gì",
+        "Bạn có nhận diện ảnh được không?",
+        "Cho tôi biết loại trong ảnh",
+        "Nhận diện giúp tôi hình này",
+        "Tôi gửi ảnh bạn đoán thử xem",
+        "Bạn đoán được hải sản từ ảnh không?",
+        "Tôi cần nhận diện tên hải sản qua hình"
+      ],
+      "responses": [
+        "Bạn gửi ảnh vào đây nhé, tôi sẽ thử nhận diện!",
+        "Tôi có thể hỗ trợ nhận diện một số loại hải sản.",
+        "Hãy tải ảnh lên để tôi xem thử.",
+        "Bạn cứ gửi ảnh, tôi sẽ nhận diện giúp bạn.",
+        "Tôi có thể nhận diện nhưng độ chính xác tùy ảnh nhé.",
+        "Gửi ảnh vào đây để tôi kiểm tra.",
+        "Tôi sẽ giúp bạn đoán tên hải sản qua hình.",
+        "Nếu ảnh rõ nét tôi sẽ nhận diện tốt hơn.",
+        "Bạn gửi ảnh đi tôi xem thử nhé.",
+        "Tôi nhận diện được một số loại cơ bản, bạn gửi ảnh nhé."
+      ]
     }
-    
   ]
 }

@@ -57,10 +57,10 @@ async def run_server():
     except Exception as e:
         return JSONResponse(content={"status": "server is failed", "error": str(e)}, status_code=500)
 # Load model 1  
-with open('chatbot_lstm/intents.json', 'r', encoding='utf-8') as json_data:
+with open('chatbot_lstm/intents_chatbot.json', 'r', encoding='utf-8') as json_data:
     intents_data = json.load(json_data)
     
-def load_model_predictor(path="chatbot_lstm/chatbot_model.pth"):
+def load_model_predictor(path="chatbot_lstm/chatbot_public_model.pth"):
     data = torch.load(path, map_location=torch.device('cpu'))
 
     # Khởi tạo lại mô hình
@@ -87,10 +87,10 @@ def load_model_predictor(path="chatbot_lstm/chatbot_model.pth"):
     predictor = ChatbotPredictor(model, preprocessor, device='cpu')
     return predictor
 # Load model 2    
-with open('chatbot_lstm/intents_chatbot.json', 'r', encoding='utf-8') as json_data:
+with open('chatbot_lstm/intents.json', 'r', encoding='utf-8') as json_data:
     intents_chatbot_data = json.load(json_data)
     
-def load_model_2_predictor(path="chatbot_lstm/chatbot_public_model.pth"):
+def load_model_2_predictor(path="chatbot_lstm/chatbot_model.pth"):
     data = torch.load(path, map_location=torch.device('cpu'))
 
     # Khởi tạo lại mô hình
@@ -123,6 +123,7 @@ predictor_1 = load_model_2_predictor()
 async def chat(request: ChatRequest):
     message = format_message(request.message)
     tag, confidence, _ = predictor.predict(message)
+    print(tag)
     if round(confidence, 4) > 0.5:
         for intent in intents_data['intents']:
             if tag == intent["tag"]:

@@ -18,9 +18,9 @@
         "Cho tôi hỏi chút được không?"
       ],
       "responses": [
-        "Xin chào! Chào mừng bạn đến với cửa hàng phân bón nông nghiệp của chúng tôi!",
+        "Xin chào! Chào mừng bạn đến với cửa hàng hải sản của chúng tôi!",
         "Chào bạn! Rất vui được phục vụ bạn",
-        "Xin chào quý khách! Chúng tôi có thể giúp gì cho bạn về phân bón nông nghiệp?"
+        "Xin chào quý khách! Chúng tôi có thể giúp gì cho bạn về hải sản?"
       ]
     },
     {
@@ -42,7 +42,7 @@
       "responses": [
         "Cảm ơn bạn đã ghé thăm! Chúc bạn một ngày tốt lành!",
         "Hẹn gặp lại bạn!",
-        "Tạm biệt! Nếu cần tư vấn về phân bón hãy quay lại nhé!"
+        "Tạm biệt! Nếu cần tư vấn về hải sản  hãy quay lại nhé!"
       ]
     },
     {
@@ -68,27 +68,6 @@
       ]
     },
     {
-      "tag": "san_pham",
-       "patterns": [
-        "Bạn có những loại phân bón nào?",
-        "Cửa hàng có những sản phẩm phân bón gì?",
-        "Cho xem danh sách phân bón",
-        "Các loại phân bón hiện có",
-        "Shop có bán loại phân gì?",
-        "Tôi muốn biết danh mục phân bón",
-        "Phân bón nào đang có sẵn?",
-        "Bạn đang bán loại phân nào vậy?",
-        "Tôi cần mua phân bón, có loại gì?",
-        "Danh sách sản phẩm phân bón là gì?",
-        "Hiện tại có phân gì trong kho không?"
-      ],
-      "responses": [
-        "Chúng tôi có đầy đủ các loại phân bón: phân hữu cơ, phân vô cơ, phân NPK, phân vi sinh...",
-        "Hiện cửa hàng có các dòng phân bón chính: phân đạm, phân lân, phân kali, phân hỗn hợp NPK và phân hữu cơ vi sinh",
-        "Danh sách phân bón của chúng tôi gồm: phân bón lá, phân bón gốc, phân bón chậm tan, phân bón thủy canh..."
-      ]
-    },
-    {
       "tag": "khong_cau_hoi",
       "patterns": [
         "Tôi không có câu hỏi nào khác?",
@@ -111,169 +90,6 @@
         "Cảm ơn bạn"
       ]
     },
-    {
-      "tag": "goi_y",
-      "patterns": [
-        "Phân bón nào bán chạy nhất?",
-        "Loại phân nào được ưa chuộng?",
-        "Gợi ý cho tôi phân bón tốt nhất",
-        "Nên dùng loại phân nào?",
-        "Bạn có thể gợi ý loại phân tốt không?",
-        "Loại nào dùng hiệu quả nhất?",
-        "Phân nào đang hot?",
-        "Phân nào được khách hàng đánh giá cao?",
-        "Phân bón nào phù hợp với nhiều loại cây?",
-        "Nên chọn loại phân nào để tăng năng suất?",
-        "Bạn giới thiệu giúp tôi loại phân tốt nhất nhé"
-      ],
-      "responses": [
-        "Phân NPK 20-20-15 là sản phẩm bán chạy nhất hiện nay",
-        "Phân hữu cơ vi sinh đang được nhiều khách hàng ưa chuộng vì an toàn và hiệu quả",
-        "Tùy vào loại cây trồng, chúng tôi sẽ tư vấn loại phân phù hợp. Bạn trồng loại cây gì?"
-      ]
-    },
-    {
-      "tag": "thanh_toan",
-      "patterns": [
-        "Thanh toán như thế nào?",
-        "Có thể trả bằng thẻ không?",
-        "Chấp nhận ví điện tử không?",
-        "Có ship COD không?",
-        "Tôi muốn thanh toán qua momo được không?",
-        "Hỗ trợ chuyển khoản chứ?",
-        "Có thanh toán qua ATM không?",
-        "Cho hỏi phương thức thanh toán",
-        "Hình thức thanh toán thế nào?",
-        "Shop có hỗ trợ thanh toán online không?"
-      ],
-      "responses": [
-        "Chúng tôi chấp nhận thanh toán tiền mặt, chuyển khoản và ví điện tử",
-        "Bạn có thể thanh toán qua thẻ, MoMo, ZaloPay hoặc COD",
-        "Chúng tôi hỗ trợ nhiều hình thức thanh toán linh hoạt"
-      ]
-    },
-    {
-      "tag": "giao_hang",
-      "patterns": [
-          "Giao hàng mất bao lâu?",
-          "Khi nào nhận được hàng?",
-          "Thời gian vận chuyển?",
-          "Ship nhanh không?",
-          "Bao lâu thì hàng đến nơi?",
-          "Có giao hàng trong ngày không?",
-          "Ship tỉnh mất mấy ngày?",
-          "Thời gian nhận hàng bao lâu?",
-          "Vận chuyển có nhanh không?",
-          "Giao hàng trong bao nhiêu ngày?"
-        ],
-      "responses": [
-        "Thời gian giao hàng từ 1-3 ngày tùy khu vực",
-        "Nội thành giao trong ngày, ngoại tỉnh từ 2-3 ngày",
-        "Chúng tôi cam kết giao hàng nhanh chóng trong vòng 24h với đơn nội thành"
-      ]
-    },
-    {
-      "tag": "tu_van",
-      "patterns": [
-        "Tôi cần tư vấn chọn phân bón",
-        "Giúp tôi chọn loại phân phù hợp",
-        "Không biết nên dùng phân nào",
-        "Cần tư vấn về phân bón",
-        "Tôi cần hỗ trợ chọn phân bón",
-        "Bạn tư vấn giúp loại phân nào tốt",
-        "Nên bón phân nào cho cây nhà tôi?",
-        "Tôi mới trồng cây, nên dùng phân gì?",
-        "Cho tôi lời khuyên về phân bón",
-        "Không biết chọn phân nào thì tốt"
-      ],
-      "responses": [
-        "Để tư vấn chính xác, bạn cho biết bạn trồng loại cây gì?",
-        "Chúng tôi sẽ tư vấn loại phân phù hợp nhất. Bạn đang canh tác loại cây trồng nào?",
-        "Vui lòng cho biết loại đất và cây trồng để chúng tôi tư vấn phân bón phù hợp"
-      ]
-    },
-    {
-      "tag": "loai_cay",
-      "patterns": [
-        "Tôi trồng lúa",
-        "Cho cây ăn trái",
-        "Trồng rau màu",
-        "Dành cho hoa lan",
-        "Cây công nghiệp",
-        "Cây rau sạch",
-        "Trồng cây ăn quả",
-        "Tôi trồng cây cảnh",
-        "Phân cho hồ tiêu",
-        "Tôi đang trồng cà phê",
-        "Tôi cần phân cho cây xoài"
-      ],
-      "responses": [
-        "Với lúa, nên dùng phân NPK 20-20-15 hoặc phân ure",
-        "Cây ăn trái phù hợp với phân hữu cơ vi sinh và NPK 16-16-8",
-        "Rau màu nên dùng phân hữu cơ để đảm bảo an toàn",
-        "Hoa lan cần phân tan chậm và phân bón lá chuyên dụng",
-        "Cây công nghiệp phù hợp với phân NPK và phân lân"
-      ]
-    },
-    {
-      "tag": "huong_dan",
-      "patterns": [
-        "Cách sử dụng phân bón này?",
-        "Hướng dẫn bón phân",
-        "Liều lượng như thế nào?",
-        "Dùng bao nhiêu là đủ?",
-        "Sử dụng phân như thế nào là đúng?",
-        "Bón phân lúc nào thì tốt?",
-        "Có hướng dẫn sử dụng không?",
-        "Bón vào giai đoạn nào?",
-        "Cách pha phân ra sao?",
-        "Sử dụng phân bón bao nhiêu một lần?"
-      ],
-      "responses": [
-        "Mỗi loại phân có hướng dẫn sử dụng riêng, vui lòng cho biết loại phân bạn cần hướng dẫn",
-        "Liều lượng phụ thuộc vào loại cây và giai đoạn sinh trưởng. Bạn đang dùng phân gì?",
-        "Chúng tôi sẽ cung cấp hướng dẫn chi tiết khi bạn mua sản phẩm"
-      ]
-    },
-    {
-      "tag": "khuyen_mai",
-      "patterns": [
-        "Có chương trình khuyến mãi không?",
-        "Đang có ưu đãi gì?",
-        "Có giảm giá không?",
-        "Giá tốt nhất?",
-        "Khuyến mãi hiện tại là gì?",
-        "Tôi được giảm giá không?",
-        "Shop có ưu đãi gì hôm nay?",
-        "Có mã giảm giá không?",
-        "Khuyến mãi cho khách hàng mới?",
-        "Có deal gì hấp dẫn không?"
-      ],
-      "responses": [
-        "Hiện chúng tôi đang có chương trình giảm 10% cho đơn hàng trên 1 triệu",
-        "Mua 5 bao phân NPK được tặng 1 bao phân hữu cơ",
-        "Khách hàng mới được giảm 5% cho đơn hàng đầu tiên"
-      ]
-    },
-    {
-      "tag": "bao_quan",
-      "patterns": [
-        "Cách bảo quản phân bón?",
-        "Thời hạn sử dụng?",
-        "Phân bón để được bao lâu?",
-        "Bảo quản phân thế nào cho đúng?",
-        "Nơi nào nên để phân bón?",
-        "Có cần tránh nắng không?",
-        "Bảo quản phân trong bao lâu?",
-        "Để phân trong kho được chứ?",
-        "Cách tốt nhất để bảo quản phân?"
-      ],
-      "responses": [
-        "Nên bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp",
-        "Phân hóa học để được 12-24 tháng, phân hữu cơ 6-12 tháng",
-        "Đậy kín bao bì sau khi sử dụng, tránh ẩm ướt"
-      ]
-    },
      {
       "tag": "truy_van_ton_kho",
       "patterns": [
@@ -293,10 +109,10 @@
         "kiểm tra kho",
         "xem kho",
         "tình trạng kho",
-        "Kiểm tra tồn kho phân bón NPK",
+        "Kiểm tra tồn kho hải sản  NPK",
         "Số lượng RYNAN® VETAMATE còn bao nhiêu?",
         "Tình trạng kho FLOWERMATE hiện tại",
-        "Còn lại bao nhiêu bao phân bón 200?",
+        "Còn lại bao nhiêu bao hải sản  200?",
         "Kiểm tra số lượng hũ 1.25kg trong kho"
       ],
       "responses": [
