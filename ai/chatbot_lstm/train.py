@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
-from utils import TextPreprocessor, IntentDataset, DataAugmentation
-from model import ChatbotLSTM  
+from chatbot_lstm.utils import TextPreprocessor, IntentDataset, DataAugmentation
+from chatbot_lstm.model import ChatbotLSTM  
 import json
 
 class ChatbotTrainer:
@@ -168,30 +168,22 @@ def main():
     X, y = preprocessor.prepare_training_data(augmented_intents)
     # 5. Chia tập train , tập val
     X_train, X_val, y_train, y_val = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y  
+        X, y, test_size=0.15, random_state=42, stratify=y  
     )
     # 6. Tạo tập dataset để thực hiện huấn luyện mô hình
     train_dataset = IntentDataset(X_train, y_train)
     val_dataset = IntentDataset(X_val, y_val)
     
-    train_dataloader = DataLoader(train_dataset, batch_size=16, shuffle=True)
-    val_dataloader = DataLoader(val_dataset, batch_size=16, shuffle=False)   
+    train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+    val_dataloader = DataLoader(val_dataset, batch_size=32, shuffle=False)   
     # 7. Huấn luyện mô hình
-    # model = ChatbotLSTM(  
-    #     vocab_size=len(preprocessor.word2idx),
-    #     embedding_dim=300,        
-    #     hidden_size=256,          
-    #     num_layers=3,             
-    #     num_classes=len(preprocessor.tag2idx),
-    #     dropout=0.5               
-    # )
     model = ChatbotLSTM(  
         vocab_size=len(preprocessor.word2idx),
-        embedding_dim=128,  # Tăng lên nhưng không quá lớn
-        hidden_size=128,     # Tăng capacity
-        num_layers=2,        # Giữ 2 layers
+        embedding_dim=300,        
+        hidden_size=256,          
+        num_layers=3,             
         num_classes=len(preprocessor.tag2idx),
-        dropout=0.3          # Giảm dropout
+        dropout=0.5               
     )
     
     print(f"Vocab size: {len(preprocessor.word2idx)}")
@@ -204,15 +196,15 @@ def main():
         train_dataloader, 
         val_dataloader, 
         epochs=100,   
-        patience=15   
+        patience=25   
     )
     # Lưu model
     data = {
     "model_state": model.state_dict(),
     "vocab_size": len(preprocessor.word2idx),
-    "embedding_dim": 128,  # Khớp với config
-    "hidden_size": 128,
-    "num_layers": 2,
+    "embedding_dim": 300,
+    "hidden_size": 256,
+    "num_layers": 3,
     "num_classes": len(preprocessor.tag2idx),
     "word2idx": preprocessor.word2idx,
     "tag2idx": preprocessor.tag2idx,
@@ -228,6 +220,8 @@ def main():
     # Test
     test_texts = [
         "xin chào, tôi cần hỗ trợ",
+        "Tôi muốn hủy mua",
+        "Hôm nay thời tiết sao"
     ]
     
     print("\n=== Test Predictions ===")

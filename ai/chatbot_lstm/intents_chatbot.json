@@ -116,6 +116,7 @@
       "tag": "gợi ý",
       "patterns": [
         "Sản phẩm nào bán chạy nhất?",
+        "Tìm cho tôi sản phẩm nào bán chạy nhất?",
         "Bạn có thể gợi ý sản phẩm nhiều lượt mua nhất?",
         "Tôi muốn mua sản phẩm bán nhiều nhất",
         "Gợi ý giúp tôi một sản phẩm hot",
@@ -223,7 +224,6 @@
         "Hài hước quá nên tôi không kể nữa… chứ tôi kể là bạn cười bể bụng luôn 😄"
       ]
     },
-
     {
       "tag": "tư vấn",
       "patterns": [
@@ -362,6 +362,833 @@
         "Bạn gửi ảnh đi tôi xem thử nhé.",
         "Tôi nhận diện được một số loại cơ bản, bạn gửi ảnh nhé."
       ]
-    }
+    },
+    {
+      "tag": "giá cả",
+      "patterns": [
+        "Giá bao nhiêu vậy?",
+        "Hải sản này giá sao?",
+        "Tôm hùm bao nhiêu 1 ký?",
+        "Cho tôi biết giá sản phẩm",
+        "Báo giá giúp tôi",
+        "Giá hiện tại của món này là bao nhiêu?",
+        "Sản phẩm này có đắt không?",
+        "Bao nhiêu tiền một ký vậy?",
+        "Tôi muốn biết giá chi tiết",
+        "Giá hôm nay có thay đổi không?"
+      ],
+      "responses": [
+        "Bạn muốn xem giá loại hải sản nào? Tôi kiểm tra giúp bạn nhé.",
+        "Giá mỗi loại khác nhau, bạn cho tôi biết tên sản phẩm cần xem giá nhé!",
+        "Bạn muốn hỏi giá tôm, cua hay cá? Tôi sẽ báo giá chính xác."
+      ]
+    },
+    {
+      "tag": "tồn kho",
+      "patterns": [
+        "Sản phẩm này còn hàng không?",
+        "Cửa hàng còn tôm hùm không?",
+        "Còn loại này không?",
+        "Hết hàng chưa?",
+        "Tình trạng hàng thế nào?",
+        "Còn hàng không vậy?",
+        "Sản phẩm này có sẵn không?",
+        "Bên bạn còn không hay hết rồi?",
+        "Còn bao nhiêu hàng trong kho?",
+        "Tôi muốn biết số lượng còn lại"
+      ],
+      "responses": [
+        "Để tôi kiểm tra tồn kho, bạn cho tôi biết tên sản phẩm nhé.",
+        "Nhiều sản phẩm vẫn còn hàng, bạn muốn kiểm tra loại nào?",
+        "Cửa hàng vẫn còn một số loại, bạn vui lòng nói rõ sản phẩm."
+      ]
+    },
+    {
+      "tag": "khuyen_mai",
+      "patterns": [
+        "Có khuyến mãi gì không?",
+        "Hôm nay có giảm giá không?",
+        "Có mã giảm giá không?",
+        "Shop có ưu đãi gì?",
+        "Tôi muốn xem khuyến mãi",
+        "Đang có chương trình giảm giá nào không?",
+        "Có combo nào đang giảm giá không?",
+        "Hôm nay có ưu đãi đặc biệt không?",
+        "Cho tôi xem các chương trình khuyến mãi",
+        "Có sự kiện sale nào sắp diễn ra không?"
+      ],
+      "responses": [
+        "Hiện tại đang có một số chương trình ưu đãi hấp dẫn! Bạn muốn xem loại nào?",
+        "Một số sản phẩm đang giảm giá theo tuần, tôi có thể gửi danh sách cho bạn.",
+        "Bạn cho tôi biết sản phẩm quan tâm, tôi xem có khuyến mãi không nhé."
+      ]
+    },
+    {
+      "tag": "nguon_goc",
+      "patterns": [
+        "Hải sản này có nguồn gốc ở đâu?",
+        "Xuất xứ sản phẩm này là gì?",
+        "Tôm này ở vùng nào?",
+        "Nguồn gốc có rõ ràng không?",
+        "Có giấy chứng nhận không?",
+        "Sản phẩm này lấy từ đâu?",
+        "Nguồn hải sản từ vùng biển nào?",
+        "Hải sản này nhập từ đâu?",
+        "Có xác nhận nguồn gốc không?",
+        "Bạn đảm bảo xuất xứ như thế nào?"
+      ],
+      "responses": [
+        "Tất cả hải sản của chúng tôi đều có nguồn gốc rõ ràng và chứng nhận an toàn.",
+        "Bạn cho tôi tên hải sản, tôi sẽ cung cấp nguồn gốc cụ thể.",
+        "Chúng tôi nhập từ các vùng biển sạch và đảm bảo chất lượng."
+      ]
+    },
+{
+  "tag": "bao_quan",
+  "patterns": [
+    "Bảo quản như thế nào?",
+    "Để tủ lạnh được bao lâu?",
+    "Hải sản đông lạnh bảo quản ra sao?",
+    "Giữ tôm sống trong bao lâu?",
+    "Có hướng dẫn bảo quản không?",
+    "Cách giữ cá tươi lâu là gì?",
+    "Bảo quản cua sống như thế nào?",
+    "Hải sản sau khi rã đông có để được không?",
+    "Tôi cần biết cách bảo quản hải sản",
+    "Làm sao để giữ tôm, cua tươi lâu?"
+  ],
+  "responses": [
+    "Tôi có thể hướng dẫn cách bảo quản, bạn cần giữ tươi hay cấp đông?",
+    "Tùy từng loại hải sản có cách bảo quản khác nhau, bạn muốn hỏi loại nào?",
+    "Bạn cho biết loại hải sản tôi sẽ hướng dẫn chi tiết cho bạn."
+  ]
+},
+{
+  "tag": "che_bien",
+  "patterns": [
+    "Chế biến sao cho ngon?",
+    "Có công thức nấu món này không?",
+    "Làm sao để nấu tôm?",
+    "Cách sơ chế hải sản?",
+    "Hướng dẫn nấu món này đi",
+    "Nấu hải sản như thế nào cho ngon?",
+    "Có cách làm món này nhanh không?",
+    "Tôi cần công thức chế biến cua",
+    "Món này nấu như thế nào?",
+    "Bạn hướng dẫn cách nấu hải sản đi"
+  ],
+  "responses": [
+    "Tôi có thể hướng dẫn cách chế biến, bạn muốn nấu món gì?",
+    "Bạn cho tôi tên loại hải sản, tôi gợi ý món ngon cho bạn nhé!",
+    "Tôi có vài bí quyết chế biến rất ngon, bạn muốn nghe không?"
+  ]
+},
+{
+  "tag": "doi_tra",
+  "patterns": [
+    "Có được đổi trả không?",
+    "Hải sản bị hư có được đổi không?",
+    "Chính sách đổi trả thế nào?",
+    "Tôi muốn trả hàng",
+    "Lỗi thì đổi như thế nào?",
+    "Sản phẩm không đúng có được đổi không?",
+    "Tôi nhận hàng bị hư, làm sao để đổi?",
+    "Đổi sản phẩm như thế nào?",
+    "Hàng bị lỗi có thể trả lại không?",
+    "Cửa hàng có hỗ trợ đổi hàng không?"
+  ],
+  "responses": [
+    "Cửa hàng hỗ trợ đổi trả trong một số trường hợp. Bạn gặp vấn đề gì vậy?",
+    "Bạn mô tả giúp tôi tình trạng sản phẩm để hỗ trợ đổi trả.",
+    "Tôi sẵn sàng hỗ trợ bạn giải quyết vấn đề về đổi trả."
+  ]
+},
+{
+  "tag": "theo_doi_don",
+  "patterns": [
+    "Kiểm tra giúp tôi đơn hàng",
+    "Đơn hàng của tôi đang ở đâu?",
+    "Tôi muốn theo dõi đơn",
+    "Khi nào giao tới?",
+    "Tôi đã đặt hàng rồi, kiểm tra giúp tôi",
+    "Đơn hàng đã gửi chưa?",
+    "Tình trạng đơn hàng hiện tại thế nào?",
+    "Theo dõi đơn hàng của tôi được không?",
+    "Đơn hàng mất bao lâu thì tới?",
+    "Bạn kiểm tra giúp tôi đơn vừa đặt"
+  ],
+  "responses": [
+    "Bạn gửi mã đơn hàng để tôi kiểm tra tình trạng giúp bạn nhé!",
+    "Tôi có thể tra cứu đơn hàng cho bạn, bạn cung cấp mã đơn giúp tôi.",
+    "Bạn vui lòng cho tôi số điện thoại hoặc mã đơn hàng."
+  ]
+},
+{
+  "tag": "don_hang_loi",
+  "patterns": [
+    "Tôi nhận thiếu hàng",
+    "Hàng giao sai rồi",
+    "Sản phẩm không đúng mô tả",
+    "Tôi bị giao nhầm hàng",
+    "Giao hàng lỗi",
+    "Nhận hàng bị hư hỏng",
+    "Sản phẩm bị vỡ khi giao",
+    "Đơn hàng của tôi bị nhầm",
+    "Hàng nhận không giống đặt",
+    "Giao thiếu sản phẩm"
+  ],
+  "responses": [
+    "Tôi rất xin lỗi về sự cố! Bạn mô tả giúp tôi chi tiết để hỗ trợ xử lý ngay.",
+    "Bạn có thể cho tôi hình ảnh sản phẩm nhận được không?",
+    "Tôi sẽ giúp bạn liên hệ bộ phận chăm sóc khách hàng để xử lý ngay."
+  ]
+},
+{
+  "tag": "ho_tro_dat_hang",
+  "patterns": [
+    "Đặt hàng như thế nào?",
+    "Hướng dẫn tôi đặt hàng",
+    "Tôi muốn mua mà không biết cách",
+    "Cách đặt hàng ra sao?",
+    "Chỉ tôi cách đặt hàng",
+    "Làm sao để mua sản phẩm?",
+    "Hướng dẫn thanh toán và đặt hàng",
+    "Tôi cần hỗ trợ đặt hàng",
+    "Có thể giúp tôi đặt hàng không?",
+    "Các bước đặt hàng là gì?"
+  ],
+  "responses": [
+    "Bạn chỉ cần chọn sản phẩm, thêm vào giỏ và thanh toán. Tôi có thể hướng dẫn chi tiết.",
+    "Bạn đang muốn đặt loại nào? Tôi hỗ trợ đặt giúp luôn.",
+    "Tôi có thể tạo đơn cho bạn, bạn muốn mua gì?"
+  ]
+},
+{
+  "tag": "quy_cach",
+  "patterns": [
+    "Một ký được bao nhiêu con?",
+    "Tôm size bao nhiêu?",
+    "Quy cách đóng gói thế nào?",
+    "Một phần gồm những gì?",
+    "Trọng lượng thực tế bao nhiêu?",
+    "Sản phẩm này được đóng gói ra sao?",
+    "Kích thước và trọng lượng mỗi phần là bao nhiêu?",
+    "Size hải sản này như thế nào?",
+    "Bao nhiêu con trong một phần?",
+    "Quy cách giao hàng có khác gì không?"
+  ],
+  "responses": [
+    "Bạn muốn hỏi quy cách của loại nào? Tôi sẽ cung cấp chi tiết.",
+    "Mỗi loại có size khác nhau, bạn cần size lớn hay nhỏ?",
+    "Tôi sẽ kiểm tra quy cách đóng gói cho bạn."
+  ]
+},
+{
+  "tag": "chat_luong",
+  "patterns": [
+    "Hải sản có tươi không?",
+    "Có đảm bảo chất lượng không?",
+    "Có sạch không?",
+    "Hàng có bị ngâm không?",
+    "Làm sao biết hải sản tươi?",
+    "Chất lượng hải sản ra sao?",
+    "Sản phẩm này có an toàn không?",
+    "Hải sản vừa đánh bắt hay đã bảo quản lâu?",
+    "Có đảm bảo vệ sinh không?",
+    "Làm sao biết hải sản còn tươi sống?"
+  ],
+  "responses": [
+    "Hải sản được bảo quản đúng chuẩn và đảm bảo độ tươi tối đa.",
+    "Bạn hoàn toàn yên tâm, chúng tôi cam kết chất lượng rõ ràng.",
+    "Bạn muốn biết cách chọn hải sản sống hay đông lạnh?"
+  ]
+},
+{
+  "tag": "thong_tin_shop",
+  "patterns": [
+    "Shop ở đâu?",
+    "Địa chỉ cửa hàng?",
+    "Thời gian mở cửa?",
+    "Có chi nhánh không?",
+    "Làm việc lúc nào?",
+    "Cửa hàng mở từ mấy giờ đến mấy giờ?",
+    "Chi nhánh gần tôi ở đâu?",
+    "Có số điện thoại liên hệ không?",
+    "Shop có phục vụ cuối tuần không?",
+    "Cách liên hệ với cửa hàng?"
+  ],
+  "responses": [
+    "Cửa hàng mở từ 8:00 – 20:00 mỗi ngày.",
+    "Bạn có thể ghé chi nhánh của chúng tôi, tôi gửi địa chỉ cho bạn.",
+    "Bạn ở khu vực nào? Tôi sẽ giới thiệu chi nhánh gần nhất."
+  ]
+},
+{
+  "tag": "combo",
+  "patterns": [
+    "Có combo gia đình không?",
+    "Tôi muốn mua combo",
+    "Có set nào giá tốt không?",
+    "Gợi ý combo cho 4 người",
+    "Có combo hải sản không?",
+    "Combo cho 2 người có không?",
+    "Set hải sản đặc biệt nào đang bán?",
+    "Có khuyến mãi khi mua combo không?",
+    "Cho tôi xem các combo hiện có",
+    "Combo giá rẻ cho nhóm bạn"
+  ],
+  "responses": [
+    "Chúng tôi có nhiều combo phù hợp cho 2–6 người, bạn muốn combo nào?",
+    "Combo giá tốt hiện đang giảm, bạn muốn xem danh sách không?",
+    "Tôi có thể gợi ý combo theo ngân sách của bạn."
+  ]
+},
+{
+  "tag": "ngan_sach",
+  "patterns": [
+    "Tôi có 300k thì mua được gì?",
+    "Ngân sách 500k mua được gì?",
+    "Có loại nào giá rẻ không?",
+    "Tầm 200k có món nào ngon không?",
+    "Tôi muốn mua trong tầm giá vừa phải",
+    "Có hải sản nào dưới 100k không?",
+    "Mua tầm 150k thì nên chọn gì?",
+    "Bạn gợi ý loại hải sản vừa túi tiền",
+    "Tôi chỉ muốn chi khoảng 400k",
+    "Có combo nhỏ nào phù hợp ngân sách không?"
+  ],
+  "responses": [
+    "Bạn cho tôi biết ngân sách cụ thể, tôi gợi ý loại phù hợp nhé.",
+    "Với tầm giá đó bạn có thể mua cá phi, mực hoặc tôm nhỏ.",
+    "Tôi có thể gợi ý sản phẩm vừa túi tiền cho bạn."
+  ]
+},
+{
+  "tag": "huy_don",
+  "patterns": [
+    "Tôi muốn hủy đơn",
+    "Hủy đơn hàng giúp tôi",
+    "Cho tôi hủy đơn được không?",
+    "Làm sao để hủy đơn?",
+    "Tôi đặt nhầm rồi",
+    "Hủy đơn có mất phí không?",
+    "Tôi không muốn mua nữa",
+    "Hủy đơn trước khi giao có được không?",
+    "Hỗ trợ hủy đơn",
+    "Tôi muốn hủy mua"
+  ],
+  "responses": [
+    "Bạn cho tôi mã đơn hàng nhé, tôi hỗ trợ hủy ngay.",
+    "Nếu đơn chưa giao, bạn có thể hủy miễn phí.",
+    "Tôi kiểm tra trạng thái đơn giúp bạn, vui lòng cung cấp mã đơn.",
+    "Đơn bị trễ hủy nếu đang giao, bạn thông cảm nhé.",
+    "Bạn gửi thông tin đơn hàng để tôi xử lý."
+  ]
+},
+{
+  "tag": "thoi_tiet",
+  "patterns": [
+    "Hôm nay thời tiết sao?",
+    "Trời có mưa không?",
+    "Thời tiết hôm nay thế nào?",
+    "Ngày mai có nắng không?",
+    "Cho tôi biết thời tiết",
+    "Thời tiết hôm nay ở Hà Nội ra sao?",
+    "Trời có lạnh không?",
+    "Nhiệt độ hôm nay bao nhiêu độ?",
+    "Ngày mai có mưa không?",
+    "Dự báo thời tiết cho tuần này"
+  ],
+  "responses": [
+    "Tôi không có dữ liệu thời tiết theo thời gian thực, nhưng bạn có thể xem trên ứng dụng dự báo thời tiết nhé!",
+    "Bạn thử kiểm tra dự báo thời tiết trên điện thoại, sẽ chính xác hơn đó.",
+    "Tôi không kết nối dữ liệu thời tiết, nhưng bạn có thể dùng AccuWeather hoặc Weather.com."
+  ]
+},
+{
+  "tag": "phuong_thuc_lien_he",
+  "patterns": [
+    "Tôi muốn liên hệ shop",
+    "Có số điện thoại không?",
+    "Cho tôi số hotline",
+    "Liên hệ bằng cách nào?",
+    "Tôi muốn nói chuyện trực tiếp",
+    "Làm sao để gọi đến shop?",
+    "Gửi email cho shop thế nào?",
+    "Có thể chat trực tuyến không?",
+    "Tôi cần hỗ trợ ngay, liên hệ thế nào?",
+    "Có fanpage hay zalo để liên hệ không?"
+  ],
+  "responses": [
+    "Bạn có thể liên hệ hotline của shop để được hỗ trợ nhanh nhất!",
+    "Tôi có thể gửi bạn số điện thoại khi bạn cần.",
+    "Shop luôn có nhân viên trực hotline để hỗ trợ khách hàng."
+  ]
+},
+{
+  "tag": "mo_rong_kinh_doanh",
+  "patterns": [
+    "Shop có tuyển nhân viên không?",
+    "Tôi muốn ứng tuyển",
+    "Có tuyển shipper không?",
+    "Cửa hàng có tuyển dụng không?",
+    "Tôi muốn làm việc tại shop",
+    "Tuyển nhân viên bán hàng không?",
+    "Cần tuyển thêm người giao hàng?",
+    "Có vị trí thực tập sinh không?",
+    "Làm sao để ứng tuyển?",
+    "Tôi muốn gửi hồ sơ xin việc"
+  ],
+  "responses": [
+    "Nếu bạn quan tâm tuyển dụng, bạn có thể để lại số điện thoại để nhận thông tin.",
+    "Shop thỉnh thoảng có tuyển, tôi có thể báo lại khi có thông tin.",
+    "Bạn muốn ứng tuyển vị trí nào? Tôi sẽ kiểm tra giúp."
+  ]
+},
+{
+  "tag": "ban_buon",
+  "patterns": [
+    "Shop có bán sỉ không?",
+    "Tôi muốn nhập hàng số lượng lớn",
+    "Có giá buôn không?",
+    "Bán buôn giá bao nhiêu?",
+    "Nhập số lượng nhiều có ưu đãi không?",
+    "Bán hàng sỉ giá rẻ có không?",
+    "Mua nhiều có chiết khấu không?",
+    "Cửa hàng có nhận đơn sỉ không?",
+    "Tôi muốn lấy số lượng lớn, hỗ trợ không?",
+    "Giá bán buôn của sản phẩm này là bao nhiêu?"
+  ],
+  "responses": [
+    "Shop có hỗ trợ bán buôn một số mặt hàng.",
+    "Bạn muốn nhập loại nào? Tôi kiểm tra giá sỉ cho bạn.",
+    "Mua số lượng lớn sẽ có ưu đãi riêng, bạn cho tôi biết mặt hàng nhé!"
+  ]
+},
+{
+  "tag": "bao_hanh",
+  "patterns": [
+    "Hải sản có bảo hành không?",
+    "Có cam kết tươi không?",
+    "Nếu hàng không tươi thì sao?",
+    "Shop có bảo hành chất lượng không?",
+    "Chế độ bảo hành thế nào?",
+    "Sản phẩm bị hư có được bảo hành không?",
+    "Tôi muốn khiếu nại nếu hàng kém chất lượng",
+    "Hải sản tươi có được bảo hành không?",
+    "Có đổi trả nếu hải sản hư hỏng không?",
+    "Shop hỗ trợ bảo hành ra sao?"
+  ],
+  "responses": [
+    "Shop cam kết chất lượng đúng mô tả và hỗ trợ nếu có vấn đề.",
+    "Nếu sản phẩm không đúng cam kết, shop sẽ hỗ trợ đổi hoặc hoàn tiền.",
+    "Bạn gặp vấn đề gì? Tôi hỗ trợ ngay."
+  ]
+},
+{
+  "tag": "tuoi_song",
+  "patterns": [
+    "Tôm còn sống không?",
+    "Cua còn sống không?",
+    "Sản phẩm này còn bơi không?",
+    "Có bán hải sản sống không?",
+    "Đồ sống hay đông lạnh vậy?",
+    "Hải sản tươi hay đông lạnh?",
+    "Cá còn sống không?",
+    "Tôm cua còn bơi không?",
+    "Sản phẩm này giao sống được không?",
+    "Có loại nào hải sản sống không?"
+  ],
+  "responses": [
+    "Một số mặt hàng còn sống, một số là đông lạnh. Bạn muốn xem loại nào?",
+    "Bạn hỏi tôm, cua hay cá để tôi kiểm tra tình trạng nhé.",
+    "Shop có hải sản sống nhưng tùy từng thời điểm."
+  ]
+},
+{
+  "tag": "dat_hang_ho_toc",
+  "patterns": [
+    "Tôi cần nhận hàng gấp",
+    "Có giao hỏa tốc không?",
+    "Giao nhanh trong ngày được không?",
+    "Tôi cần hàng ngay",
+    "Có giao gấp không?",
+    "Giao trong hôm nay được không?",
+    "Shop có hỗ trợ giao hỏa tốc?",
+    "Tôi muốn nhận hàng sớm",
+    "Có giao nhanh trong ngày không?",
+    "Đơn hàng của tôi có thể giao gấp không?"
+  ],
+  "responses": [
+    "Tùy khu vực sẽ hỗ trợ giao hỏa tốc, bạn cho tôi địa chỉ để kiểm tra nhé.",
+    "Có một số mặt hàng hỗ trợ giao nhanh trong ngày.",
+    "Tôi kiểm tra giúp bạn xem khu vực của bạn có hỗ trợ không."
+  ]
+},
+{
+  "tag": "doi_dia_chi",
+  "patterns": [
+    "Tôi muốn đổi địa chỉ giao hàng",
+    "Đổi thông tin đơn hàng được không?",
+    "Đổi địa chỉ nhận hàng",
+    "Tôi nhập sai địa chỉ",
+    "Thay đổi địa chỉ giao giúp tôi",
+    "Cập nhật địa chỉ giao hàng",
+    "Sửa địa chỉ nhận hàng",
+    "Tôi cần thay đổi nơi nhận hàng",
+    "Địa chỉ giao hàng bị sai",
+    "Tôi muốn sửa địa chỉ đơn hàng"
+  ],
+  "responses": [
+    "Bạn gửi mã đơn để tôi hỗ trợ đổi địa chỉ nhé!",
+    "Nếu đơn chưa giao cho shipper thì có thể đổi được.",
+    "Bạn cho tôi địa chỉ mới để kiểm tra cập nhật."
+  ]
+},
+{
+  "tag": "hoi_thu",
+  "patterns": [
+    "Tôi muốn thử trước khi mua",
+    "Có cho kiểm hàng không?",
+    "Mở hàng kiểm tra được không?",
+    "Được kiểm hàng trước không?",
+    "Kiểm hàng khi nhận thế nào?",
+    "Tôi muốn xem hàng trước khi thanh toán",
+    "Cho tôi kiểm tra sản phẩm trước",
+    "Kiểm tra trước khi nhận được không?",
+    "Có mở ra kiểm hàng không?",
+    "Tôi muốn chắc chắn trước khi mua"
+  ],
+  "responses": [
+    "Bạn được kiểm hàng khi nhận để đảm bảo đúng sản phẩm.",
+    "Shop hỗ trợ kiểm hàng trước khi thanh toán.",
+    "Bạn có thể mở kiểm, miễn là không làm hỏng niêm phong của sản phẩm."
+  ]
+},
+{
+  "tag": "mon_an_mua",
+  "patterns": [
+    "Mùa này có hải sản gì ngon?",
+    "Hải sản theo mùa là gì?",
+    "Món nào tươi theo mùa?",
+    "Cho tôi biết hải sản mùa này",
+    "Hải sản đang mùa nào ngon?",
+    "Hiện tại có hải sản nào đang tươi ngon?",
+    "Loại hải sản nào mùa này được săn nhiều?",
+    "Bạn gợi ý hải sản tươi theo mùa đi",
+    "Hải sản nào ăn ngon theo mùa?",
+    "Mùa này nên mua hải sản gì?"
+  ],
+  "responses": [
+    "Hiện tại đang là mùa của tôm hùm và cá hồi, bạn muốn thử loại nào?",
+    "Tôi có thể gợi ý một số loại hải sản tươi theo mùa.",
+    "Bạn muốn món hải sản tươi ngon theo mùa để nấu gì?"
+  ]
+},
+{
+  "tag": "phi_giao_hang",
+  "patterns": [
+    "Phí giao hàng bao nhiêu?",
+    "Giao hàng có tốn phí không?",
+    "Tính phí ship như thế nào?",
+    "Chi phí vận chuyển ra sao?",
+    "Có giao miễn phí không?",
+    "Ship hàng hết bao nhiêu tiền?",
+    "Phí vận chuyển cho đơn hàng là bao nhiêu?",
+    "Tôi cần biết phí giao tới nhà",
+    "Có phí ship cho khu vực của tôi không?",
+    "Giao tận nơi có mất phí không?"
+  ],
+  "responses": [
+    "Phí giao hàng phụ thuộc vào khu vực và số lượng đơn hàng.",
+    "Một số khu vực được miễn phí giao, bạn cho tôi biết địa chỉ nhé.",
+    "Tôi có thể tính phí ship cụ thể cho đơn hàng của bạn."
+  ]
+},
+{
+  "tag": "dang_ky_tai_khoan",
+  "patterns": [
+    "Làm sao để đăng ký tài khoản?",
+    "Tôi muốn tạo tài khoản",
+    "Hướng dẫn đăng ký tài khoản mới",
+    "Tôi chưa có tài khoản, làm sao đăng ký?",
+    "Cách tạo tài khoản trên app/website?",
+    "Tạo tài khoản mới như thế nào?",
+    "Đăng ký tài khoản cần làm gì?",
+    "Hướng dẫn tôi mở tài khoản",
+    "Tôi muốn đăng ký nhưng không biết bắt đầu từ đâu",
+    "Có thể đăng ký tài khoản trực tuyến không?"
+  ],
+  "responses": [
+    "Bạn có thể tạo tài khoản bằng cách nhấn nút 'Đăng ký' trên trang chủ, điền thông tin cơ bản và xác nhận email/SDT.",
+    "Hãy truy cập trang đăng ký, nhập họ tên, email, mật khẩu và làm theo hướng dẫn để hoàn tất.",
+    "Bạn cần điền đầy đủ thông tin, xác thực email hoặc số điện thoại để kích hoạt tài khoản.",
+    "Nếu gặp khó khăn khi đăng ký, tôi có thể hướng dẫn từng bước chi tiết cho bạn."
+  ]
+},
+{
+  "tag": "tim_kiem_san_pham",
+  "patterns": [
+    "Làm sao để tìm sản phẩm?",
+    "Tôi muốn tìm hải sản trên website",
+    "Cách tìm món ăn trên trang",
+    "Tìm sản phẩm như thế nào?",
+    "Có thể hướng dẫn tìm sản phẩm không?",
+    "Tôi không biết cách tìm hải sản",
+    "Cách sử dụng chức năng tìm kiếm?",
+    "Tìm món ăn nhanh chóng trên app",
+    "Tôi muốn tra cứu sản phẩm cụ thể",
+    "Có thể tìm theo loại hoặc giá không?"
+  ],
+  "responses": [
+    "Bạn có thể nhập tên sản phẩm hoặc từ khóa vào thanh tìm kiếm trên website hoặc app.",
+    "Sử dụng bộ lọc theo loại, giá hoặc kích thước để tìm sản phẩm nhanh hơn.",
+    "Nếu bạn muốn, tôi có thể hướng dẫn từng bước cách tìm sản phẩm trên trang.",
+    "Bạn nhập từ khóa vào ô tìm kiếm, nhấn 'Enter' hoặc nhấn biểu tượng kính lúp để xem kết quả."
+  ]
+},
+{
+  "tag": "gioi_thieu_website",
+  "patterns": [
+    "Website của shop là gì?",
+    "Cho tôi biết về website",
+    "Trang web này có gì?",
+    "Giới thiệu website",
+    "Website hoạt động thế nào?",
+    "Tôi muốn biết website của shop",
+    "Các tính năng trên website là gì?",
+    "Trang web này dùng để làm gì?",
+    "Website có dễ dùng không?",
+    "Cho tôi xem website"
+  ],
+  "responses": [
+    "Website của chúng tôi là nơi bạn có thể xem và đặt các loại hải sản tươi ngon, theo mùa hoặc combo tiện lợi.",
+    "Bạn có thể tìm kiếm sản phẩm, xem giá, kiểm tra tồn kho và đặt hàng trực tuyến trên website.",
+    "Trang web cung cấp thông tin chi tiết về sản phẩm, chương trình khuyến mãi, và hỗ trợ khách hàng 24/7.",
+    "Bạn có thể sử dụng website để đặt hàng nhanh, theo dõi đơn và liên hệ với shop bất cứ lúc nào."
+  ]
+},
+{
+  "tag": "gio_hang",
+  "patterns": [
+    "thêm vào giỏ hàng thế nào",
+    "xem giỏ hàng ở đâu",
+    "chỉnh sửa giỏ hàng",
+    "xóa sản phẩm khỏi giỏ",
+    "thay đổi số lượng trong giỏ",
+    "giỏ hàng nằm ở đâu",
+    "có thể lưu giỏ hàng không",
+    "giỏ hàng tối đa bao nhiêu",
+    "làm sao để thanh toán từ giỏ hàng",
+    "tôi muốn kiểm tra tổng tiền trong giỏ"
+  ],
+  "responses": [
+    "Click 'Thêm vào giỏ' và biểu tượng giỏ hàng sẽ hiện số lượng.",
+    "Bạn có thể dễ dàng chỉnh sửa số lượng hoặc xóa sản phẩm trong giỏ.",
+    "Giỏ hàng được lưu tự động, bạn có thể quay lại mua tiếp sau.",
+    "Bạn có thể kiểm tra tổng tiền và tiến hành thanh toán trực tiếp từ giỏ hàng."
+  ]
+},
+{
+  "tag": "danh_gia_san_pham",
+  "patterns": [
+    "làm sao đánh giá sản phẩm",
+    "viết review sản phẩm",
+    "xem đánh giá của khách hàng",
+    "có thể để lại nhận xét không",
+    "đánh giá sao trên web",
+    "review sản phẩm thế nào",
+    "xem bình luận sản phẩm",
+    "khách hàng nói gì về sản phẩm",
+    "tôi muốn đọc nhận xét của người khác",
+    "có thể cho điểm sản phẩm không"
+  ],
+  "responses": [
+    "Bạn có thể đánh giá sản phẩm sau khi nhận hàng.",
+    "Tất cả review đều từ khách hàng thực tế.",
+    "Đánh giá giúp chúng tôi cải thiện chất lượng dịch vụ.",
+    "Bạn cũng có thể để lại hình ảnh và trải nghiệm của mình khi đánh giá."
+  ]
+},
+{
+  "tag": "mon_an_dip",
+  "patterns": [
+    "Tiệc sinh nhật nên ăn gì?",
+    "Nhà có khách nên nấu món gì?",
+    "Tiệc 4 người gợi ý món giúp tôi",
+    "Ăn lẩu nên mua gì?",
+    "Dịp lễ này nấu món gì ngon?",
+    "Tết nấu món gì cho gia đình?",
+    "Cuối tuần tụ họp nên làm gì ăn?",
+    "Tiệc buffet tại nhà cần chuẩn bị gì?",
+    "Họp mặt bạn bè nên nấu món nào?",
+    "Kỷ niệm ngày cưới nên ăn gì đặc biệt?"
+  ],
+  "responses": [
+    "Bạn có thể làm lẩu hải sản – rất phù hợp cho tiệc.",
+    "Tôm, mực và cá mú là combo tuyệt vời cho tiệc gia đình.",
+    "Bạn muốn ăn nhẹ hay ăn no? Tôi gợi ý theo nhu cầu."
+  ]
+},
+{
+  "tag": "dong_goi",
+  "patterns": [
+    "Có đóng thùng đá không?",
+    "Đóng gói kỹ giúp tôi",
+    "Tôi muốn giao trong thùng xốp",
+    "Có ướp đá khi giao không?",
+    "Đóng gói chống chảy nước được chứ?",
+    "Hải sản giao đến có còn tươi không?",
+    "Đóng gói có chắc chắn không bị vỡ không?",
+    "Tôi ở xa, đóng gói có kỹ không?",
+    "Có bọc túi nilon riêng từng loại không?",
+    "Đá có đủ giữ lạnh đến khi nhận hàng không?"
+  ],
+  "responses": [
+    "Tất cả đơn hàng đều được đóng gói ướp đá giữ lạnh.",
+    "Bạn muốn đóng thùng xốp? Tôi sẽ ghi chú trong đơn.",
+    "Chúng tôi đảm bảo đóng gói cẩn thận và sạch sẽ."
+  ]
+},
+{
+  "tag": "song_chet",
+  "patterns": [
+    "Tôm này sống hay đông lạnh?",
+    "Có bán hàng sống không?",
+    "Hàng này còn sống chứ?",
+    "Tôi muốn mua đồ sống",
+    "Đây là hàng đông hay hàng tươi?",
+    "Cá mú này sống hay giết sẵn?",
+    "Tôi cần ghẹ sống, có không?",
+    "Hải sản tươi sống còn hàng không?",
+    "Mực này đông lạnh hay còn sống?",
+    "Bán hàng tươi nguyên con không?"
+  ],
+  "responses": [
+    "Chúng tôi có cả hàng sống và đông lạnh tùy loại.",
+    "Bạn muốn hàng sống hay đông lạnh? Tôi xem giúp bạn.",
+    "Một số loại như tôm và cua vẫn có hàng sống."
+  ]
+},
+{
+  "tag": "chia_phan",
+  "patterns": [
+    "Có chia nhỏ phần không?",
+    "Tôi muốn chia thành 2 phần",
+    "Đóng gói 500g mỗi túi được không?",
+    "Chia nhỏ giúp tôi",
+    "Chia gói khi giao",
+    "Tôi muốn chia làm 3 túi riêng",
+    "Có thể chia mỗi phần 300g không?",
+    "Đóng riêng từng kg được chứ?",
+    "Chia đều thành nhiều phần nhỏ giúp tôi",
+    "Mỗi gói 200g có được không?"
+  ],
+  "responses": [
+    "Chúng tôi có thể chia theo yêu cầu: 300g, 500g hoặc 1kg.",
+    "Bạn muốn chia mỗi phần bao nhiêu gram?",
+    "Tôi sẽ ghi chú chia phần theo đúng yêu cầu của bạn."
+  ]
+},
+{
+  "tag": "dinh_duong",
+  "patterns": [
+    "Tôm có bao nhiêu đạm?",
+    "Cá mú có nhiều protein không?",
+    "Hải sản này bao nhiêu calories?",
+    "Tôi muốn xem thành phần dinh dưỡng",
+    "Loại nào nhiều protein?",
+    "Mực có nhiều chất béo không?",
+    "Tôi đang ăn kiêng, nên chọn loại nào?",
+    "Hải sản nào ít calo nhất?",
+    "Ghẹ có giàu omega-3 không?",
+    "Loại nào tốt cho người tập gym?"
+  ],
+  "responses": [
+    "Mỗi loại có hàm lượng đạm khác nhau, bạn muốn xem loại nào?",
+    "Tôm và cá biển là hai loại giàu protein nhất.",
+    "Bạn cho tôi tên sản phẩm, tôi cung cấp thông tin chi tiết nhé!"
+  ]
+},
+{
+  "tag": "so_sanh",
+  "patterns": [
+    "Tôm sú khác tôm càng gì?",
+    "So sánh cá mú và cá hồi",
+    "Loại nào ngon hơn?",
+    "Ghẹ và cua khác nhau thế nào?",
+    "Nên mua tôm sú hay tôm thẻ?",
+    "Cá biển và cá ao khác gì?",
+    "Mực tươi hay mực khô ngon hơn?",
+    "Hàng đông lạnh có kém hàng tươi không?",
+    "Ốc hương và ốc len khác gì?",
+    "So sánh giá giữa các loại"
+  ],
+  "responses": [
+    "Tôm sú thịt chắc, ngọt hơn; tôm càng có vỏ cứng, phù hợp nướng muối ớt.",
+    "Mỗi loại có ưu điểm riêng tùy cách chế biến và ngân sách bạn.",
+    "Bạn muốn so sánh về mặt nào: giá cả, dinh dưỡng hay cách nấu?"
+  ]
+},
+{
+  "tag": "mua_hang_si",
+  "patterns": [
+    "Mua sỉ có giảm giá không?",
+    "Tôi muốn đặt số lượng lớn",
+    "Giá buôn bao nhiêu?",
+    "Đặt 50kg được không?",
+    "Có bán sỉ không?",
+    "Nhà hàng đặt hàng thế nào?",
+    "Giá cho khách quen",
+    "Đặt hàng định kỳ được không?",
+    "Mua nhiều có ưu đãi không?",
+    "Hợp tác lâu dài có chiết khấu không?"
+  ],
+  "responses": [
+    "Chúng tôi có giá sỉ ưu đãi cho đơn từ 20kg trở lên.",
+    "Bạn cần đặt bao nhiêu kg? Tôi báo giá cụ thể ngay.",
+    "Khách hàng thường xuyên và đối tác nhà hàng có chính sách giá riêng."
+  ]
+},
+{
+  "tag": "xu_ly_truoc",
+  "patterns": [
+    "Có làm sạch trước khi giao không?",
+    "Tôm bóc vỏ giúp được không?",
+    "Cá có phi lê sẵn không?",
+    "Mực có xử lý sạch không?",
+    "Tôi muốn hải sản sơ chế sẵn",
+    "Có cắt khúc giúp không?",
+    "Loại bỏ nội tạng giúp tôi",
+    "Làm sạch và ướp sẵn được không?",
+    "Cắt lát mỏng giúp tôi",
+    "Có dịch vụ sơ chế không?"
+  ],
+  "responses": [
+    "Chúng tôi có dịch vụ sơ chế: bóc vỏ tôm, phi lê cá, làm sạch mực.",
+    "Bạn muốn xử lý như thế nào? Tôi ghi chú vào đơn hàng.",
+    "Dịch vụ sơ chế có thể tính thêm phí tùy yêu cầu, bạn đồng ý chứ?"
+  ]
+},
+{
+  "tag": "thoi_vu",
+  "patterns": [
+    "Mùa nào hải sản ngon nhất?",
+    "Bây giờ nên ăn loại gì?",
+    "Tháng này có hải sản gì?",
+    "Ghẹ mùa nào béo?",
+    "Mùa tôm là khi nào?",
+    "Hải sản theo mùa",
+    "Cá gì đang mùa?",
+    "Thời vụ hải sản",
+    "Mùa này ăn gì ngon?",
+    "Ốc mùa nào?"
+  ],
+  "responses": [
+    "Ghẹ béo nhất từ tháng 3-8, tôm tươi ngon quanh năm nhưng đặc biệt vào 8-12.",
+    "Bây giờ là mùa tốt cho cá biển và mực tươi.",
+    "Bạn muốn biết về loại hải sản nào? Tôi tư vấn theo mùa nhé!"
+  ]
+}
   ]
 }
