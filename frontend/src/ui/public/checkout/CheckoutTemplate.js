@@ -165,11 +165,12 @@ const CheckOut = ({dispatch, navigate}) => {
                     <UserDetail/>
                   </div>
                 </div>
+                {vouchers?.length > 0 &&
                 <div className="checkbox-form your-order mt-5">
                   <h3 className="mt-2">Ưu đãi</h3>
                   <div className="row">
                   <div className='select-voucher'>
-                    {vouchers && vouchers?.map((item) => (
+                    {vouchers?.map((item) => (
                       <VoucherItem
                           voucherData={{
                             id: item?._id,
@@ -197,6 +198,7 @@ const CheckOut = ({dispatch, navigate}) => {
                     </div>
                   </div>
                 </div>
+                }
               </div>
               <div className="col-lg-6 col-md-12">
                 <div className="your-order mb-30">
@@ -256,12 +258,12 @@ const CheckOut = ({dispatch, navigate}) => {
                   </div>
                   <div className="payment-method">
                     <div className="accordion" id="checkoutAccordion">
-                      <div>
-                        {/* <Cash
-                          payload={{products: currentCart, total: cash, orderBy: current?._id }}
-                          setIsSuccess={setIsSuccess}
-                        /> */}
+                      {/* <div>
+                          <button className="btn btn-outline-primary w-100 py-3">
+                            <span>VNPAY</span>
+                          </button>
                       </div>
+                      <div className="py-3 text-center"><span>Hoặc</span></div> */}
                       <div className="accordion-item">
                         <Paypal amount={round}
                                 payload={{products: currentCart, total: total, orderBy: current?._id, applyVoucher: selectedVoucherId }}
