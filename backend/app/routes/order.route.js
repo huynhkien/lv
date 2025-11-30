@@ -6,6 +6,8 @@ const {verifyAccessToken, isAdmin , isStaff, isAdminOrStaff} = require('../middl
 
 const router = express.Router();
 router.route('/').post(verifyAccessToken, Order.createOrder);
+router.route('/create-order-vnp').post(verifyAccessToken, Order.createVnPayOrder);
+router.route('/refund-vnp').post(verifyAccessToken, Order.vnpRefund);
 router.route('/day').get(Order.getTotalAmountByDay); 
 router.route('/month').get(Order.getTotalAmountByMonth); 
 router.route('/year').get(Order.getTotalAmountByYear); 
@@ -15,6 +17,7 @@ router.route('/count').get(Order.getCountStatus);
 router.route('/get-count').get(Order.getCountOrder); 
 router.route('/').get(verifyAccessToken, Order.getOrderUser);
 router.route('/:oid').get(Order.getOrderId);
+
 
 
 
