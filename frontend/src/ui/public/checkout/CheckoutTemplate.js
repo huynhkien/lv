@@ -6,6 +6,9 @@ import { useSelector } from "react-redux";
 import UserDetail from "../user/UserDetail";
 import { apiGetVoucher, apiGetVouchers } from "../../../apis/voucher";
 import VoucherItem from "../voucher/VoucherItem";
+import { apiCreateOrderVnpay, apiGetAllOrder } from "../../../apis";
+import Swal from "sweetalert2";
+import { useCallback } from "react";
 const CheckOut = ({dispatch, navigate}) => {
   const calculateTotal = (cart) => {
     return cart.reduce((sum, el) => sum + el?.price * el?.quantity, 0);
@@ -13,6 +16,7 @@ const CheckOut = ({dispatch, navigate}) => {
   const { currentCart, current } = useSelector((state) => state.user);
   const [vouchers, setVouchers] = useState(null);
   const [voucher, setVoucher] = useState(null);
+  const [orders, setOrders] = useState(null);
   const [applyVoucher, setApplyVoucher] = useState(null);
   const [selectedVoucherId, setSelectedVoucherId] = useState(null);
   const total = applyVoucher / 23.500;
@@ -32,6 +36,7 @@ const CheckOut = ({dispatch, navigate}) => {
     useEffect(() => {
       fetchVouchers();
     }, []); 
+    
     useEffect(() => {
       const fetchVoucher = async () => {
           if (selectedVoucherId) {
@@ -151,6 +156,84 @@ const CheckOut = ({dispatch, navigate}) => {
     }
   
   };  
+  // Tao ma code tu dong
+  // Hiển thị thông tin đơn hàng 
+  useEffect(() => {
+    const fetchOrders = async() => {
+      const response = await apiGetAllOrder();
+      if(response.success) setOrders(response.data || []);
+    }
+    fetchOrders();
+  },[]);
+
+  // Tạo mã code tự động
+  const generateUniqueCode = useCallback(() => {
+    const currentYear = new Date().getFullYear();
+    const yearSuffix = currentYear.toString().slice(-2); // Lấy 2 số cuối của năm
+    
+    // Tìm số thứ tự cao nhất từ các đơn hàng hiện có
+    const currentYearOrders = orders?.filter(order => 
+      order.code && order.code.startsWith(`SEAFOOD${yearSuffix}-`)
+    );
+    if(currentYearOrders) return;
+    
+    let maxNumber = 0;
+    currentYearOrders?.forEach(order => {
+      const match = order.code.match(/SEAFOOD\d{2}-0*(\d+)$/);
+      if (match) {
+        const number = parseInt(match[1]);
+        if (number > maxNumber) {
+          maxNumber = number;
+        }
+      }
+    });
+    // Tạo mã mới với số thứ tự tiếp theo
+    const nextNumber = maxNumber + 1;
+    const paddedNumber = nextNumber.toString().padStart(3, '0'); 
+    return `SEAFOOD${yearSuffix}-${paddedNumber}`;
+  }, [orders]);
+  // Thanh toan voi vnpay
+   const handleCreateOrderVnpay = async () => {
+    try {
+      const payload = {
+        code: generateUniqueCode(),
+        products: currentCart,
+        total: total,
+        orderBy: current?._id,
+        applyVoucher: selectedVoucherId
+      };
+      
+      const response = await apiCreateOrderVnpay(payload);
+      
+      if (response?.success) {
+        // Sửa lại: Swal.fire thay vì Swal.success
+        Swal.fire({
+            text: `Đặt hàng thành công!. Chuyển hướng đến VNPay...`,
+            icon: 'success',
+            confirmButtonText: 'Trở về',
+            timer: 3000,
+            timerProgressBar: true
+          }).then(() => {
+            window.location.href = response.paymentUrl;
+          });
+      } else {
+        // Xử lý trường hợp thất bại
+        Swal.fire({
+          icon: 'error',
+          title: 'Lỗi',
+          text: response?.message || 'Có lỗi xảy ra khi tạo đơn hàng'
+        });
+      }
+    } catch (error) {
+      // Xử lý lỗi
+      console.error('Error creating VNPay order:', error);
+      Swal.fire({
+        icon: 'error',
+        title: 'Lỗi',
+        text: 'Không thể tạo đơn hàng. Vui lòng thử lại sau.'
+      });
+    }
+  };
    return (
     <div>
       {isSuccess && <Congratulation/>}
@@ -258,20 +341,20 @@ const CheckOut = ({dispatch, navigate}) => {
                   </div>
                   <div className="payment-method">
                     <div className="accordion" id="checkoutAccordion">
-                      {/* <div>
-                          <button className="btn btn-outline-primary w-100 py-3">
+                      <div>
+                          <button className="btn btn-outline-primary w-100 py-3" onClick={handleCreateOrderVnpay}>
                             <span>VNPAY</span>
                           </button>
                       </div>
-                      <div className="py-3 text-center"><span>Hoặc</span></div> */}
+                      <div className="py-3 text-center"><span>Hoặc</span></div>
                       <div className="accordion-item">
                         <Paypal amount={round}
-                                payload={{products: currentCart, total: total, orderBy: current?._id, applyVoucher: selectedVoucherId }}
+                                payload={{code: generateUniqueCode(), products: currentCart, total: total, orderBy: current?._id, applyVoucher: selectedVoucherId }}
                                 setIsSuccess={setIsSuccess}
                         />
                       </div>
                     </div>
-                  
+                 
                   </div>
                 </div>
               </div>

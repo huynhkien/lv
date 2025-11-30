@@ -6,6 +6,16 @@ export const apiCreateOrder = async (data) => axios({
     method: 'post',
     data
 })
+export const apiCreateOrderVnpay  = async(data) => axios({
+    url: '/order/create-order-vnp',
+    method: 'post',
+    data
+});
+export const apiVnPayRefund = async(data) => axios({
+    url: '/order/refund-vnp',
+    method: 'post',
+    data
+})
 export const apiGetOrderByUser = async () => axios({
     url: '/order/' ,
     method: 'get',
