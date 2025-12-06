@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "66fba49e27e1ed0cab16dfed"
+  },
+  "name": "Công ty hải sản Minh Phú",
+  "phone": "0949399232",
+  "email": "minhphu@gmail.com",
+  "address": "Phường 8, TP. Cà Mau",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-01T07:28:30.009Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T08:38:56.024Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fba51f27e1ed0cab16dfef"
+  },
+  "name": "Hải sản Quốc Vũ",
+  "phone": "0911222456",
+  "email": "quocvu@gmail.com",
+  "address": "Ngọc Chánh, Đầm Dơi, Cà Mau",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-01T07:30:39.586Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T07:30:39.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fba5af27e1ed0cab16dff3"
+  },
+  "name": "Công ty hải sản đông lạnh nhập khẩu Châu Âu",
+  "phone": "0944455566",
+  "email": "company@gmail.com",
+  "address": "Phan Văn Trị, Gò Vấp, TP. Hồ Chí Minh",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-01T07:33:03.756Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T07:33:03.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fba5b027e1ed0cab16dff5"
+  },
+  "name": "Công ty hải sản đông lạnh nhập khẩu Minh Hải",
+  "phone": "0999999566",
+  "email": "company@gmail.com",
+  "address": "Quang Trung, Gò Vấp, TP. Hồ Chí Minh",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-01T07:33:05.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T07:33:05.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fba8e2d74cad12d9682376"
+  },
+  "name": "Công ty Huynh Kien",
+  "phone": "0949399232",
+  "email": "huynhhuukien2002@gmail.com",
+  "address": "Can Tho",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-01T07:46:42.824Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T07:46:42.824Z"
+  },
+  "__v": 0
+}]

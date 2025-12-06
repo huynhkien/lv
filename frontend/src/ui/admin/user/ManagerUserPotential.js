@@ -1,18 +1,18 @@
-import React from 'react'
+﻿import React from 'react'
 import { useEffect, useState } from 'react';
-import { apiDeleteUser, apiGetUsers} from '../../../apis';
+import { apiDeleteUser, apiGetAllOrder, apiGetUsers} from '../../../apis';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { InputText } from 'primereact/inputtext';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 import { toast } from 'react-toastify';
-import {EditUser} from '../../Index'
 
 const Page = () => {
   const [users, setUsers] = useState([]);
+  const [userPotentials, setUserPotentials] = useState([]);
+  const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [globalFilter, setGlobalFilter] = useState('');
-  const [editUser, setEditUser] = useState(null);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
@@ -22,18 +22,55 @@ const Page = () => {
 
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-
+  const fetchOrders = async() => {
+    const response = await apiGetAllOrder();
+    if(response.success){
+        setOrders(response?.data);
+    }
+  }
   const fetchUsers = async () => {
     const response = await apiGetUsers();
     if (response.success) setUsers(response.userData);
     setLoading(false);
   };
+  
 
   useEffect(() => {
+    fetchOrders();
     fetchUsers();
   }, []);
-  const filterRole = users
+  const findCustomersWithMoreThanOrders = () => {
+  // Đếm số đơn hàng của mỗi user
+  const orderCountByUser = {};
+  
+  orders.forEach(item => {
+    const userId = item.user?._id;
+    if (userId) {
+      orderCountByUser[userId] = (orderCountByUser[userId] || 0) + 1;
+    }
+  });
+  
+  // Lọc ra các user cóđơn hàng
+  const customersWithMoreThanOrders = users.filter(user => {
+    return orderCountByUser[user._id] > 1;
+  }).map(user => ({
+    ...user,
+    orderCount: orderCountByUser[user._id]
+  }));
+  
+  return customersWithMoreThanOrders;
+};
+
+// Sử dụng trong useEffect hoặc khi cần
+useEffect(() => {
+  if (orders.length > 0 && users.length > 0) {
+    const result = findCustomersWithMoreThanOrders();
+    if(result){
+        setUserPotentials(result);
+    }
+  }
+}, [orders, users]);
+  const filterRole = userPotentials
   ?.filter(el => el?.role === '2004')
   ?.filter(item => {
     const searchText = globalFilter.toLowerCase();
@@ -46,36 +83,6 @@ const Page = () => {
     );
   });
 
-  const actionBodyTemplate = (rowData) => {
-    return (
-      <div>
-        <span onClick={() => setEditUser(rowData?._id)} className='btn btn-xs btn-primary'>
-          <FaEdit/>
-        </span>
-        <span className='mx-2'></span>
-        <button 
-          onClick={() => handleDelete(rowData._id)} 
-          className='btn btn-xs btn-danger'
-        >
-          <FaTrash/>
-        </button>
-      </div>
-    );
-  };
-
-  const handleDelete = async (id) => {
-    if (window.confirm('Bạn có chắc chắn muốn xóa người dùng này?')) {
-      const response = await apiDeleteUser(id);
-
-      if (response.success) {
-        toast.success('Xóa người dùng thành công');
-        setLoading(true); 
-        fetchUsers();
-      } else {
-        toast.error('Xóa người dùng không thành công');
-      }
-    }
-  };
 
   const roleBodyTemplate = (rowData) => {
     return rowData.role === '2004' ? 'Khách hàng' : 'Vô danh';
@@ -90,26 +97,11 @@ const Page = () => {
     <div>
       <div className='header'>
         <div className='left'>
-          <h1>Khách hàng</h1>
+          <h1>Khách hàng tiềm năng</h1>
         </div>
       </div>
       <div className='bottom-data'>
-        {editUser && (
-          <div className='show-option shadow'>
-            <EditUser
-             editUser={editUser}
-             setEditUser={setEditUser}
-             render={fetchUsers}
-            />
-          </div>
-        )}
         <div className='orders'>
-          <a href={'/admin/manager-user/potential'} className="btn btn-primary" style={{ marginBottom: '30px' }}>
-            <i className="fa fa-plus"></i> Khách hàng tiềm năng
-          </a>
-          <a href={'/admin/manager-user/new'} className="btn btn-primary mx-2" style={{ marginBottom: '30px' }}>
-            <i className="fa fa-plus"></i> Khách hàng mới
-          </a>
           <DataTable 
             value={filterRole} 
             paginator 
@@ -125,7 +117,6 @@ const Page = () => {
             {!isSmallScreen && <Column sortable field='phone' header='Số điện thoại' />}
             {!isSmallScreen &&<Column sortable field='address' header='Địa chỉ' />}
             <Column sortable field='role' header='Vai trò' body={roleBodyTemplate} />
-            <Column body={actionBodyTemplate} header='Action' />
           </DataTable>
         </div>
       </div>

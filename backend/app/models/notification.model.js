@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Notification = new  mongoose.Schema({
+    type: {type: String, enum: ['order', 'voucher', 'product']},
     voucher:
         {
             voucher: {type: mongoose.Schema.Types.ObjectId, ref: 'Voucher'},

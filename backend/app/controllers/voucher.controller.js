@@ -1,24 +1,35 @@
 const Voucher = require('../models/voucher.model');
+const Notification = require('../models/notification.model');
 const Product = require('../models/product.model');
 const asyncHandler = require('express-async-handler');
 const cron = require('node-cron');
 
 const createVoucher = asyncHandler(async (req, res) => {
     const response = await Voucher.create(req.body);
-    if (response) {
-      const io = req.app.get('io');
-
-      io.emit('new_voucher_created', {
-          success: true,
-          message: 'Voucher mới đã được tạo',
-          voucher: response
+    
+    if(!response){
+      return res.status(400).json({
+        success: false,
+        message: 'Thêm thất bại',
       });
     }
-
-      return res.status(200).json({
-        success: response ? true : false,
-        message: response ? 'Thêm thành công' : 'Thêm thất bại',
-      });
+    // Tạo thông báo
+    await Notification.create({
+        type: 'voucher',
+        voucher:
+        {
+            voucher: response?._id,
+            code: response?.code,
+            startDate: response?.startDate,
+            endDate: response?.endDate,
+            discountType: response?.discountType,
+            discountValue: response?.discountValue
+        },
+    })
+    return res.status(200).json({
+      success: true ,
+      message: 'Thêm thành công',
+    });
   });
 const getVoucher = asyncHandler(async(req, res) => {
     const {vid} = req.params;

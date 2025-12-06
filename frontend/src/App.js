@@ -1,5 +1,5 @@
 import {Route, Routes} from 'react-router-dom';
-import {Public, Home, Login, FinalRegister, ForgotPassword, Admin, AddProduct, Search , ManagerCategory, AddCategory, ManagerProduct, EditProduct, ManagerOrder, ManagerUser, Graph, Dashboard, AboutTemplate, ContactTemplate, Category, CartTemplate, CheckOut, Wishlist, User, UserOrder, ProductDetail, ResetPassword, FinalRegisterGoogle, ManagerSupplier, ImportManager, ExportManager, ImportAdd, VoucherManager, VoucherAdd, Voucher, ManagerComment, IdentifyTemplate, ManagerRole, AddRole, AddVoucherProduct, NotFound} from './ui/Index';
+import {Public, Home, Login, FinalRegister, ForgotPassword, Admin, AddProduct, Search , ManagerCategory, AddCategory, ManagerProduct, EditProduct, ManagerOrder, ManagerUser, Graph, Dashboard, AboutTemplate, ContactTemplate, Category, CartTemplate, CheckOut, Wishlist, User, UserOrder, ProductDetail, ResetPassword, FinalRegisterGoogle, ManagerSupplier, ImportManager, ExportManager, ImportAdd, VoucherManager, VoucherAdd, Voucher, ManagerComment, IdentifyTemplate, ManagerRole, AddRole, AddVoucherProduct, NotFound, ManagerUserNew, ManagerUserPotential} from './ui/Index';
 import path from './utils/path';
 import Modal from 'react-modal';
 import { customStyles } from './utils/contant';
@@ -70,6 +70,8 @@ function App() {
           <Route path={path.ADD_CATEGORY} element={<AddCategory/>}/>
           <Route path={path.MANAGER_ORDER} element={<ManagerOrder/>}/>
           <Route path={path.MANAGER_USER} element={<ManagerUser/>}/>
+          <Route path={path.MANAGER_USER_NEW} element={<ManagerUserNew/>}/>
+          <Route path={path.MANAGER_USER_POTENTIAL} element={<ManagerUserPotential/>}/>
           <Route path={path.MANAGER_SUPPLIER} element={<ManagerSupplier/>}/>
           <Route path={path.MANAGER_IMPORT} element={<ImportManager/>}/>
           <Route path={path.MANAGER_VOUCHER} element={<VoucherManager/>}/>

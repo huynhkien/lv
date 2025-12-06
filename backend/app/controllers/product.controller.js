@@ -1,5 +1,6 @@
 const { query } = require('express');
 const Product = require('../models/product.model');
+const Notification = require('../models/notification.model');
 const WaveHouse = require('../models/warehouse.model');
 const Voucher = require('../models/voucher.model');
 const asyncHandler = require('express-async-handler');
@@ -26,15 +27,14 @@ const createProduct = asyncHandler(async (req, res) => {
     return res.status(400).json({ success: false, message: 'Missing inputs' });
   }
   const newProduct = await Product.create(req.body);
-  if (newProduct) {
-    const io = req.app.get('io');
-
-    io.emit('new_product_created', {
-        success: true,
-        message: 'Sản phẩm mới đã được tạo',
-        product: newProduct
-    });
-  }
+  // Tạo thông báo
+  await Notification.create({
+      type: 'product',
+      product: {
+          product: newProduct?._id,
+          name: name,
+      }
+  })
   return res.status(200).json({
     success: !!newProduct,
     message: newProduct ? 'Thêm sản phẩm thành công' : 'Thêm sản phẩm thất bại'

@@ -31,6 +31,8 @@ const path = {
     ADD_CATEGORY: 'manager-category/add-category',
     MANAGER_ORDER: 'manager-order',
     MANAGER_USER: 'manager-user',
+    MANAGER_USER_NEW: 'manager-user/new',
+    MANAGER_USER_POTENTIAL: 'manager-user/potential',
     MANAGER_SUPPLIER: 'manager-supplier',
     MANAGER_IMPORT: 'manager-import',
     MANAGER_COMMENT: 'manager-comment',

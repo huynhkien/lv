@@ -51,6 +51,8 @@ export {default as AddCategory} from './admin/category/AddCategory';
 export {default as EditCategory} from './admin/category/EditCategory';
 export {default as ManagerOrder} from './admin/order/ManagerOrder';
 export {default as ManagerUser} from './admin/user/ManagerUser';
+export {default as ManagerUserNew} from './admin/user/ManagerUserNew';
+export {default as ManagerUserPotential} from './admin/user/ManagerUserPotential';
 export {default as Graph} from './admin/Graph/Graph';
 export {default as BarChart} from './admin/Graph/BarChart';
 export {default as BarChartTotal} from './admin/Graph/BarChartTotal';

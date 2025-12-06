@@ -1,0 +1,900 @@
+[{
+  "_id": {
+    "$oid": "6700aff383573eb734147a21"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "667c1ba6b73b6091fd7b3a80",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+        "public_id": "sea_food/bnybfqlbhogkusa3vr1h"
+      },
+      "name": "Cua Nâu Sống",
+      "variant": "Con 800 gram",
+      "price": 700,
+      "quantity": 96,
+      "totalPrice": 14000,
+      "_id": {
+        "$oid": "6700aff383573eb734147a22"
+      }
+    },
+    {
+      "product": "667c228cb73b6091fd7b3b48",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411325/sea_food/survfp7wcw0nmqkfes5p.png",
+        "public_id": "sea_food/survfp7wcw0nmqkfes5p"
+      },
+      "name": "Cá Thu Cắt Khoanh",
+      "variant": "Túi 425g",
+      "price": 135,
+      "quantity": 19,
+      "totalPrice": 2700,
+      "_id": {
+        "$oid": "6703f5fcceeb4f5b9d5cbb2b"
+      }
+    },
+    {
+      "product": "6672467a3659f6f1d9557e90",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1728403667/sea_food/nnggdc5dnbljh7flyetp.jpg",
+        "public_id": "sea_food/nnggdc5dnbljh7flyetp"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "variant": "Combo 3 con",
+      "price": 700000,
+      "quantity": 38,
+      "totalPrice": 33600000,
+      "_id": {
+        "$oid": "670559aebcac6686a79cf370"
+      }
+    }
+  ],
+  "supplier": "Công ty hải sản đông lạnh nhập khẩu Minh Hải",
+  "type": "Phiếu nhập",
+  "total": 33616700,
+  "createdAt": {
+    "$date": "2024-10-05T03:18:11.469Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-03T07:15:01.114Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67049a82d7ad3aeec97ef9b1"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6672467a3659f6f1d9557e90",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+        "public_id": "sea_food/fickpehuws2hu2fjk31m"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "variant": "Combo 2 con",
+      "price": 50000,
+      "quantity": 100,
+      "totalPrice": 6000000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b2"
+      }
+    },
+    {
+      "product": "6672467a3659f6f1d9557e90",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+        "public_id": "sea_food/e0wf6rhsogjteflwkyt3"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "variant": "Combo 1 con",
+      "price": 1230,
+      "quantity": 13,
+      "totalPrice": 123000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b3"
+      }
+    },
+    {
+      "product": "66756fd91070986bf6c8a7d8",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718984697/sea_food/lfnhgowbi7tdpyavbhy9.webp",
+        "public_id": "sea_food/lfnhgowbi7tdpyavbhy9"
+      },
+      "name": "Mực ống",
+      "variant": "Size M",
+      "price": 99,
+      "quantity": 188,
+      "totalPrice": 19800,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b4"
+      }
+    },
+    {
+      "product": "66756fd91070986bf6c8a7d8",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+        "public_id": "sea_food/ddi52bns8b5aa4c3simx"
+      },
+      "name": "Mực ống",
+      "variant": "Size L",
+      "price": 90,
+      "quantity": 176,
+      "totalPrice": 18000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b5"
+      }
+    },
+    {
+      "product": "667c182fb73b6091fd7b39e7",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+        "public_id": "sea_food/ykij491qhbmy5dgi73tt"
+      },
+      "name": "Tôm Hùm Xanh Sống",
+      "variant": "350 gram",
+      "price": 500,
+      "quantity": 34,
+      "totalPrice": 30000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b6"
+      }
+    },
+    {
+      "product": "667c1ba6b73b6091fd7b3a80",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+        "public_id": "sea_food/bnybfqlbhogkusa3vr1h"
+      },
+      "name": "Cua Nâu Sống",
+      "variant": "Con 800 gram",
+      "price": 700,
+      "quantity": 50,
+      "totalPrice": 35000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b7"
+      }
+    },
+    {
+      "product": "667c1f33b73b6091fd7b3af9",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+        "public_id": "sea_food/kn87kuvz6jnplfoajcnc"
+      },
+      "name": "Ghẹ Xanh Sống",
+      "variant": "Con 500 gram",
+      "price": 500,
+      "quantity": 82,
+      "totalPrice": 50000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b8"
+      }
+    },
+    {
+      "product": "667c20b2b73b6091fd7b3b12",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410856/sea_food/rlfbxukkccoyos6ea78h.png",
+        "public_id": "sea_food/rlfbxukkccoyos6ea78h"
+      },
+      "name": "Chả mực Hạ Long",
+      "variant": "Khay 500g",
+      "price": 250,
+      "quantity": 91,
+      "totalPrice": 25000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9b9"
+      }
+    },
+    {
+      "product": "667c20b3b73b6091fd7b3b18",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411406/sea_food/mcvsu3hh5ktyhehvelau.png",
+        "public_id": "sea_food/mcvsu3hh5ktyhehvelau"
+      },
+      "name": "Chả mực Phú Yên",
+      "variant": "Khay 500g",
+      "price": 250,
+      "quantity": 100,
+      "totalPrice": 25000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9ba"
+      }
+    },
+    {
+      "product": "667c20c0b73b6091fd7b3b2e",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411457/sea_food/m8jq8vb0m4bauidmk0ww.png",
+        "public_id": "sea_food/m8jq8vb0m4bauidmk0ww"
+      },
+      "name": "Chả mực Phan Thiết",
+      "variant": "Khay 500g",
+      "price": 350,
+      "quantity": 100,
+      "totalPrice": 35000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9bb"
+      }
+    },
+    {
+      "product": "667c2152b73b6091fd7b3b37",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411012/sea_food/v9vl0owg6wvelnjlwonf.png",
+        "public_id": "sea_food/v9vl0owg6wvelnjlwonf"
+      },
+      "name": "Tôm Hùm Alaska Nhỏ",
+      "variant": "Con 500g",
+      "price": 450,
+      "quantity": 150,
+      "totalPrice": 45000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9bc"
+      }
+    },
+    {
+      "product": "667c21feb73b6091fd7b3b3f",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411189/sea_food/wq5x2sssxytuqacchyve.png",
+        "public_id": "sea_food/wq5x2sssxytuqacchyve"
+      },
+      "name": "Cá Trứng",
+      "variant": "Khay 500g",
+      "price": 65,
+      "quantity": 90,
+      "totalPrice": 6500,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9bd"
+      }
+    },
+    {
+      "product": "667c228cb73b6091fd7b3b48",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411325/sea_food/survfp7wcw0nmqkfes5p.png",
+        "public_id": "sea_food/survfp7wcw0nmqkfes5p"
+      },
+      "name": "Cá Thu Cắt Khoanh",
+      "variant": "Túi 425g",
+      "price": 135,
+      "quantity": 500,
+      "totalPrice": 67500,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9be"
+      }
+    },
+    {
+      "product": "667c245cb73b6091fd7b3cbf",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411798/sea_food/xup2d7zjhrjqnn1bz6u2.png",
+        "public_id": "sea_food/xup2d7zjhrjqnn1bz6u2"
+      },
+      "name": "Thịt Cua Đông Lạnh",
+      "variant": "Túi 100g",
+      "price": 79,
+      "quantity": 130,
+      "totalPrice": 10270,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9bf"
+      }
+    },
+    {
+      "product": "667c24f7b73b6091fd7b3cc7",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411951/sea_food/sbuxqlyqf7rnwdimrtd4.png",
+        "public_id": "sea_food/sbuxqlyqf7rnwdimrtd4"
+      },
+      "name": "Mực Lá Câu",
+      "variant": "Con 400g",
+      "price": 100,
+      "quantity": 120,
+      "totalPrice": 12000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9c0"
+      }
+    },
+    {
+      "product": "667c24fdb73b6091fd7b3ccd",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411945/sea_food/r9dihdh3jdehgirhgzjx.png",
+        "public_id": "sea_food/r9dihdh3jdehgirhgzjx"
+      },
+      "name": "Mực Nang",
+      "variant": "Con 500g",
+      "price": 120,
+      "quantity": 175,
+      "totalPrice": 24000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9c1"
+      }
+    },
+    {
+      "product": "6682ba2359b27d9a3ddca26d",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719843360/sea_food/qcg8lazl3hzhphu34xon.jpg",
+        "public_id": "sea_food/qcg8lazl3hzhphu34xon"
+      },
+      "name": "Cua Cà Mau",
+      "variant": "Con 500g",
+      "price": 500,
+      "quantity": 285,
+      "totalPrice": 170000,
+      "_id": {
+        "$oid": "67049a82d7ad3aeec97ef9c2"
+      }
+    },
+    {
+      "product": "6672467a3659f6f1d9557e90",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1728403667/sea_food/nnggdc5dnbljh7flyetp.jpg",
+        "public_id": "sea_food/nnggdc5dnbljh7flyetp"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "variant": "Combo 3 con",
+      "price": 700000,
+      "quantity": 20,
+      "totalPrice": 14000000,
+      "_id": {
+        "$oid": "670559ebbcac6686a79cf545"
+      }
+    }
+  ],
+  "supplier": "Hải sản Quốc Vũ",
+  "type": "Phiếu nhập",
+  "total": 20691070,
+  "createdAt": {
+    "$date": "2024-10-08T02:35:46.762Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T00:14:33.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671cf4261c44e30c95ef141b"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6682ba2359b27d9a3ddca26d",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719843360/sea_food/qcg8lazl3hzhphu34xon.jpg",
+        "public_id": "sea_food/qcg8lazl3hzhphu34xon"
+      },
+      "name": "Cua Cà Mau",
+      "variant": "Con 500g",
+      "price": 500000,
+      "quantity": 10,
+      "totalPrice": 5000000,
+      "_id": {
+        "$oid": "671cf4261c44e30c95ef141c"
+      }
+    },
+    {
+      "product": "667c24fdb73b6091fd7b3ccd",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411945/sea_food/r9dihdh3jdehgirhgzjx.png",
+        "public_id": "sea_food/r9dihdh3jdehgirhgzjx"
+      },
+      "name": "Mực Nang",
+      "variant": "Con 500g",
+      "price": 120000,
+      "quantity": 10,
+      "totalPrice": 1200000,
+      "_id": {
+        "$oid": "671cf4261c44e30c95ef141d"
+      }
+    },
+    {
+      "product": "667c21feb73b6091fd7b3b3f",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411189/sea_food/wq5x2sssxytuqacchyve.png",
+        "public_id": "sea_food/wq5x2sssxytuqacchyve"
+      },
+      "name": "Cá Trứng",
+      "variant": "Khay 500g",
+      "price": 65001,
+      "quantity": 10,
+      "totalPrice": 650010,
+      "_id": {
+        "$oid": "671cf4261c44e30c95ef141e"
+      }
+    }
+  ],
+  "supplier": "Hải sản Hoàng Gia",
+  "type": "Phiếu xuất",
+  "total": 6850010,
+  "exportedTo": {
+    "name": "An Nguyen",
+    "address": "Can Tho",
+    "phone": "0949399232",
+    "email": "huynhkien7777a@gmail.com"
+  },
+  "createdAt": {
+    "$date": "2024-10-26T13:52:38.224Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-26T13:52:38.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671cf46b1c44e30c95ef17b8"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6682ba2359b27d9a3ddca26d",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719843360/sea_food/qcg8lazl3hzhphu34xon.jpg",
+        "public_id": "sea_food/qcg8lazl3hzhphu34xon"
+      },
+      "name": "Cua Cà Mau",
+      "variant": "Con 500g",
+      "price": 500000,
+      "quantity": 150,
+      "totalPrice": 7500000,
+      "_id": {
+        "$oid": "671cf46b1c44e30c95ef17b9"
+      }
+    },
+    {
+      "product": "667c24fdb73b6091fd7b3ccd",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411945/sea_food/r9dihdh3jdehgirhgzjx.png",
+        "public_id": "sea_food/r9dihdh3jdehgirhgzjx"
+      },
+      "name": "Mực Nang",
+      "variant": "Con 500g",
+      "price": 120000,
+      "quantity": 100,
+      "totalPrice": 1200000,
+      "_id": {
+        "$oid": "671cf46b1c44e30c95ef17ba"
+      }
+    },
+    {
+      "product": "667c24f7b73b6091fd7b3cc7",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411951/sea_food/sbuxqlyqf7rnwdimrtd4.png",
+        "public_id": "sea_food/sbuxqlyqf7rnwdimrtd4"
+      },
+      "name": "Mực Lá Câu",
+      "variant": "Con 400g",
+      "price": 100000,
+      "quantity": 100,
+      "totalPrice": 1000000,
+      "_id": {
+        "$oid": "671cf46b1c44e30c95ef17bb"
+      }
+    },
+    {
+      "product": "667c245cb73b6091fd7b3cbf",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411798/sea_food/xup2d7zjhrjqnn1bz6u2.png",
+        "public_id": "sea_food/xup2d7zjhrjqnn1bz6u2"
+      },
+      "name": "Thịt Cua Đông Lạnh",
+      "variant": "Túi 100g",
+      "price": 79000,
+      "quantity": 240,
+      "totalPrice": 790000,
+      "_id": {
+        "$oid": "671cf46b1c44e30c95ef17bc"
+      }
+    }
+  ],
+  "supplier": "Hải sản Hoàng Gia",
+  "type": "Phiếu xuất",
+  "total": 10490000,
+  "createdAt": {
+    "$date": "2024-10-26T13:53:47.025Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-26T14:06:57.571Z"
+  },
+  "__v": 0,
+  "exportedTo": {
+    "name": "An Nguyen",
+    "email": "huynhkien7777a@gmail.com",
+    "address": "Can Tho",
+    "phone": "0949399232"
+  }
+},
+{
+  "_id": {
+    "$oid": "671cf47f1c44e30c95ef18ac"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "667c182fb73b6091fd7b39e7",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+        "public_id": "sea_food/ykij491qhbmy5dgi73tt"
+      },
+      "name": "Tôm Hùm Xanh Sống",
+      "variant": "350 gram",
+      "price": 5000000,
+      "quantity": 15,
+      "totalPrice": 75000000,
+      "_id": {
+        "$oid": "671cf47f1c44e30c95ef18ad"
+      }
+    },
+    {
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719411406/sea_food/mcvsu3hh5ktyhehvelau.png",
+        "public_id": "sea_food/mcvsu3hh5ktyhehvelau"
+      },
+      "product": "667c20b3b73b6091fd7b3b18",
+      "name": "Chả mực Phú Yên",
+      "variant": "Khay 500g",
+      "price": 200000,
+      "quantity": 10,
+      "totalPrice": 2000000,
+      "_id": {
+        "$oid": "671cf47f1c44e30c95ef18ae"
+      }
+    },
+    {
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+        "public_id": "sea_food/bnybfqlbhogkusa3vr1h"
+      },
+      "product": "667c1ba6b73b6091fd7b3a80",
+      "name": "Cua Nâu Sống",
+      "variant": "Con 800 gram",
+      "price": 70000,
+      "quantity": 15,
+      "totalPrice": 1050000,
+      "_id": {
+        "$oid": "671cf7ecc6fd902d7a907e8a"
+      }
+    }
+  ],
+  "supplier": "Hải sản Hoàng Gia",
+  "type": "Phiếu nhập",
+  "total": 78050000,
+  "createdAt": {
+    "$date": "2024-10-26T13:54:07.197Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-26T14:53:24.568Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67341dd09c7eb353342d6917"
+  },
+  "handledBy": "Huynh Kien",
+  "products": [
+    {
+      "product": "667c182fb73b6091fd7b39e7",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+        "public_id": "sea_food/ykij491qhbmy5dgi73tt"
+      },
+      "name": "Tôm Hùm Xanh Sống",
+      "variant": "350 gram",
+      "price": 5000000,
+      "quantity": 20,
+      "totalPrice": 100000000,
+      "_id": {
+        "$oid": "67341dd09c7eb353342d6918"
+      }
+    }
+  ],
+  "supplier": "Công ty hải sản Minh Phú",
+  "type": "Phiếu nhập",
+  "total": 100000000,
+  "createdAt": {
+    "$date": "2024-11-13T03:32:32.025Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-13T03:32:32.025Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67341e3e9c7eb353342d6ae3"
+  },
+  "handledBy": "Huynh Kien",
+  "products": [
+    {
+      "product": "667c182fb73b6091fd7b39e7",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+        "public_id": "sea_food/ykij491qhbmy5dgi73tt"
+      },
+      "name": "Tôm Hùm Xanh Sống",
+      "variant": "350 gram",
+      "price": 5000000,
+      "quantity": 150,
+      "totalPrice": 75000000,
+      "_id": {
+        "$oid": "67341e3e9c7eb353342d6ae4"
+      }
+    },
+    {
+      "product": "6745d97d42faa2674ab1ffed",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732630904/sea_food/wg4eqlgoiy5lkscjssuf.png",
+        "public_id": "sea_food/wg4eqlgoiy5lkscjssuf"
+      },
+      "name": "Cá mú",
+      "variant": "1 kg",
+      "price": 150000,
+      "quantity": 5,
+      "totalPrice": 750000,
+      "_id": {
+        "$oid": "6745f0a445329dcce9754162"
+      }
+    }
+  ],
+  "supplier": "Hải sản Hoàng Gia",
+  "type": "Phiếu xuất",
+  "total": 75750000,
+  "createdAt": {
+    "$date": "2024-11-13T03:34:22.985Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-26T16:01:44.147Z"
+  },
+  "__v": 0,
+  "exportedTo": {
+    "name": "An Nguyen",
+    "email": "huynhkien7777a@gmail.com",
+    "address": "Can Tho",
+    "phone": "0949399232"
+  }
+},
+{
+  "_id": {
+    "$oid": "6745e13c22f813e68fff4c67"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6745d97d42faa2674ab1ffed",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732630904/sea_food/wg4eqlgoiy5lkscjssuf.png",
+        "public_id": "sea_food/wg4eqlgoiy5lkscjssuf"
+      },
+      "name": "Cá mú",
+      "variant": "1 kg",
+      "price": 150000,
+      "quantity": 0,
+      "totalPrice": 1500000,
+      "_id": {
+        "$oid": "6745e13c22f813e68fff4c68"
+      }
+    },
+    {
+      "product": "6745d8a742faa2674ab1ff41",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732630692/sea_food/viwv5eefczspjl5fldrf.png",
+        "public_id": "sea_food/viwv5eefczspjl5fldrf"
+      },
+      "name": "Cá phi",
+      "variant": "1 kg",
+      "price": 25000,
+      "quantity": 15,
+      "totalPrice": 750000,
+      "_id": {
+        "$oid": "6745e13c22f813e68fff4c69"
+      }
+    },
+    {
+      "product": "6721f8d62bea6ac9633afed9",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1730279631/sea_food/fwlxmc5euqaerj6fqjuz.png",
+        "public_id": "sea_food/fwlxmc5euqaerj6fqjuz"
+      },
+      "name": "Cua hoàng đế",
+      "variant": "Con 2.5kg",
+      "price": 5000000,
+      "quantity": 59,
+      "totalPrice": 295000000,
+      "_id": {
+        "$oid": "6745e13d22f813e68fff4c6a"
+      }
+    },
+    {
+      "product": "6672467a3659f6f1d9557e90",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+        "public_id": "sea_food/fickpehuws2hu2fjk31m"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "variant": "Combo 2 con ",
+      "price": 50000,
+      "quantity": 48,
+      "totalPrice": 2500000,
+      "_id": {
+        "$oid": "6745e19a22f813e68fff5070"
+      }
+    }
+  ],
+  "supplier": "Công ty hải sản Minh Phú",
+  "type": "Phiếu nhập",
+  "total": 305750000,
+  "createdAt": {
+    "$date": "2024-11-26T14:54:53.009Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T09:40:36.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6750233c62625484e22a48f2"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6745d97d42faa2674ab1ffed",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732630904/sea_food/wg4eqlgoiy5lkscjssuf.png",
+        "public_id": "sea_food/wg4eqlgoiy5lkscjssuf"
+      },
+      "name": "Cá mú",
+      "variant": "1 kg",
+      "price": 150000,
+      "quantity": 20,
+      "totalPrice": 3000000,
+      "_id": {
+        "$oid": "6750233c62625484e22a48f3"
+      }
+    },
+    {
+      "product": "6745d8a742faa2674ab1ff41",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732630692/sea_food/viwv5eefczspjl5fldrf.png",
+        "public_id": "sea_food/viwv5eefczspjl5fldrf"
+      },
+      "name": "Cá phi",
+      "variant": "1 kg",
+      "price": 25000,
+      "quantity": 30,
+      "totalPrice": 750000,
+      "_id": {
+        "$oid": "6750233c62625484e22a48f4"
+      }
+    }
+  ],
+  "supplier": "Công ty hải sản Minh Phú",
+  "type": "Phiếu nhập",
+  "total": 3750000,
+  "createdAt": {
+    "$date": "2024-12-04T09:39:08.116Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T09:39:08.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6750239462625484e22a4c58"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6745d8a742faa2674ab1ff41",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732630692/sea_food/viwv5eefczspjl5fldrf.png",
+        "public_id": "sea_food/viwv5eefczspjl5fldrf"
+      },
+      "name": "Cá phi",
+      "variant": "1 kg",
+      "price": 25000,
+      "quantity": 15,
+      "totalPrice": 375000,
+      "_id": {
+        "$oid": "6750239462625484e22a4c59"
+      }
+    },
+    {
+      "product": "6745d97d42faa2674ab1ffed",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732630904/sea_food/wg4eqlgoiy5lkscjssuf.png",
+        "public_id": "sea_food/wg4eqlgoiy5lkscjssuf"
+      },
+      "name": "Cá mú",
+      "variant": "1 kg",
+      "price": 150000,
+      "quantity": 50,
+      "totalPrice": 750000,
+      "_id": {
+        "$oid": "6750239462625484e22a4c5a"
+      }
+    }
+  ],
+  "supplier": "Hải sản Minh Phú",
+  "type": "Phiếu nhập",
+  "total": 1125000,
+  "createdAt": {
+    "$date": "2024-12-04T09:40:36.486Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T09:41:16.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675165a522412022750a6210"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6672467a3659f6f1d9557e90",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+        "public_id": "sea_food/e0wf6rhsogjteflwkyt3"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "variant": "Combo 1 con",
+      "price": 500000,
+      "quantity": 28,
+      "totalPrice": 14000000,
+      "_id": {
+        "$oid": "675165a522412022750a6211"
+      }
+    }
+  ],
+  "supplier": "Công ty hải sản Minh Phú",
+  "type": "Phiếu nhập",
+  "total": 14000000,
+  "createdAt": {
+    "$date": "2024-12-05T08:34:45.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-05T08:34:45.845Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675165fb22412022750a65cf"
+  },
+  "handledBy": "admin",
+  "products": [
+    {
+      "product": "6672467a3659f6f1d9557e90",
+      "thumb": {
+        "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+        "public_id": "sea_food/e0wf6rhsogjteflwkyt3"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "variant": "Combo 1 con",
+      "price": 500000,
+      "quantity": 28,
+      "totalPrice": 14000000,
+      "_id": {
+        "$oid": "675165fb22412022750a65d0"
+      }
+    }
+  ],
+  "supplier": "Hải sản Hoàng Gia",
+  "type": "Phiếu xuất",
+  "total": 14000000,
+  "exportedTo": {
+    "name": "Kien",
+    "address": "Ca Mau",
+    "phone": "0949399263",
+    "email": "kien@gmail.com"
+  },
+  "createdAt": {
+    "$date": "2024-12-05T08:36:11.743Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-05T08:36:11.743Z"
+  },
+  "__v": 0
+}]

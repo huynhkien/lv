@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6702539d66824ee1a2361cae"
+  },
+  "code": "90000AZHS",
+  "description": "AZ",
+  "discountType": "percentage",
+  "discountValue": 40,
+  "minPurchaseAmount": 1000,
+  "maxDiscount": 2000,
+  "startDate": {
+    "$date": "2025-05-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  },
+  "usageLimit": 100,
+  "usedCount": 12,
+  "userUsageLimit": 18,
+  "applyType": "products",
+  "applicableProducts": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "name": "Tôm hùm alaska Cà Mau",
+      "_id": {
+        "$oid": "67040daa4422d0acaf533a9d"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "name": "Mực ống",
+      "_id": {
+        "$oid": "67040daa4422d0acaf533a9e"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c20b2b73b6091fd7b3b12"
+      },
+      "name": "Chả mực Hạ Long",
+      "_id": {
+        "$oid": "6715ec760e7a8b83969d56fd"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "name": "Ghẹ Xanh Sống",
+      "_id": {
+        "$oid": "6715ec760e7a8b83969d56fe"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6682ba2359b27d9a3ddca26d"
+      },
+      "name": "Cua Cà Mau",
+      "_id": {
+        "$oid": "6715ec760e7a8b83969d56ff"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c228cb73b6091fd7b3b48"
+      },
+      "name": "Cá Thu Cắt Khoanh",
+      "_id": {
+        "$oid": "6715ec760e7a8b83969d5700"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "name": "Tôm Hùm Xanh Sống",
+      "_id": {
+        "$oid": "671649b3bd9c611be7201e26"
+      }
+    }
+  ],
+  "applicableCategories": [],
+  "applicableUsers": [],
+  "createdAt": {
+    "$date": "2025-03-01T09:08:45.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T00:12:14.036Z"
+  },
+  "__v": 11,
+  "isShow": true
+}]

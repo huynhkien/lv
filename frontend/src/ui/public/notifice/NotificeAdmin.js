@@ -1,15 +1,10 @@
-import React from 'react';
-import { MdCancel } from 'react-icons/md';
-import moment from 'moment';
-import { useSelector } from 'react-redux';
+﻿import moment from 'moment';
 
-
-function Notification({ notification}) {
-  const {current} = useSelector(state => state.user);
+function NotificationAdmin({notification, users}) {
   const filteredNotifications = notification?.filter(el => 
     el.voucher || 
     el.product || 
-    (el.status_order && el.status_order?.uid === current?._id)
+    el.status_order
   );
 
   return (
@@ -24,21 +19,21 @@ function Notification({ notification}) {
                   {moment(el.voucher.startDate).format("DD/MM")} - {moment(el.voucher.endDate).format("DD/MM")}.{" "}
                 </>
               )}
-              {el.status_order && el.status_order?.uid === current?._id && (
+              {el.status_order  && (
                 <>
-                  {el.status_order?.order ? `Mã đơn hàng ${el?.status_order?.order}` : `Đơn hàng đang xử lý, thời gian giao dự kiến mất khoảng 2 - 3 ngày`}
+                  {el.status_order?.order ? `Mã đơn hàng ${el?.status_order?.order} của khách hàng ${users.find(item => item?._id === el?.status_order?.uid)?.name}` : `Đơn hàng đang xử lý, thời gian giao dự kiến mất khoảng 2 - 3 ngày`}
                   {(() => {
                     switch(el.status_order.status) {
                       case 'Delivering':
-                        return ' - Đang được giao, vui lòng nghe máy khi shipper gọi';
+                        return ' - đã thay đổi trạng thái "Đang được giao", vui lòng nhắc khách hàng nghe máy khi shipper gọi';
                       case 'Processing':
-                        return ' - Đang xử lý, thời gian giao dự kiến mất khoảng 2 - 3 ngày ';
+                        return ' - Đang xử lý, vui lòng xử lý đơn hàng';
                       case 'Cancelled':
-                        return ' - Đã hủy, bạn có thể xem thêm các sản phẩm khác';
+                        return ' - đã thay đổi trạng thái "Đã hủy"';
                       case 'Succeed':
-                        return ' - Giao hàng thành công, cảm ơn quý khách';
+                        return ' - đã thay đổi trạng thái "Giao hàng thành công"';
                       case 'Confirm':
-                        return ' - Đã xác nhận, vui lòng xác nhận để nhận hàng';
+                        return ' - đã thay đổi trạng thái "Đã xác nhận", vui lòng nhắc khách xác nhận để nhận hàng';
                       default:
                         return '';
                     }
@@ -63,4 +58,4 @@ function Notification({ notification}) {
   );
 }
 
-export default Notification;
+export default NotificationAdmin;

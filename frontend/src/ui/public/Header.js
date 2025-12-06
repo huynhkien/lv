@@ -9,13 +9,9 @@ import {showCart} from '../../store/app/appSlice';
 import {Logo} from '../../assets/img/Index'
 import {CartItem, Notification} from '../../ui/Index';
 import withBaseComponents from '../../hocs/withBaseComponents';
-import { apiCreateNotification, apiGetCategory, apiGetNotifications } from '../../apis';
+import { apiGetCategory, apiGetNotifications } from '../../apis';
 import { Search } from '../../components/Index';
 import { FaImage } from "react-icons/fa";
-import io from 'socket.io-client';
-
-const socket = io('http://localhost:3001');
-
 
 const Header = ({dispatch, navigate}) => {
 
@@ -23,90 +19,38 @@ const Header = ({dispatch, navigate}) => {
    const [name, setName] = useState(false);
    const [category, setCategory] = useState(null);
    const [info, setInfo] = useState(null);
-   const [notifications, setNotifications] = useState(null);
-   const [unreadNotificationsCount, setUnreadNotificationsCount] = useState(0);
-   const [notification, setNotification] = useState(null);
+   const [showNotification, setShowNotification] = useState(false);
+   const [notifications, setNotifications] = useState([]); 
    const [showList, setShowList] = useState(false);
    const { isLogin, currentCart, current} = useSelector(state => state.user); 
-   console.log(current)
+   
    const fetchCategory = async () => {
       const response = await apiGetCategory();
       setCategory(response?.data)
    } 
+   
    const fetchNotification = async () => {
-      const response = await apiGetNotifications();
-      if(response.success) {
-         const userSpecificNotifications = response.data.filter(
-            noti => !noti.status_order || noti.status_order.uid.toString() === current?._id.toString()
-         );
-         
-         setNotification(response.data);
-         setUnreadNotificationsCount(userSpecificNotifications.length);
+      try {
+         const response = await apiGetNotifications();
+         if(response.success && response.data) {
+            setNotifications(response.data); 
+         }
+      } catch (error) {
+         console.error('Error fetching notifications:', error);
       }
    }
+   
    useEffect(() => {
       fetchCategory();
-      fetchNotification();
-   }, [])
+      if(current) { 
+         fetchNotification();
+      }
+   }, [current])
+   
    const handleLogout = () => {
       dispatch(logout());  
       navigate('/'); 
-    };
-    useEffect(() => {
-      const handleNewVoucher = async (data) => {
-        if (data) {
-          await apiCreateNotification({
-            voucher: {
-              voucher: data?.voucher?._id,
-              code: data?.voucher?.code,
-              startDate: data?.voucher?.startDate,
-              endDate: data?.voucher?.endDate,
-              discountType: data?.voucher?.discountType,
-              discountValue: data?.voucher?.discountValue,
-            },
-          });
-          fetchNotification();
-        }
-      };
-    
-      const handleNewProduct = async (data) => {
-        if (data) {
-          await apiCreateNotification({
-            product: { product: data?.product?._id, name: data?.product?.name },
-          });
-          fetchNotification();
-        }
-      };
-    
-      const handleStatusOrder = async (data) => {
-        if (data) {
-          await apiCreateNotification({
-            status_order: { status: data?.order?.status, order: data?.order?.oid, uid: data?.order?.uid },
-          });
-          fetchNotification();
-        }
-      };
-      const handleCreateOrder = async (data) => {
-        if (data) {
-          await apiCreateNotification({
-            status_order: { status: data?.order?.status,  uid: data?.order?.uid },
-          });
-          fetchNotification();
-        }
-      };
-    
-      socket.on('new_voucher_created', handleNewVoucher);
-      socket.on('new_product_created', handleNewProduct);
-      socket.on('order_status_update', handleStatusOrder);
-      socket.on('order_status_create', handleCreateOrder);
-    
-      return () => {
-        socket.off('new_voucher_created', handleNewVoucher);
-        socket.off('new_product_created', handleNewProduct);
-        socket.off('order_status_update', handleStatusOrder);
-        socket.off('order_status_create', handleCreateOrder);
-      };
-    }, []);
+    }
     
   return (
    
@@ -149,12 +93,12 @@ const Header = ({dispatch, navigate}) => {
                      <li>
                         <a href={'/'}>Trang chủ</a>
                      </li>
-                     <li class="has-dropdown has-homemenu">
+                     <li className="has-dropdown has-homemenu">
                         <li className='sub-menu home-menu-style position-relative' >
                            <a href='/'>Danh mục</a>
                            <ul className='sub-menu'>
                               {category?.map((el) => (
-                                 <li className='py-1'>
+                                 <li key={el._id} className='py-1'>
                                     <a href={`/${el?.name}`}>
                                        {el?.name}
                                     </a>
@@ -181,12 +125,11 @@ const Header = ({dispatch, navigate}) => {
                   <div className='col-lg-6 col-md-12'>
                      <div className='header__top-right d-flex align-items-center'>
                         <div className='header__top-link'>
-                     
-                           {notifications && (
-                              <div className='notification-template shadow'>
+                           {isLogin && current && <span style={{cursor: 'pointer'}} onClick={() => setShowNotification(prev => !prev)}>Thông báo</span>}
+                           {showNotification && (
+                              <div className='notification-template shadow '>
                                  <Notification
-                                 fetchNotifications={fetchNotification}
-                                 notification={notification}
+                                    notification={notifications}
                                  />
                               </div>
                            )}
@@ -223,7 +166,7 @@ const Header = ({dispatch, navigate}) => {
                                     <a href='/'>Danh mục</a>
                                     <ul className='sub-menu mega-menu d-flex flex-wrap'>
                                        {category?.map((el) => (
-                                          <li className='py-1'>
+                                          <li key={el._id} className='py-1'>
                                              <a href={`/category/${el?.name}`}>
                                                 {el?.name}
                                              </a>
@@ -283,10 +226,10 @@ const Header = ({dispatch, navigate}) => {
                      />
                   </div>}
          {current && info && 
-            <div class="user-info shadow">
+            <div className="user-info shadow">
                <ul>
                   <li><span>Điểm tích lũy</span> <span>{current?.accumulate?.points || 0}</span></li>
-                  <li><span>Rank</span> <span class="rank">{current?.accumulate?.rank || 0}</span></li>
+                  <li><span>Rank</span> <span className="rank">{current?.accumulate?.rank || 0}</span></li>
                   <li className='underline'><a href={'/info-user'}>Thông tin cá nhân</a></li>
                   <li className='underline'><a href={'/order'}>Đơn hàng</a></li>
                   {(current?.role === "2002" || current?.role === "2006") && (

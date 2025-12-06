@@ -1,0 +1,2615 @@
+[{
+  "_id": {
+    "$oid": "667adaaeefa3e2b988e4786e"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 2,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667921a73cd923a33b040a77"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 4,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "667921db3cd923a33b040a88"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 25.78723404255319,
+  "orderBy": {
+    "$oid": "6679218b3cd923a33b040a5d"
+  },
+  "createdAt": {
+    "$date": "2024-06-25T14:56:46.805Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T06:39:20.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ed5b0aae4ec9a536d7ba3"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "667ec57e54adbb9c4cca6d8b"
+      }
+    }
+  ],
+  "status": "Succeed",
+  "total": 98.85106382978724,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T15:24:32.606Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T06:54:07.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ed5f5aae4ec9a536d7bbd"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "667ec57e54adbb9c4cca6d8b"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 98.85106382978724,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T15:25:41.581Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-29T01:36:36.918Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ed650aae4ec9a536d7bd2"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "667ec57e54adbb9c4cca6d8b"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 98.85106382978724,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T15:27:12.609Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T09:57:07.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ed67baae4ec9a536d7be7"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "667ec57e54adbb9c4cca6d8b"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 98.85106382978724,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T15:27:55.138Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-03T03:05:04.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ee3275f03e6fb4a1e5184"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "667edb65aae4ec9a536d80e3"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 80.55319148936171,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T16:21:59.154Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-03T03:05:11.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ee34df2a78db0e8a4d137"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "667edb65aae4ec9a536d80e3"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 80.55319148936171,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T16:22:37.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-03T03:05:18.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ee378f2a78db0e8a4d168"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "667edb65aae4ec9a536d80e3"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 80.55319148936171,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T16:23:20.519Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-28T16:23:20.519Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ee38bf2a78db0e8a4d186"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "667edb65aae4ec9a536d80e3"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 80.55319148936171,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T16:23:39.169Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-28T16:23:39.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ee5ad93423d48f182072d"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 3,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "667eabb5f3f2283316f58485"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667ec2d58ee6fd1e6a6d8472"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "667edb65aae4ec9a536d80e3"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 80.55319148936171,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-06-28T16:32:45.137Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-28T16:32:45.137Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667f760fda7bf4d973d70f1f"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 2,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska",
+      "price": 123,
+      "_id": {
+        "$oid": "667921a73cd923a33b040a77"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 4,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "667921db3cd923a33b040a88"
+      }
+    }
+  ],
+  "status": "Cancelled",
+  "total": 25.78723404255319,
+  "orderBy": {
+    "$oid": "6679218b3cd923a33b040a5d"
+  },
+  "createdAt": {
+    "$date": "2024-06-29T02:48:47.734Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-29T02:51:40.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6682c9932f8c7e8fb0073067"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6682c9452f8c7e8fb0072fc1"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 4,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6682c96f2f8c7e8fb007304f"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 106.38297872340425,
+  "orderBy": {
+    "$oid": "6682c9272f8c7e8fb0072f25"
+  },
+  "createdAt": {
+    "$date": "2024-07-01T15:21:55.628Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-01T15:21:55.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6682cb8c2f8c7e8fb00734c0"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6682cb412f8c7e8fb0073404"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 3,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6682cb652f8c7e8fb007349b"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 85.1063829787234,
+  "orderBy": {
+    "$oid": "6682cb2d2f8c7e8fb0073364"
+  },
+  "createdAt": {
+    "$date": "2024-07-01T15:30:20.808Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-01T15:30:20.808Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6682cc7e2f8c7e8fb0073638"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "6682cc392f8c7e8fb007357c"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6682cc3b2f8c7e8fb0073584"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 4,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6682cc5f2f8c7e8fb007361b"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 110.2127659574468,
+  "orderBy": {
+    "$oid": "6682cc1c2f8c7e8fb00734da"
+  },
+  "createdAt": {
+    "$date": "2024-07-01T15:34:22.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-01T15:37:03.227Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66841a16ebfa3c44a1864bef"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "668418adebfa3c44a1864b8c"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "668418aeebfa3c44a1864b94"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 25.106382978723403,
+  "orderBy": {
+    "$oid": "6682c9272f8c7e8fb0072f25"
+  },
+  "createdAt": {
+    "$date": "2024-07-02T15:17:42.272Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-02T15:17:42.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66849186c063894609dcd9f8"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 4,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6682c4fdc10cfc8bb9a4bf1c"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "66849140c063894609dcd9bd"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "6684914cc063894609dcd9cb"
+      }
+    }
+  ],
+  "status": "Cancelled",
+  "total": 118.72340425531915,
+  "orderBy": {
+    "$oid": "6679218b3cd923a33b040a5d"
+  },
+  "createdAt": {
+    "$date": "2024-07-02T23:47:18.797Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T07:27:59.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684be82738a2e518fcef611"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 8,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "6684bdd5738a2e518fcef5cf"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 238.29787234042553,
+  "orderBy": {
+    "$oid": "6684bd26738a2e518fcef25c"
+  },
+  "createdAt": {
+    "$date": "2024-07-03T02:59:14.154Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-03T03:03:13.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ed4246d69884b063db491f"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 3,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 36.9,
+      "_id": {
+        "$oid": "66ed4246d69884b063db4920"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 90,
+      "_id": {
+        "$oid": "66ed4246d69884b063db4921"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 4,
+      "variant": "Size M",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718984697/sea_food/lfnhgowbi7tdpyavbhy9.webp",
+      "name": "Mực ống",
+      "price": 99,
+      "_id": {
+        "$oid": "66ed4246d69884b063db4922"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 25.39148936170213,
+  "orderBy": {
+    "$oid": "6679218b3cd923a33b040a5d"
+  },
+  "createdAt": {
+    "$date": "2024-09-20T09:37:10.883Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T09:37:10.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66facb179483fd3a50ac58dd"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 2,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "66facb179483fd3a50ac58de"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "66facb179483fd3a50ac58df"
+      }
+    }
+  ],
+  "status": "Confirm",
+  "total": 72.34042553191489,
+  "orderBy": {
+    "$oid": "66f4ee5865772934b46f9ffc"
+  },
+  "createdAt": {
+    "$date": "2024-09-30T16:00:23.175Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-26T09:22:55.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fb628b3f77089af2092d80"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 2,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "66fb628b3f77089af2092d81"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "66fb628b3f77089af2092d82"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "total": 72.34042553191489,
+  "orderBy": {
+    "$oid": "66f4ee5865772934b46f9ffc"
+  },
+  "createdAt": {
+    "$date": "2024-10-01T02:46:35.629Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-27T16:14:59.521Z"
+  },
+  "__v": 0,
+  "location": {
+    "lat": 8.924349255885701,
+    "lng": 105.17953490372749
+  }
+},
+{
+  "_id": {
+    "$oid": "6705e8f8b06678c2cf0034c1"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 5,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705e8f8b06678c2cf0034c2"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 3,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "6705e8f8b06678c2cf0034c3"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 4,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705e8f8b06678c2cf0034c4"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 4,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "6705e8f8b06678c2cf0034c5"
+      }
+    }
+  ],
+  "status": "Cancelled",
+  "total": 21217.021276595744,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-09T02:22:48.998Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-09T02:52:37.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6705eeee5464a79bc09e28c5"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 5,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705eeee5464a79bc09e28c6"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 3,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "6705eeee5464a79bc09e28c7"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 4,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705eeee5464a79bc09e28c8"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 4,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "6705eeee5464a79bc09e28c9"
+      }
+    }
+  ],
+  "status": "Processing",
+  "total": 21217.021276595744,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-09T02:48:14.684Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-09T02:48:14.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6705f3be552c5f54d17a99b0"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 4,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705f3be552c5f54d17a99b1"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 3,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "6705f3be552c5f54d17a99b2"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 4,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705f3be552c5f54d17a99b3"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 4,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "6705f3be552c5f54d17a99b4"
+      }
+    }
+  ],
+  "status": "Cancelled",
+  "total": 21195.744680851065,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-09T03:08:46.362Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T06:51:57.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6705f596e657621e04053d74"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 4,
+      "variant": "Con 500gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705f596e657621e04053d75"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 3,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "6705f596e657621e04053d76"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 4,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "6705f596e657621e04053d77"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 4,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "6705f596e657621e04053d78"
+      }
+    }
+  ],
+  "status": "Cancelled",
+  "total": 21195.744680851065,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-09T03:16:38.747Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-09T03:23:11.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670aa34333abdf49a88bf7db"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "670aa34333abdf49a88bf7dc"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "670aa34333abdf49a88bf7dd"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "670aa34333abdf49a88bf7de"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 2 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 50000,
+      "_id": {
+        "$oid": "670aa34333abdf49a88bf7df"
+      }
+    }
+  ],
+  "status": "Confirm",
+  "applyVoucher": {
+    "$oid": "67024c8f66824ee1a2361525"
+  },
+  "total": 3706.3829787234044,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-12T16:26:43.397Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T06:56:53.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670aa4cc3144b6c1649bc26c"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "670aa4cc3144b6c1649bc26d"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "670aa4cc3144b6c1649bc26e"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "670aa4cc3144b6c1649bc26f"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 2 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 50000,
+      "_id": {
+        "$oid": "670aa4cc3144b6c1649bc270"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": {
+    "$oid": "67024c8f66824ee1a2361525"
+  },
+  "total": 3706.3829787234044,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-12T16:33:16.536Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-12T16:33:16.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670aa7983144b6c1649bc2c0"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "670aa7983144b6c1649bc2c1"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "670aa7983144b6c1649bc2c2"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "670aa7983144b6c1649bc2c3"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 2 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 50000,
+      "_id": {
+        "$oid": "670aa7983144b6c1649bc2c4"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 7412.765957446809,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-12T16:45:12.663Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-12T16:45:12.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670aa7ae3144b6c1649bc308"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "670aa7ae3144b6c1649bc309"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "670aa7ae3144b6c1649bc30a"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "670aa7ae3144b6c1649bc30b"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 2 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 50000,
+      "_id": {
+        "$oid": "670aa7ae3144b6c1649bc30c"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 7412.765957446809,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-12T16:45:34.021Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-12T16:45:34.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670aa80d3144b6c1649bc815"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 500,
+      "_id": {
+        "$oid": "670aa80d3144b6c1649bc816"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 700,
+      "_id": {
+        "$oid": "670aa80d3144b6c1649bc817"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 123000,
+      "_id": {
+        "$oid": "670aa80d3144b6c1649bc818"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 2 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 50000,
+      "_id": {
+        "$oid": "670aa80d3144b6c1649bc819"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": {
+    "$oid": "67024c8f66824ee1a2361525"
+  },
+  "total": 3706.3829787234044,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2024-10-12T16:47:09.414Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-12T16:47:09.414Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717502458028bd9f8cdaa09"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 1,
+      "variant": "Con 500 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 49998,
+      "_id": {
+        "$oid": "6717502458028bd9f8cdaa0a"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 250000,
+      "_id": {
+        "$oid": "6717502458028bd9f8cdaa0b"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 53998.8,
+      "_id": {
+        "$oid": "6717502458028bd9f8cdaa0c"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 4980000,
+      "_id": {
+        "$oid": "6717502458028bd9f8cdaa0d"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 226.97858723404255,
+  "orderBy": {
+    "$oid": "6715230eaf79fc3b89b68b51"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-10-22T07:11:32.967Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-22T07:11:32.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717503c58028bd9f8cdaa5e"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 1,
+      "variant": "Con 500 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 49998,
+      "_id": {
+        "$oid": "6717503c58028bd9f8cdaa5f"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 250000,
+      "_id": {
+        "$oid": "6717503c58028bd9f8cdaa60"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 53998.8,
+      "_id": {
+        "$oid": "6717503c58028bd9f8cdaa61"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 4980000,
+      "_id": {
+        "$oid": "6717503c58028bd9f8cdaa62"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 226.97858723404255,
+  "orderBy": {
+    "$oid": "6715230eaf79fc3b89b68b51"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-10-22T07:11:56.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-22T07:11:56.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717518658028bd9f8cdab17"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 1,
+      "variant": "Con 500 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 49998,
+      "_id": {
+        "$oid": "6717518658028bd9f8cdab18"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 250000,
+      "_id": {
+        "$oid": "6717518658028bd9f8cdab19"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 53998.8,
+      "_id": {
+        "$oid": "6717518658028bd9f8cdab1a"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 4980000,
+      "_id": {
+        "$oid": "6717518658028bd9f8cdab1b"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 226.97858723404255,
+  "orderBy": {
+    "$oid": "6715230eaf79fc3b89b68b51"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-10-22T07:17:26.207Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-22T07:17:26.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67277f3742e3f2c2437299db"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 3,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 250000,
+      "_id": {
+        "$oid": "67277f3742e3f2c2437299dc"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 31914.893617021276,
+  "orderBy": {
+    "$oid": "6715230eaf79fc3b89b68b51"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-11-03T13:48:39.699Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-03T13:48:39.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67341c379c7eb353342d59d1"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 4980000,
+      "_id": {
+        "$oid": "67341c379c7eb353342d59d2"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 1,
+      "variant": "Con 500 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 49998,
+      "_id": {
+        "$oid": "67341c379c7eb353342d59d3"
+      }
+    }
+  ],
+  "status": "Succeed",
+  "applyVoucher": {
+    "$oid": "6731c4272a8057ea3a1ca079"
+  },
+  "total": 107021.23404255319,
+  "orderBy": {
+    "$oid": "66f4ee5865772934b46f9ffc"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-11-13T03:25:43.971Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-26T10:38:28.195Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673a0285ddd7fc23744f4585"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 3,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 250000,
+      "_id": {
+        "$oid": "673a0285ddd7fc23744f4586"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 2,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "673a0285ddd7fc23744f4587"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 1,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 80000,
+      "_id": {
+        "$oid": "673a0285ddd7fc23744f4588"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": {
+    "$oid": "6721ef57ff8e73cde912e32a"
+  },
+  "total": 34936.17021276596,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-11-17T14:49:41.987Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-17T14:49:41.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6745d334519f0fc1cad4513d"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 80000,
+      "_id": {
+        "$oid": "6745d334519f0fc1cad4513e"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "6745d334519f0fc1cad4513f"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 12148.936170212766,
+  "orderBy": {
+    "$oid": "6715230eaf79fc3b89b68b51"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-11-26T13:55:00.173Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-26T13:55:00.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6745d53142faa2674ab1fb2f"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 80000,
+      "_id": {
+        "$oid": "6745d53142faa2674ab1fb30"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "6745d53142faa2674ab1fb31"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 12148.936170212766,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "location": [],
+  "createdAt": {
+    "$date": "2024-11-26T14:03:29.169Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-26T14:03:29.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6745d6fa42faa2674ab1fb57"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 80000,
+      "_id": {
+        "$oid": "6745d6fa42faa2674ab1fb58"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "6745d6fa42faa2674ab1fb59"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "applyVoucher": null,
+  "total": 12148.936170212766,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "location": {
+    "lat": 10.232221352863068,
+    "lng": 106.37457272037865
+  },
+  "createdAt": {
+    "$date": "2024-11-26T14:11:06.977Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-27T15:52:24.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674ddea2d8496a81a8831991"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "674ddea2d8496a81a8831992"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 1936.1702127659576,
+  "orderBy": {
+    "$oid": "6745f86345329dcce9756056"
+  },
+  "createdAt": {
+    "$date": "2024-12-02T16:21:54.977Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T16:21:54.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674f1c5f72552e32c948bea5"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 2,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 500000,
+      "_id": {
+        "$oid": "674f1c5f72552e32c948bea6"
+      }
+    },
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 2,
+      "variant": "Combo 2 con ",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 50000,
+      "_id": {
+        "$oid": "674f1c5f72552e32c948bea7"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "applyVoucher": null,
+  "total": 46808.51063829787,
+  "orderBy": {
+    "$oid": "6745f86345329dcce9756056"
+  },
+  "createdAt": {
+    "$date": "2024-12-03T14:57:35.941Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-03T14:59:37.408Z"
+  },
+  "__v": 0,
+  "location": {
+    "lat": 8.921296744632405,
+    "lng": 105.1805648719892
+  }
+},
+{
+  "_id": {
+    "$oid": "674ff4a3dbb3628dfd57d84c"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 2,
+      "variant": "Combo 2 con ",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718804532/sea_food/fickpehuws2hu2fjk31m.webp",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 50000,
+      "_id": {
+        "$oid": "674ff4a3dbb3628dfd57d84d"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 2,
+      "variant": "Size L",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718972370/sea_food/ddi52bns8b5aa4c3simx.webp",
+      "name": "Mực ống",
+      "price": 80000,
+      "_id": {
+        "$oid": "674ff4a3dbb3628dfd57d84e"
+      }
+    }
+  ],
+  "status": "Cancelled",
+  "applyVoucher": null,
+  "total": 11063.829787234043,
+  "orderBy": {
+    "$oid": "66f4ee5865772934b46f9ffc"
+  },
+  "createdAt": {
+    "$date": "2024-12-04T06:20:19.273Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T06:20:42.243Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67513650b359cfd7576bc559"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c182fb73b6091fd7b39e7"
+      },
+      "quantity": 1,
+      "variant": "350 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719423056/sea_food/ykij491qhbmy5dgi73tt.png",
+      "name": "Tôm Hùm Xanh Sống",
+      "price": 180000,
+      "_id": {
+        "$oid": "67513650b359cfd7576bc55a"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "67513650b359cfd7576bc55b"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 9595.744680851063,
+  "orderBy": {
+    "$oid": "67513289b359cfd7576ba846"
+  },
+  "createdAt": {
+    "$date": "2024-12-05T05:12:48.236Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-05T05:12:48.236Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6751558822412022750a0328"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "6751558822412022750a0329"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 1936.1702127659576,
+  "orderBy": {
+    "$oid": "66fad70b48be48257628a041"
+  },
+  "createdAt": {
+    "$date": "2024-12-05T07:26:00.885Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-05T07:26:00.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6751563522412022750a0643"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 1,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "6751563522412022750a0644"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": null,
+  "total": 1936.1702127659576,
+  "orderBy": {
+    "$oid": "66fad70b48be48257628a041"
+  },
+  "createdAt": {
+    "$date": "2024-12-05T07:28:53.559Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-05T07:28:53.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675163d822412022750a393d"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 1,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 500000,
+      "_id": {
+        "$oid": "675163d822412022750a393e"
+      }
+    },
+    {
+      "product": {
+        "$oid": "667c1ba6b73b6091fd7b3a80"
+      },
+      "quantity": 3,
+      "variant": "Con 800 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719409558/sea_food/bnybfqlbhogkusa3vr1h.webp",
+      "name": "Cua Nâu Sống",
+      "price": 45500,
+      "_id": {
+        "$oid": "675163d822412022750a393f"
+      }
+    }
+  ],
+  "status": "Processing",
+  "applyVoucher": {
+    "$oid": "6702539d66824ee1a2361cae"
+  },
+  "total": 18574.468085106382,
+  "orderBy": {
+    "$oid": "675163a222412022750a3626"
+  },
+  "createdAt": {
+    "$date": "2024-12-05T08:27:04.169Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-05T08:27:04.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c568f60fc2f90f681839b2"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6672467a3659f6f1d9557e90"
+      },
+      "quantity": 2,
+      "variant": "Combo 1 con",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718765172/sea_food/e0wf6rhsogjteflwkyt3.jpg",
+      "name": "Tôm hùm alaska Cà Mau",
+      "price": 500000,
+      "_id": {
+        "$oid": "67c568f60fc2f90f681839b3"
+      }
+    },
+    {
+      "product": {
+        "$oid": "66756fd91070986bf6c8a7d8"
+      },
+      "quantity": 3,
+      "variant": "Size M",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718984697/sea_food/lfnhgowbi7tdpyavbhy9.webp",
+      "name": "Mực ống",
+      "price": 70000,
+      "_id": {
+        "$oid": "67c568f60fc2f90f681839b4"
+      }
+    }
+  ],
+  "status": "Delivering",
+  "applyVoucher": {
+    "$oid": "6702539d66824ee1a2361cae"
+  },
+  "total": 41787.234042553195,
+  "orderBy": {
+    "$oid": "66f4ee5865772934b46f9ffc"
+  },
+  "createdAt": {
+    "$date": "2025-03-03T08:31:50.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-03T08:34:00.066Z"
+  },
+  "__v": 0,
+  "location": {
+    "lat": 9.797859722891108,
+    "lng": 105.81761741428637
+  }
+},
+{
+  "_id": {
+    "$oid": "682d1a5de9a01e2b544c3dbe"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 2,
+      "variant": "Con 500 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 49998,
+      "_id": {
+        "$oid": "682d1a5ee9a01e2b544c3dbf"
+      }
+    }
+  ],
+  "status": "Confirm",
+  "applyVoucher": {
+    "$oid": "6702539d66824ee1a2361cae"
+  },
+  "total": 3404.1191489361704,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2025-05-21T00:12:14.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T00:21:59.523Z"
+  },
+  "__v": 0,
+  "location": null
+},
+{
+  "_id": {
+    "$oid": "682d1ac3e9a01e2b544c448b"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "667c1f33b73b6091fd7b3af9"
+      },
+      "quantity": 2,
+      "variant": "Con 500 gram",
+      "thumb": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719410470/sea_food/kn87kuvz6jnplfoajcnc.png",
+      "name": "Ghẹ Xanh Sống",
+      "price": 49998,
+      "_id": {
+        "$oid": "682d1ac3e9a01e2b544c448c"
+      }
+    }
+  ],
+  "status": "Cancelled",
+  "applyVoucher": null,
+  "total": 4255.148936170212,
+  "orderBy": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "createdAt": {
+    "$date": "2025-05-21T00:13:55.433Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T00:14:33.849Z"
+  },
+  "__v": 0
+}]

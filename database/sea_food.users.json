@@ -1,0 +1,243 @@
+[{
+  "_id": {
+    "$oid": "66796c934c4a5b988f6cd073"
+  },
+  "name": "admin",
+  "password": "$2b$10$wgIPtFLukN3sDoF6GMobT.QV.roUUusrJ6CPPR1fF6kTQHjvjYTrS",
+  "email": "admin@gmail.com",
+  "phone": "09949399263",
+  "address": "Đầm Dơi, Cà Mau",
+  "role": "2002",
+  "wishlist": [
+    {
+      "$oid": "6684c4e5738a2e518fcf072d"
+    }
+  ],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-06-24T12:54:43.716Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-09T07:44:43.769Z"
+  },
+  "__v": 5,
+  "passwordResetExpires": "1726475904365",
+  "passwordResetToken": "fbd094d2bb1bd5e2177bb32a56eeec6f48f7ad7bc117b598908b57ba0a9303c0",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Njc5NmM5MzRjNGE1Yjk4OGY2Y2QwNzMiLCJpYXQiOjE3NjI2NzQyODMsImV4cCI6MTc2MzI3OTA4M30.eF0kruZ3O0qAXCvN-zJS_8A7qZuO3IOP09ahWlIrgwo",
+  "accumulate": {
+    "points": 106,
+    "rank": "Đồng"
+  },
+  "voucher": [
+    {
+      "voucherId": {
+        "$oid": "67024c8f66824ee1a2361525"
+      },
+      "_id": {
+        "$oid": "670aa12f8b816e0fa0dfb276"
+      },
+      "useCount": 3,
+      "createdAt": {
+        "$date": "2024-10-12T16:47:09.435Z"
+      }
+    },
+    {
+      "voucherId": {
+        "$oid": "67038eee752f5af33645154f"
+      },
+      "useCount": 3,
+      "createdAt": {
+        "$date": "2024-10-25T15:22:34.233Z"
+      },
+      "_id": {
+        "$oid": "671bb50e05f3426bbf707496"
+      }
+    },
+    {
+      "voucherId": {
+        "$oid": "6721ef57ff8e73cde912e32a"
+      },
+      "useCount": 1,
+      "createdAt": {
+        "$date": "2024-11-17T14:49:42.046Z"
+      },
+      "_id": {
+        "$oid": "673a0286ddd7fc23744f45b5"
+      }
+    },
+    {
+      "voucherId": {
+        "$oid": "6702539d66824ee1a2361cae"
+      },
+      "useCount": 1,
+      "createdAt": {
+        "$date": "2025-05-21T00:12:14.040Z"
+      },
+      "_id": {
+        "$oid": "682d1a5ee9a01e2b544c3dd7"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "667f7017e8d550dd640bfbbc"
+  },
+  "name": "Nguyễn Nhàn An",
+  "password": "$2b$10$3OAidpS3JAS/Ku/OAN4uGe71aO5o9Y7E5q8bq9cRvy3EIoaUzP.Qu",
+  "email": "nguyen@gmail.com",
+  "phone": "0911232456",
+  "address": "Kinh Cùng, Năm Căn, Cà Mau",
+  "role": "2004",
+  "wishlist": [],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-06-29T02:23:19.787Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T06:36:38.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c370b0f7b2808e7757d6d4"
+  },
+  "name": "kien",
+  "password": "$2b$10$UxmsOrxmxjOCwSsCdi7fYO4c1UvXvc1h8fZLGoVoqom0aePAV.YTO",
+  "email": "kien1@gmail.com",
+  "phone": "0911222333",
+  "role": "2004",
+  "wishlist": [],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-08-19T16:20:00.495Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-26T14:35:46.510Z"
+  },
+  "__v": 0,
+  "address": "Đầm Dơi, Cà Mau"
+},
+{
+  "_id": {
+    "$oid": "66f4ee5865772934b46f9ffc"
+  },
+  "name": "Kien",
+  "password": "$2b$10$S2Xqvb1It0UFE/zMWgt.l.VpnFS9Ckd/kzz6vp9vE1Ag3xIJQHAfe",
+  "email": "huynhhuukien2962@gmail.com",
+  "phone": "0911222333",
+  "address": "Ca Mau",
+  "role": "2004",
+  "wishlist": [
+    {
+      "$oid": "667c182fb73b6091fd7b39e7"
+    },
+    {
+      "$oid": "6672467a3659f6f1d9557e90"
+    },
+    {
+      "$oid": "667c24fdb73b6091fd7b3ccd"
+    },
+    {
+      "$oid": "667c1ba6b73b6091fd7b3a80"
+    },
+    {
+      "$oid": "667c1f33b73b6091fd7b3af9"
+    }
+  ],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-09-26T05:17:12.109Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-03T08:34:00.070Z"
+  },
+  "__v": 3,
+  "passwordChangedAt": "1727708784788",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmY0ZWU1ODY1NzcyOTM0YjQ2ZjlmZmMiLCJpYXQiOjE3NDA5OTA2ODgsImV4cCI6MTc0MTU5NTQ4OH0.klzWhQqkdVZ4bqLlk_igD5ADaRhYFoVyiOL6E_0pbO8",
+  "accumulate": {
+    "points": 49,
+    "rank": "Đồng"
+  },
+  "passwordResetExpires": "1730562507701",
+  "passwordResetToken": "c75b54cea68f5f170eb52a1df69ec553e23d4574f6870757b45d2524c69668bb",
+  "voucher": [
+    {
+      "voucherId": {
+        "$oid": "6731c4272a8057ea3a1ca079"
+      },
+      "useCount": 1,
+      "createdAt": {
+        "$date": "2024-11-13T03:25:43.993Z"
+      },
+      "_id": {
+        "$oid": "67341c379c7eb353342d59fc"
+      }
+    },
+    {
+      "voucherId": {
+        "$oid": "6702539d66824ee1a2361cae"
+      },
+      "useCount": 11,
+      "createdAt": {
+        "$date": "2025-03-03T08:31:50.540Z"
+      },
+      "_id": {
+        "$oid": "67c556f50fc2f90f68170c38"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66fad70b48be48257628a041"
+  },
+  "name": "Huynh Huu Kien B2014666",
+  "password": "$2b$10$SoqraLZRkUNb.8TKgqupr.mHw.FX.v9J7x69heYeDF2BPgP6Bfhw2",
+  "email": "kienb2014666@student.ctu.edu.vn",
+  "role": "2004",
+  "wishlist": [],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-09-30T16:51:23.910Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-05T07:28:53.567Z"
+  },
+  "__v": 1,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmZhZDcwYjQ4YmU0ODI1NzYyOGEwNDEiLCJpYXQiOjE3MzMzODM1MDksImV4cCI6MTczMzk4ODMwOX0.ukaJyls0rrRIVFB8l0H2JJI7BWmG14oXfnFo9uK6s6k",
+  "address": "Mỹ Tú, Sóc Trăng",
+  "phone": "09493992444",
+  "accumulate": {
+    "points": 2,
+    "rank": "Đồng"
+  },
+  "voucher": []
+},
+{
+  "_id": {
+    "$oid": "675163a222412022750a3626"
+  },
+  "name": "Hữu Kiên Huỳnh",
+  "password": "$2b$10$OLCsl9Pdvdfvv.7vJKSIDOXOnx1gAHfuhma8BZrrYnwcYX9Eof072",
+  "email": "huynhhuukien2002@gmail.com",
+  "role": "2004",
+  "wishlist": [],
+  "isBlocked": false,
+  "accumulate": {
+    "points": 0,
+    "rank": "Vô hạng"
+  },
+  "voucher": [],
+  "createdAt": {
+    "$date": "2024-12-05T08:26:10.733Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-09T04:25:42.971Z"
+  },
+  "__v": 0,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUxNjNhMjIyNDEyMDIyNzUwYTM2MjYiLCJpYXQiOjE3MzYzOTY3NDIsImV4cCI6MTczNzAwMTU0Mn0.9vne3XUBmjy_H7lEg1OrlbzQYrvtbcDQmO-YAnl_V6Y",
+  "address": "Cà Mau",
+  "phone": "0949399232"
+}]

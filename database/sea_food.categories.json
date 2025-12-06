@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "6670010b4272604acc15a23b"
+  },
+  "name": "Mực ",
+  "description": "Được đánh bắt trực tiếp, tươi ngon",
+  "image": {
+    "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1732631639/sea_food/knrdlhz9h1dfdatcufhd.png",
+    "public_id": "sea_food/knrdlhz9h1dfdatcufhd"
+  },
+  "createdAt": {
+    "$date": "2024-06-17T09:25:31.839Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-26T14:35:24.694Z"
+  },
+  "slug": "muc",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6672456a3659f6f1d9557e76"
+  },
+  "name": "Tôm",
+  "description": "Tôm tươi sống được đánh bắt trực tiếp.",
+  "image": {
+    "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1718764904/sea_food/vuv52ffpu8mdanx4m307.jpg",
+    "public_id": "sea_food/vuv52ffpu8mdanx4m307"
+  },
+  "createdAt": {
+    "$date": "2024-06-19T02:41:46.551Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-19T02:41:46.551Z"
+  },
+  "slug": "tom",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667c164cb73b6091fd7b39a3"
+  },
+  "name": "Cá",
+  "description": "Cá tươi ngon, đánh bắt trực tiếp, đảm bảo chất lượng khi khách hàng thưởng thức",
+  "image": {
+    "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1719408201/sea_food/mo63c8oqgmlkvtvmfhgg.jpg",
+    "public_id": "sea_food/mo63c8oqgmlkvtvmfhgg"
+  },
+  "createdAt": {
+    "$date": "2024-06-26T13:23:24.674Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-26T13:23:24.674Z"
+  },
+  "slug": "ca",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667c16c7b73b6091fd7b39c7"
+  },
+  "name": "Cua",
+  "description": "Cua ngon, chất lượng, đảm bảo tươi sống khi giao tới tay khách hàng",
+  "image": {
+    "url": "https://res.cloudinary.com/dm1z4dyig/image/upload/v1733293936/sea_food/zy3ino3qkfbdtyjesy3v.png",
+    "public_id": "sea_food/zy3ino3qkfbdtyjesy3v"
+  },
+  "createdAt": {
+    "$date": "2024-06-26T13:25:27.006Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T06:32:18.675Z"
+  },
+  "slug": "cua",
+  "__v": 0
+}]

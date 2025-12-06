@@ -979,6 +979,20 @@ form.form-style-1 .upload-image .item.up-load {
   background-color: #f6f6f9; 
   border-radius: 10px;
 }
+ .notification-template-admin {
+    position: absolute;
+    background-color: #f5f5f5;
+    z-index: 5000;
+    top: 90%;
+    left: 80%;
+    border-radius: 8px;
+    padding: 16px;
+    height: 340px;
+    width: 250px;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
 /* Show */
 .show-add-supplier, .show-option{
   position: fixed;

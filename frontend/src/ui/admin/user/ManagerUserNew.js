@@ -1,18 +1,14 @@
-import React from 'react'
+﻿import React from 'react'
 import { useEffect, useState } from 'react';
 import { apiDeleteUser, apiGetUsers} from '../../../apis';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { InputText } from 'primereact/inputtext';
-import { FaEdit, FaTrash } from 'react-icons/fa';
-import { toast } from 'react-toastify';
-import {EditUser} from '../../Index'
 
 const Page = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [globalFilter, setGlobalFilter] = useState('');
-  const [editUser, setEditUser] = useState(null);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
@@ -24,11 +20,15 @@ const Page = () => {
   }, []);
 
 
-  const fetchUsers = async () => {
-    const response = await apiGetUsers();
-    if (response.success) setUsers(response.userData);
-    setLoading(false);
-  };
+ const fetchUsers = async () => {
+  const response = await apiGetUsers();
+  if (response.success) {
+    const newestCustomers = response.userData
+      .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)) 
+      .slice(0, 10); // Lấy 10 khách hàng mới nhất
+    setUsers(newestCustomers);
+  }
+};
 
   useEffect(() => {
     fetchUsers();
@@ -46,36 +46,6 @@ const Page = () => {
     );
   });
 
-  const actionBodyTemplate = (rowData) => {
-    return (
-      <div>
-        <span onClick={() => setEditUser(rowData?._id)} className='btn btn-xs btn-primary'>
-          <FaEdit/>
-        </span>
-        <span className='mx-2'></span>
-        <button 
-          onClick={() => handleDelete(rowData._id)} 
-          className='btn btn-xs btn-danger'
-        >
-          <FaTrash/>
-        </button>
-      </div>
-    );
-  };
-
-  const handleDelete = async (id) => {
-    if (window.confirm('Bạn có chắc chắn muốn xóa người dùng này?')) {
-      const response = await apiDeleteUser(id);
-
-      if (response.success) {
-        toast.success('Xóa người dùng thành công');
-        setLoading(true); 
-        fetchUsers();
-      } else {
-        toast.error('Xóa người dùng không thành công');
-      }
-    }
-  };
 
   const roleBodyTemplate = (rowData) => {
     return rowData.role === '2004' ? 'Khách hàng' : 'Vô danh';
@@ -90,32 +60,16 @@ const Page = () => {
     <div>
       <div className='header'>
         <div className='left'>
-          <h1>Khách hàng</h1>
+          <h1>Khách hàng mới</h1>
         </div>
       </div>
       <div className='bottom-data'>
-        {editUser && (
-          <div className='show-option shadow'>
-            <EditUser
-             editUser={editUser}
-             setEditUser={setEditUser}
-             render={fetchUsers}
-            />
-          </div>
-        )}
         <div className='orders'>
-          <a href={'/admin/manager-user/potential'} className="btn btn-primary" style={{ marginBottom: '30px' }}>
-            <i className="fa fa-plus"></i> Khách hàng tiềm năng
-          </a>
-          <a href={'/admin/manager-user/new'} className="btn btn-primary mx-2" style={{ marginBottom: '30px' }}>
-            <i className="fa fa-plus"></i> Khách hàng mới
-          </a>
           <DataTable 
             value={filterRole} 
             paginator 
             rows={10} 
             dataKey='id' 
-            loading={loading} 
             emptyMessage='No users found.'
             header={header}
             globalFilter={globalFilter}
@@ -125,7 +79,6 @@ const Page = () => {
             {!isSmallScreen && <Column sortable field='phone' header='Số điện thoại' />}
             {!isSmallScreen &&<Column sortable field='address' header='Địa chỉ' />}
             <Column sortable field='role' header='Vai trò' body={roleBodyTemplate} />
-            <Column body={actionBodyTemplate} header='Action' />
           </DataTable>
         </div>
       </div>
